@@ -1,0 +1,12 @@
+type: "DOMAINWARP"
+amplitude: 7
+warp:
+  type: "OPENSIMPLEX2S"
+  frequency: 0.0032
+function:
+  type: "FBM"
+  octaves: 6
+  function:
+    type: "CELLULAR"
+    return: "CellValue"
+    frequency: 0.0033
