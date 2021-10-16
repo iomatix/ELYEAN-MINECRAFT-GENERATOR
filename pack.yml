@@ -1,0 +1,112 @@
+id: Elyean
+author: iomatix
+version: 0.1.0
+
+structures:
+  locatable:
+    minecraft:desert_pyramid: DESERT
+    minecraft:stronghold: STRONGHOLD
+    minecraft:pillager_outpost: OUTPOST
+    minecraft:swamp_hut: SWAMP
+    minecraft:monument: MONUMENT
+    minecraft:igloo: IGLOO
+    minecraft:jungle_pyramid: JUNGLE
+    minecraft:ruined_portal: RUINED_PORTAL
+    minecraft:village: VILLAGE
+    minecraft:mineshaft: MINESHAFT
+
+blend:
+  terrain:
+    step: 3
+    elevation: 4
+
+beta:
+  carving: false
+
+vanilla:
+  mobs: true
+
+noise:
+  noise2:
+    type: FBm
+    dimensions: 2
+    octaves: 4
+    function:
+      type: OpenSimplex2
+      frequency: 0.0075
+  noise3:
+    type: FBm
+    dimensions: 3
+    octaves: 4
+    function:
+      type: OpenSimplex2
+      frequency: 0.0075
+  rand:
+    dimensions: 3
+    type: WhiteNoise
+  desert:
+    type: DomainWarp
+    dimensions: 2
+    amplitude: 25
+    function:
+      type: Cellular
+      frequency: 0.015
+      return: Distance
+    warp:
+      frquency: 0.015
+      type: OpenSimplex2
+  mesa:
+    type: "DOMAINWARP"
+    amplitude: 15
+    warp:
+      type: "OPENSIMPLEX2S"
+      frequency: 0.02
+    function:
+      type: "CELLULAR"
+      return: "Distance"
+      frequency: 0.015
+  mesaMask: # Essentially a white noise mask for the mesa function.
+    type: LINEAR
+    min: -4 # [0.2 ... 1]
+    max: 1
+    function:
+      type: "DOMAINWARP"
+      amplitude: 15
+      warp:
+        type: "OPENSIMPLEX2S"
+        frequency: 0.02
+      function:
+        type: "CELLULAR"
+        return: "CellValue"
+        frequency: 0.015
+  noiseC:
+    dimensions: 2
+    type: Cellular
+    frequency: 0.25
+    return: NoiseLookup
+    lookup:
+      type: FBm
+      octaves: 4
+      function:
+        type: OpenSimplex2
+        frequency: 0.02
+  
+  bubble: # Bubbly noise
+    dimensions: 2
+    type: LINEAR
+    min: -0.75
+    max: -1
+    function:
+      type: CLAMP
+      min: -1
+      max: -0.6
+      function:
+        type: Cellular
+        frequency: 0.075
+        return: Distance2Add
+
+variables:
+  base: 63
+biomes:
+  type: SINGLE
+  biome: NEW_AVALONIA_PLAINS
