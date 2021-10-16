@@ -110,6 +110,7 @@ variables:
 biomes:
   type: SINGLE
   biome: NEW_AVALONIA_PLAINS
+  resolution: 4
   blend:
     amplitude: 1.75
     noise:
@@ -118,3 +119,54 @@ biomes:
   image:
     name: map.png
     align: NONE
+  pipeline:
+    initial-size: 4
+    source:
+      type: NOISE
+      biomes:
+        OCEAN: 1
+        BEACH: 2
+      noise:
+        type: FBm
+        function:
+          type: OpenSimplex2
+          frequency: 0.04
+    stages:
+      - mutate: # Ocean climate distribution
+          type: REPLACE
+          from: "BIOME:OCEAN"
+          to:
+            - "COLD_OCEAN_DEEP": 6
+            - "OCEAN_DEEP": 8
+            - "WARM_OCEAN_DEEP": 12
+          noise: &climate # This noise will be used elsewhere for climate.
+            type: OpenSimplex2 # Use Simplex, so hot cannot be directly next to cold.
+            salt: 2
+            frequency: 0.025
+      - mutate: # Land climate distribution
+          type: REPLACE
+          from: "BIOME:PLAINS"
+          to:
+            - TUNDRA: 4 # Super cold biomes
+            - TAIGA: 2 # Taiga buffer zone
+            - PLAINS: 8 # Temperate biomes
+            - JUNGLE: 12 # Warm biomes
+          noise: *climate # Use climate noise
+      - mutate:
+          type: REPLACE
+          from: "BIOME:WARM_OCEAN_DEEP"
+          to:
+            - "WARM_OCEAN_DEEP": 1
+            - "LUKEWARM_OCEAN_DEEP": 8
+          noise:
+            type: WhiteNoise
+            salt: 21
+      - mutate: # Randomize Cold/Frozen oceans.
+          type: REPLACE
+          from: "BIOME:COLD_OCEAN_DEEP"
+          to:
+            - "COLD_OCEAN_DEEP": 4
+            - "FROZEN_OCEAN_DEEP": 1
+          noise:
+            type: WhiteNoise
+            salt: 21

@@ -90,88 +90,33 @@ ores:
     max: 30
     min-height: 0
     max-height: 128
-  DEEPSLATE_COAL_ORE:
-    min: 1
-    max: 8
-    min-height: 0
-    max-height: 52
   IRON_ORE:
     min: 18
     max: 28
     min-height: 0
     max-height: 84
-  DEEPSLATE_IRON_ORE:
-    min: 1
-    max: 8
-    min-height: 0
-    max-height: 46
   COPPER_ORE:
     min: 20
     max: 30
     min-height: 0
     max-height: 96
-  DEEPSLATE_COPPER_ORE:
-    min: 1
-    max: 8
-    min-height: 0
-    max-height: 50
   GOLD_ORE:
     min: 2
     max: 6
     min-height: 1
     max-height: 40
-  DEEPSLATE_GOLD_ORE:
-    min: 0
-    max: 4
-    min-height: 1
-    max-height: 28
   LAPIS_ORE:
     min: 1
     max: 3
     min-height: 1
     max-height: 30
-  DEEPSLATE_LAPIS_ORE:
-    min: 0
-    max: 3
-    min-height: 1
-    max-height: 16
   REDSTONE_ORE:
     min: 2
     max: 6
     min-height: 0
     max-height: 24
-  DEEPSLATE_REDSTONE_ORE:
-    min: 0
-    max: 3
-    min-height: 0
-    max-height: 16
   DIAMOND_ORE:
     min: 1
     max: 4
     min-height: 1
     max-height: 20
-  DEEPSLATE_DIAMOND_ORE:
-    min: 0
-    max: 3
-    min-height: 1
-    max-height: 10
-  EMERALD_ORE:
-    min: 4
-    max: 12
-    min-height: 0
-    max-height: 78
-  DEEPSLATE_EMERALD_ORE:
-    min: 1
-    max: 7
-    min-height: 0
-    max-height: 36
-  NETHER_GOLD_ORE:
-    min: 0
-    max: 3
-    min-height: 0
-    max-height: 40
-  NETHER_QUARTZ_ORE:
-    min: 0
-    max: 3
-    min-height: 0
-    max-height: 28
