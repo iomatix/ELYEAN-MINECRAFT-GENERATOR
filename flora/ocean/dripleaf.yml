@@ -6,7 +6,6 @@ layers:
     layers: 1
 id: "DRIPLEAF"
 search: DOWN
-physics: true
 max-placements: 1
 spawnable:
   - "minecraft:gravel"

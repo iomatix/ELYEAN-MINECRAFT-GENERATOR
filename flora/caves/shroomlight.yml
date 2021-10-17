@@ -4,6 +4,9 @@ layers:
     layers: 1
 id: "SHROOMLIGHT"
 spawnable:
+  - "minecraft:dirt"
+  - "minecraft:gravel"
+  - "minecraft:sand"
   - "minecraft:air"
 
 
@@ -14,3 +17,5 @@ replaceable:
   - "minecraft:stone"
   - "minecraft:dirt"
   - "minecraft:grass_block"
+  - "minecraft:gravel"
+  - "minecraft:sand"

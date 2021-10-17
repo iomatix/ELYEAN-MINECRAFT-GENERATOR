@@ -5,6 +5,7 @@ layers:
       - "minecraft:sand": 12
       - "minecraft:gold_ore": 3
       - "minecraft:raw_gold_block": 1
+      - "minecraft:glowstone": 1
     layers: 1
   - materials: "minecraft:dirt"
     layers: 1

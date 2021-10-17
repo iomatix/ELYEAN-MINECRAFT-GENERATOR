@@ -34,7 +34,7 @@ flora:
     y:
       min: 62
       max: 180
-  - density: 11
+  - density: 9
     items:
       - NEW_AVALONIA_CEILING_LEAVES: 6
       - STALACTITE: 3
