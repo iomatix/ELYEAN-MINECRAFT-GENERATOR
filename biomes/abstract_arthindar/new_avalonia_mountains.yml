@@ -1,6 +1,6 @@
 id: NEW_AVALONIA_MOUNTAINS
 abstract: true
-extends: BASIC_ORES
+extends: NEW_AVALONIA_ORES
 flora:
   - density: 1
     y:

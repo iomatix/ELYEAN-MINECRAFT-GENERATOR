@@ -1,0 +1,22 @@
+layers:
+  - materials: "minecraft:grass_block"
+    layers: 1
+  - materials: "minecraft:dirt"
+    layers: 1
+  - materials: "minecraft:diorite"
+    layers: 1
+  - materials:
+      - "minecraft:stone": 30
+      - "minecraft:diorite": 65
+      - "minecraft:granite": 4
+      - "minecraft:cobblestone": 5
+      - "minecraft:andesite": 3
+    layers: 1
+  - materials:
+      - "minecraft:stone": 65
+      - "minecraft:diorite": 35
+      - "minecraft:granite": 7
+      - "minecraft:cobblestone": 4
+      - "minecraft:andesite": 7
+    layers: 2
+id: "NEW_AVALONIA_GRASSY"

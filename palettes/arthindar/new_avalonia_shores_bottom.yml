@@ -1,0 +1,30 @@
+layers:
+  - materials:
+      - "minecraft:gravel": 1
+      - "minecraft:dirt": 6
+      - "minecraft:sand": 4
+    layers: 2
+  - materials:
+      - "minecraft:stone": 30
+      - "minecraft:diorite": 65
+      - "minecraft:granite": 4
+      - "minecraft:cobblestone": 5
+      - "minecraft:andesite": 3
+    layers: 1
+  - materials:
+      - "minecraft:stone": 65
+      - "minecraft:diorite": 35
+      - "minecraft:granite": 7
+      - "minecraft:cobblestone": 4
+      - "minecraft:andesite": 7
+    layers: 1
+id: "NEW_AVALONIA_SHORE_BOTTOM"
+noise:
+  type: DomainWarp
+  amplitude: 1.5
+  warp:
+    type: WhiteNoise
+  function:
+    type: OpenSimplex2
+    frequency: 0.05
+    salt: 3

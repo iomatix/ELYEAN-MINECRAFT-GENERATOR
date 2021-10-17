@@ -7,9 +7,9 @@ palette:
   - BEDROCK_HALF: 2
   - BEDROCK_LITTLE: 3
   - DEEPSLATE: 20
-  - RIVER_BOTTOM: 61
-  - RIVER_SHORE: 62
-  - GRASSY: 255
+  - NEW_AVALONIA_SHORE_BOTTOM: 61
+  - NEW_AVALONIA_SHORE: 62
+  - NEW_AVALONIA_GRASSY: 255
 biome-noise:
   type: OpenSimplex2
   frequency: 0.01
@@ -77,18 +77,25 @@ trees:
     y:
       min: 58
       max: 92
-  - density: 0.93
+  - density: 0.9
     items:
-      - ACACIA: 2
+      - ACACIA: 3
     y:
       min: 62
-      max: 70
-  - density: 0.45
+      max: 74
+  - density: 0.55
     items:
       - BIRCH: 1
       - OAK: 2
     y:
       min: 66
-      max: 80
+      max: 82
+  - density: 0.65
+    items:
+      - SPRUCE: 2
+      - OAK: 1
+    y:
+      min: 72
+      max: 92
 
 # Carving and ores covered by super biome
