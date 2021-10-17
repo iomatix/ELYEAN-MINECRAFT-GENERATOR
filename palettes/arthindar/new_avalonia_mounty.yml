@@ -19,13 +19,13 @@ layers:
     layers: 2
   - materials:
       - "minecraft:stone": 65
-      - "minecraft:diorite": 35
-      - "minecraft:granite": 7
-      - "minecraft:cobblestone": 4
-      - "minecraft:andesite": 7
+      - "minecraft:cobblestone": 35
+      - "minecraft:diorite": 15
+      - "minecraft:granite": 6
+      - "minecraft:andesite": 4
     layers: 1
 id: "NEW_AVALONIA_MOUNTY"
 noise:
   type: OpenSimplex2
-  frequency: 0.03
+  frequency: 0.031
   salt: 3

@@ -36,8 +36,8 @@ flora:
       - GLOW_LICHEN: 3
   - density: 10
     y:
-      min: 64
-      max: 72
+      min: 69
+      max: 74
     items:
       - PEONY: 10
       - SUNFLOWER: 25
@@ -51,8 +51,8 @@ flora:
       - LILY_OF_THE_VALLEY: 5
   - density: 5
     y:
-      min: 66
-      max: 75
+      min: 65
+      max: 76
     items:
       - RED_TULIP: 14
       - ORANGE_TULIP: 9

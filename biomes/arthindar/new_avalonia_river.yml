@@ -45,6 +45,7 @@ flora:
       - CORAL_FAN: 8
       - DRIPLEAF: 4
       - SEA_PICKLE: 7
+      - SHROOMLIGHT: 1
     y:
       min: 50
       max: 63
