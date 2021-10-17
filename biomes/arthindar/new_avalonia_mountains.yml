@@ -1,0 +1,16 @@
+extends: "NEW_AVALONIA_MNT_SHAPE_A"
+id: "NEW_AVALONIA_MOUNTAINS"
+erode: RIVER_M_P
+color: 0x507050
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - DEEPSLATE: 20
+  - NEW_AVALONIA_SHORE_BOTTOM: 61
+  - NEW_AVALONIA_SHORE: 62
+  - NEW_AVALONIA_MOUNTY: 255
+vanilla: PLAINS
+tags:
+  - "LAND"

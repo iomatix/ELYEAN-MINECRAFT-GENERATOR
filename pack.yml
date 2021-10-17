@@ -1,6 +1,6 @@
 id: Elyean
 author: iomatix
-version: 0.1.1
+version: 0.1.3
 
 structures:
   locatable:
@@ -90,7 +90,7 @@ noise:
       function:
         type: OpenSimplex2
         frequency: 0.02
-  
+
   bubble: # Bubbly noise
     dimensions: 2
     type: LINEAR
@@ -108,8 +108,8 @@ noise:
 variables:
   base: 63
 biomes:
-  type: SINGLE
-  biome: NEW_AVALONIA_PLAINS
+  type: PIPELINE
+  biome: WARM_OCEAN
   resolution: 4
   blend:
     amplitude: 1.75
@@ -124,49 +124,65 @@ biomes:
     source:
       type: NOISE
       biomes:
-        OCEAN: 1
-        BEACH: 2
-      noise:
+        PLAINS: 1
+      noise: &biome-distribute
         type: FBm
         function:
           type: OpenSimplex2
           frequency: 0.04
     stages:
-      - mutate: # Ocean climate distribution
-          type: REPLACE
-          from: "BIOME:OCEAN"
-          to:
-            - "COLD_OCEAN_DEEP": 6
-            - "OCEAN_DEEP": 8
-            - "WARM_OCEAN_DEEP": 12
-          noise: &climate # This noise will be used elsewhere for climate.
-            type: OpenSimplex2 # Use Simplex, so hot cannot be directly next to cold.
-            salt: 2
-            frequency: 0.025
-      - mutate: # Land climate distribution
+      - mutate: # Distribution
           type: REPLACE
           from: "BIOME:PLAINS"
           to:
-            - TUNDRA: 4 # Super cold biomes
-            - TAIGA: 2 # Taiga buffer zone
-            - PLAINS: 8 # Temperate biomes
-            - JUNGLE: 12 # Warm biomes
-          noise: *climate # Use climate noise
+            - NEW_AVALONIA_PLAINS: 20
+            - NEW_AVALONIA_MOUNTAINS: 6
+          noise: *biome-distribute
+      - mutate: # Erode rivers. LAST STEP
+          type: REPLACE_LIST
+          to:
+            NEW_AVALONIA_MOUNTAINS:
+              - SELF: 1
+              - NEW_AVALONIA_RIVER_MOUNTAIN: 1
+            NEW_AVALONIA_PLAINS:
+              - SELF: 1
+              - NEW_AVALONIA_RIVER: 1
+          default-from: "RIVER_ERODE"
+          default-to:
+            - SELF: 1
+            - RIVER: 1
+          noise:
+            type: EXPRESSION
+            equation: "if(noise(x/width, z/width) > 0,1,-1)"
+            variables:
+              width: 4.5
+            functions:
+              noise:
+                type: "KERNEL"
+                function:
+                  type: EXPRESSION
+                  equation: "if(noise(x, z) > 0, 1, 0)"
+                  functions:
+                    noise:
+                      type: DOMAINWARP
+                      function:
+                        type: OPENSIMPLEX2
+                        frequency: 0.03
+                      warp:
+                        type: OPENSIMPLEX2
+                        frequency: 0.075
+                      amplitude: 3
+                kernel:
+                  - [-1, -1, -1]
+                  - [-1, 8, -1]
+                  - [-1, -1, -1]
       - mutate:
-          type: REPLACE
-          from: "BIOME:WARM_OCEAN_DEEP"
-          to:
-            - "WARM_OCEAN_DEEP": 1
-            - "LUKEWARM_OCEAN_DEEP": 8
+          type: SMOOTH
           noise:
             type: WhiteNoise
-            salt: 21
-      - mutate: # Randomize Cold/Frozen oceans.
-          type: REPLACE
-          from: "BIOME:COLD_OCEAN_DEEP"
-          to:
-            - "COLD_OCEAN_DEEP": 4
-            - "FROZEN_OCEAN_DEEP": 1
+            salt: 18
+      - mutate:
+          type: SMOOTH
           noise:
             type: WhiteNoise
-            salt: 21
+            salt: 19

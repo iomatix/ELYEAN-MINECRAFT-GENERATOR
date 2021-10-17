@@ -1,4 +1,4 @@
-id: NEW_AVALONIA_MOUNTAINS
+id: NEW_AVALONIA_MNT_BASE
 abstract: true
 extends: NEW_AVALONIA_ORES
 flora:
@@ -8,16 +8,16 @@ flora:
       max: 56
     items:
       - GLOW_LICHEN: 1
-  - density: 100
+  - density: 115
     distribution:
       type: OpenSimplex2
-      frequency: 0.075
+      frequency: 0.087
       fractal:
         type: FBm
         octaves: 1
     items:
-      - BLANK: 7
-      - LEAVES: 3
+      - BLANK: 8
+      - NEW_AVALONIA_LEAVES: 5
     y:
       min: 62
       max: 180

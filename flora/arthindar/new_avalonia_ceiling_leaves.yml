@@ -1,0 +1,28 @@
+layers:
+  - materials:
+      - "minecraft:azalea_leaves[persistent=true]": 2
+      - "minecraft:flowering_azalea_leaves[persistent=true]": 1
+    layers: 2
+  - materials:
+      - "minecraft:azalea_leaves[persistent=true]": 1
+      - "minecraft:flowering_azalea_leaves[persistent=true]": 1
+    layers: 1
+  - materials:
+      - "minecraft:azalea_leaves[persistent=true]": 1
+      - "minecraft:flowering_azalea_leaves[persistent=true]": 1
+      - "minecraft:air": 1
+      - "minecraft:shroomlight": 1
+    layers: 1
+id: "NEW_AVALONIA_CEILING_LEAVES"
+ceiling: true
+spawnable:
+  - "minecraft:azalea_leaves"
+  - "minecraft:flowering_azalea_leaves"
+  - "minecraft:stone"
+  - "minecraft:gravel"
+  - "minecraft:dirt"
+  - "minecraft:coarse_dirt"
+  - "minecraft:grass_block"
+replaceable:
+  - "minecraft:air"
+  - "minecraft:stone_slab"
