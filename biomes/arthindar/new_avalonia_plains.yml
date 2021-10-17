@@ -34,18 +34,20 @@ flora:
       max: 56
     items:
       - GLOW_LICHEN: 3
-  - density: 10
+  - density: 9
     y:
-      min: 69
-      max: 74
+      min: 70
+      max: 73
     items:
-      - PEONY: 10
-      - SUNFLOWER: 25
-  - density: 10
+      - SUNFLOWER: 12
+      - TALL_GRASS: 4
+      - GRASS: 8
+  - density: 11
     y:
       min: 61
       max: 67
     items:
+      - PEONY: 12
       - BLUE_ORCHID: 9
       - CORNFLOWER: 7
       - LILY_OF_THE_VALLEY: 5
