@@ -19,8 +19,10 @@ irrigable:
   - "minecraft:tube_coral_block"
   - "minecraft:fire_coral_block"
   - "minecraft:bubble_coral_block"
+  - "minecraft:sand"
 rotatable:
   - "minecraft:brain_coral_block"
   - "minecraft:tube_coral_block"
   - "minecraft:fire_coral_block"
   - "minecraft:bubble_coral_block"
+  - "minecraft:sand"

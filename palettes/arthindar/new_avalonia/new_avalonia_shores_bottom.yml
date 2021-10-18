@@ -2,7 +2,12 @@ layers:
   - materials:
       - "minecraft:gravel": 1
       - "minecraft:dirt": 6
-      - "minecraft:sand": 4
+      - "minecraft:gold_ore": 2
+      - "minecraft:raw_gold_block": 2
+      - "minecraft:copper_ore": 2
+      - "minecraft:raw_copper_block": 1
+      - "minecraft:sand": 6
+      - "minecraft:glowstone": 1
     layers: 2
   - materials:
       - "minecraft:stone": 30
@@ -10,6 +15,10 @@ layers:
       - "minecraft:granite": 4
       - "minecraft:cobblestone": 5
       - "minecraft:andesite": 3
+      - "minecraft:raw_gold_block": 1
+      - "minecraft:gold_ore": 2
+      - "minecraft:copper_ore": 2
+      - "minecraft:raw_copper_block": 1
     layers: 1
   - materials:
       - "minecraft:stone": 65
@@ -17,6 +26,10 @@ layers:
       - "minecraft:granite": 7
       - "minecraft:cobblestone": 4
       - "minecraft:andesite": 7
+      - "minecraft:raw_gold_block": 1
+      - "minecraft:gold_ore": 1
+      - "minecraft:copper_ore": 2
+      - "minecraft:raw_copper_block": 1
     layers: 1
 id: "NEW_AVALONIA_SHORE_BOTTOM"
 noise:
