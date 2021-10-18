@@ -1,0 +1,17 @@
+layers:
+  - materials:
+      - "minecraft:vine": 1
+    layers: 3
+  - materials:
+      - "minecraft:vine": 1
+      - "minecraft:air": 1
+    layers: 1
+id: "NEW_AVALONIA_VINES"
+ceiling: true
+spawnable:
+  - "minecraft:acacia_leaves"
+  - "minecraft:jungle_leaves"
+  - "minecraft:cobblestone"
+  - "minecraft:shroomlight"
+replaceable:
+  - "minecraft:air"

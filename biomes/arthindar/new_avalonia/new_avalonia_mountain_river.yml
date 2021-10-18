@@ -34,11 +34,14 @@ flora:
     y:
       min: 62
       max: 180
-  - density: 9
+  - density: 12
     items:
-      - NEW_AVALONIA_CEILING_LEAVES: 6
+      - NEW_AVALONIA_VINES: 9
+      - NEW_AVALONIA_CEILING_LEAVES: 5
+      - NEW_AVALONIA_SIMPLE_CEILING_LIGHTS_MNT: 1
+      - NEW_AVALONIA_SIMPLE_CEILING_BLOSSOM_FLOWER: 3
       - STALACTITE: 3
-      - SHROOMLIGHT: 2
+      - SHROOMLIGHT: 3
     y:
       min: 62
       max: 84

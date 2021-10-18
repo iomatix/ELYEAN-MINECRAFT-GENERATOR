@@ -1,0 +1,63 @@
+extends: "NEW_AVALONIA_FOREST_ABSTRACT"
+id: "NEW_AVALONIA_FOREST"
+color: 0x056621
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - DEEPSLATE: 20
+  - NEW_AVALONIA_SHORE_BOTTOM: 61
+  - NEW_AVALONIA_SHORE: 62
+  - NEW_AVALONIA_GRASSY: 255
+vanilla: FOREST
+tags:
+  - "ARTHINDAR"
+  - "LAND"
+  - "RIVER_ERODE"
+flora:
+  - density: 1
+    y:
+      min: 10
+      max: 56
+    items:
+      - GLOW_LICHEN: 1
+  - density: 45
+    y:
+      min: 62
+      max: 84
+    items:
+      - TALL_GRASS: 150
+      - GRASS: 750
+      - POPPY: 50
+      - ROSE_BUSH: 5
+      - LILAC: 4
+      - NEW_AVALONIA_LEAVES: 100
+      - SHROOMLIGHT: 3
+  - density: 8
+    y:
+      min: 64
+      max: 150
+    items:
+      - NEW_AVALONIA_VINES: 9
+      - NEW_AVALONIA_CEILING_FOREST_LEAVES: 4
+      - NEW_AVALONIA_SIMPLE_CEILING_BLOSSOM_FLOWER: 3
+      - NEW_AVALONIA_SIMPLE_CEILING_LIGHTS_FOREST_SMALL: 2
+      - NEW_AVALONIA_SIMPLE_CEILING_LIGHTS_FOREST: 1
+
+trees:
+  - density: 0.75
+    items:
+      - DRIPSTONE: 9
+      - GEODE: 1
+    y:
+      min: 48
+      max: 49
+  - density: 10
+    items:
+      - OAK: 1
+      - AZALEA: 2
+      - ACACIA: 1
+    y:
+      min: 64
+      max: 88

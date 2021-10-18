@@ -1,0 +1,12 @@
+layers:
+  - materials:
+      - "minecraft:spore_blossom": 1
+    layers: 1
+id: "NEW_AVALONIA_SIMPLE_CEILING_BLOSSOM_FLOWER"
+ceiling: true
+irrigable:
+  - "minecraft:flowering_azalea_leaves"
+spawnable:
+  - "minecraft:flowering_azalea_leaves"
+replaceable:
+  - "minecraft:air"

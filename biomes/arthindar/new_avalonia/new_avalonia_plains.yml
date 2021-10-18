@@ -80,25 +80,12 @@ trees:
     y:
       min: 58
       max: 92
-  - density: 0.9
+  - density: 0.45
     items:
       - ACACIA: 3
-    y:
-      min: 62
-      max: 74
-  - density: 0.55
-    items:
-      - BIRCH: 1
-      - OAK: 2
+      - AZALEA: 2
     y:
       min: 66
-      max: 82
-  - density: 0.65
-    items:
-      - SPRUCE: 2
-      - OAK: 1
-    y:
-      min: 72
-      max: 92
+      max: 74
 
 # Carving and ores covered by super biome

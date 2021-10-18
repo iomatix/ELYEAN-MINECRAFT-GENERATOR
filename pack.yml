@@ -1,6 +1,6 @@
 id: Elyean
 author: iomatix
-version: 0.1.3
+version: 0.1.7
 
 structures:
   locatable:
@@ -131,13 +131,41 @@ biomes:
           type: OpenSimplex2
           frequency: 0.04
     stages:
-      - mutate: # Distribution
+      - mutate: # New Avalonia Distribution
           type: REPLACE
           from: "BIOME:PLAINS"
           to:
             - NEW_AVALONIA_PLAINS: 20
-            - NEW_AVALONIA_MOUNTAINS: 6
           noise: *biome-distribute
+      - mutate: # New Avalonia Distribution | Mountains
+          type: REPLACE
+          from: "BIOME:NEW_AVALONIA_PLAINS"
+          to:
+            - NEW_AVALONIA_PLAINS: 21
+            - NEW_AVALONIA_MOUNTAINS: 7
+          noise: &mountain-distribute
+            type: FBm
+            function:
+              type: OpenSimplex2
+              frequency: 0.03
+      - mutate: # NEW AVALONIA FORESTS
+          type: REPLACE
+          from: "BIOME:NEW_AVALONIA_PLAINS"
+          to:
+            - NEW_AVALONIA_PLAINS: 21
+            - NEW_AVALONIA_FOREST: 12
+          noise: &forest-distribute
+            type: DomainWarp
+            function:
+              type: OpenSimplex2
+              frequency: 0.37
+            octaves: 3
+            lacunarity: 2
+            gain: 0.75
+            warp:
+              type: OpenSimplex2
+              frequency: 0.26
+            amplitude: 15
       - mutate: # Erode rivers. LAST STEP
           type: REPLACE_LIST
           to:

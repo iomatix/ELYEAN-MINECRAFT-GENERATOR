@@ -23,6 +23,8 @@ spawnable:
   - "minecraft:dirt"
   - "minecraft:coarse_dirt"
   - "minecraft:grass_block"
+  - "minecraft:cobblestone"
+  - "minecraft:diorite"
 replaceable:
   - "minecraft:air"
   - "minecraft:stone_slab"
