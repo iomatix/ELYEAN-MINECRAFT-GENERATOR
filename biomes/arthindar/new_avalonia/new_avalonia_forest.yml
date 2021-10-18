@@ -34,7 +34,7 @@ flora:
       - LILAC: 4
       - NEW_AVALONIA_LEAVES: 100
       - SHROOMLIGHT: 3
-  - density: 8
+  - density: 5
     y:
       min: 64
       max: 150
@@ -42,6 +42,11 @@ flora:
       - NEW_AVALONIA_VINES: 9
       - NEW_AVALONIA_CEILING_FOREST_LEAVES: 4
       - NEW_AVALONIA_SIMPLE_CEILING_BLOSSOM_FLOWER: 3
+  - density: 3
+    y:
+      min: 64
+      max: 150
+    items:
       - NEW_AVALONIA_SIMPLE_CEILING_LIGHTS_FOREST_SMALL: 2
       - NEW_AVALONIA_SIMPLE_CEILING_LIGHTS_FOREST: 1
 
