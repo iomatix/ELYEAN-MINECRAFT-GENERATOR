@@ -56,8 +56,10 @@ trees:
   - density: 10
     items:
       - OAK: 1
-      - AZALEA: 2
-      - ACACIA: 1
+      - AZALEA: 6
+      - ACACIA: 4
+      - BIRCH: 2
+      - DARK_OAK: 1
     y:
       min: 64
       max: 88

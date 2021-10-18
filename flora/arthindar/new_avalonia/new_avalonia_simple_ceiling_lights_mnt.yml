@@ -1,9 +1,12 @@
 layers:
   - materials:
       - "minecraft:cobblestone_wall": 1
+      - "minecraft:diorite_wall": 1
+      - "minecraft:granite_wall": 1
     layers: 2
   - materials:
       - "minecraft:dark_oak_fence": 1
+      - "minecraft:acacia_fence": 1
     layers: 1
   - materials:
       - "minecraft:shroomlight": 1
