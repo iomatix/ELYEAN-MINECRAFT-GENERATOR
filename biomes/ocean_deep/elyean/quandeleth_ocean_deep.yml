@@ -1,5 +1,5 @@
 extends: "OCEAN_ABSTRACT"
-id: "QUANDELETH_OCEAN"
+id: "QUANDELETH_OCEAN_DEEP"
 vanilla: COLD_OCEAN
 color: 0x841593 #QuanDeleth 132 21 147 #84 15 93
 palette:

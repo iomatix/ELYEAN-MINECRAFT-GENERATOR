@@ -109,22 +109,34 @@ variables:
   base: 63
 biomes:
   type: PIPELINE
-  biome: WARM_OCEAN
+  biome: ELYEAN_MAIN_OCEAN_DEEP
   resolution: 4
   blend:
     amplitude: 1.75
     noise:
       type: OpenSimplex2
       frequency: 0.12
-  image:
-    name: map.png
-    align: NONE
+  image: &oceansmap
+    name: ELYEANOCEANS.png
+    align: CENTER
   pipeline:
     initial-size: 4
     source:
       type: NOISE
       biomes:
-        PLAINS: 1
+        ELYEAN_MAIN_OCEAN_DEEP: 1
+        ARTHINDAR_OCEAN_DEEP: 1
+        ATHIKKA_OCEAN_DEEP: 1
+        DARK_PORTAL_OCEAN_DEEP: 1
+        FORGOTTEN_WORLD_OCEAN_DEEP: 1
+        GELAVEN_OCEAN_DEEP: 1
+        LEIVEAN_OCEAN_DEEP: 1
+        NEIREN_OCEAN_DEEP: 1
+        OATHESIR_OCEAN_DEEP: 1
+        QUANDELETH_OCEAN_DEEP: 1
+        SALHAIR_OCEAN_DEEP: 1
+        THORMDURN_OCEAN_DEEP: 1
+        VALGAEN_OCEAN_DEEP: 1
       noise: &biome-distribute
         type: FBm
         function:
@@ -133,7 +145,7 @@ biomes:
     stages:
       - mutate: # New Avalonia Distribution
           type: REPLACE
-          from: "BIOME:PLAINS"
+          from: "BIOME:ARTHINDAR_OCEAN_DEEP"
           to:
             - NEW_AVALONIA_PLAINS: 20
           noise: *biome-distribute
