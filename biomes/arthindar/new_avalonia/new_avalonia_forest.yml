@@ -1,6 +1,6 @@
 extends: "NEW_AVALONIA_FOREST_ABSTRACT"
 id: "NEW_AVALONIA_FOREST"
-color: 0x056621
+#color: 0x056621
 palette:
   - "BLOCK:minecraft:bedrock": 0
   - BEDROCK_MOST: 1

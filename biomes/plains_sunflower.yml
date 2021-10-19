@@ -1,6 +1,6 @@
 extends: "PLAINS_ABSTRACT"
 id: "SUNFLOWER_PLAINS"
-color: 0xe8De2a
+#color: 0xe8De2a
 palette:
   - "BLOCK:minecraft:bedrock": 0
   - BEDROCK_MOST: 1

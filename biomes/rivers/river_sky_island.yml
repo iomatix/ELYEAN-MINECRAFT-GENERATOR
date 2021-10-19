@@ -4,7 +4,7 @@ variables:
 extends: "BASIC_ORES"
 carving: {}
 id: "RIVER_SKY_ISLANDS"
-color: 0x0000ff
+#color: 0x0000ff
 blend:
   distance: 1
   weight: 1.25

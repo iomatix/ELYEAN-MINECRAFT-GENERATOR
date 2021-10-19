@@ -18,7 +18,7 @@ palette:
   - DEEPSLATE: 20
   - DESERT: 255
 vanilla: DESERT
-color: 0xfa9418
+#color: 0xfa9418
 tags:
   - "LAND"
   - "HOT"

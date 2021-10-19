@@ -4,7 +4,7 @@ variables:
 elevation:
   equation: "min(floor(((|noise2(x/2.5, z/2.5)|) + 0.1)*4)*0.175, 12)"
   interpolation: true
-color: 0xa79d64
+#color: 0xa79d64
 id: "ARID_MOUNTAINS"
 extends: "BASIC_ORES"
 

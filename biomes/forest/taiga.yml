@@ -1,6 +1,6 @@
 extends: "FOREST_ABSTRACT"
 id: "TAIGA"
-color: 0x0b6659
+#color: 0x0b6659
 flora:
   - density: 1
     y:

@@ -1,6 +1,6 @@
 extends: "PLAINS_ABSTRACT"
 id: "PLAINS"
-color: 0x8db360 #TODO
+#color: 0x8db360
 palette:
   - "BLOCK:minecraft:bedrock": 0
   - BEDROCK_MOST: 1

@@ -1,6 +1,6 @@
 extends: "PLAINS_ABSTRACT"
 id: "SAVANNA"
-color: 0xbdb25f
+#color: 0xbdb25f
 palette:
   - "BLOCK:minecraft:bedrock": 0
   - BEDROCK_MOST: 1

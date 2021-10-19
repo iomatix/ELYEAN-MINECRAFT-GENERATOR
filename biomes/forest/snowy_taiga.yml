@@ -1,6 +1,6 @@
 extends: "FOREST_ABSTRACT"
 id: "SNOWY_TAIGA"
-color: 0x31554a
+#color: 0x31554a
 structures:
   - IGLOO
   - STRONGHOLD

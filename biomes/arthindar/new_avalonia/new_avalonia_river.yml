@@ -4,7 +4,7 @@ variables:
 extends: "NEW_AVALONIA_ORES"
 carving: {}
 id: "NEW_AVALONIA_RIVER"
-color: 0x0000ff
+#color: 0x0000ff
 blend:
   distance: 1
   weight: 1.25

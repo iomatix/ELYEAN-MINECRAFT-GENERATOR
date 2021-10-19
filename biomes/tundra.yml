@@ -1,6 +1,6 @@
 extends: "PLAINS_ABSTRACT"
 id: "TUNDRA"
-color: 0xffffff
+#color: 0xffffff
 structures:
   - IGLOO
   - STRONGHOLD

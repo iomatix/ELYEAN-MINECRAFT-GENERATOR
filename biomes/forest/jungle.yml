@@ -5,7 +5,7 @@ structures:
   - STRONGHOLD
   - MINESHAFT
   - DUNGEON
-color: 0x537b09
+#color: 0x537b09
 palette:
   - "BLOCK:minecraft:bedrock": 0
   - BEDROCK_MOST: 1

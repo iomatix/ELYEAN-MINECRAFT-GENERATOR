@@ -1,6 +1,6 @@
 extends: "FOREST_ABSTRACT"
 id: "DARK_FOREST"
-color: 0x40511a
+#color: 0x40511a
 palette:
   - "BLOCK:minecraft:bedrock": 0
   - BEDROCK_MOST: 1

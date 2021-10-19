@@ -5,7 +5,13 @@ layers:
 id: "GLOW_LICHEN"
 max-placements: 1
 spawnable:
-  - "minecraft:air"
+  - "minecraft:stone"
+  - "minecraft:diorite"
+  - "minecraft:andesite"
+  - "minecraft:granite"
+  - "minecraft:deepslate"
+  - "minecraft:tuff"
+  - "minecraft:cobblestone"
 replaceable:
   - "minecraft:air"
 rotatable:

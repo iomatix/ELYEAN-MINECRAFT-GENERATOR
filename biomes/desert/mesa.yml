@@ -6,7 +6,7 @@ elevation:
 extends: "BASIC_ORES"
 id: "MESA"
 erode: MESA
-color: 0xd94515
+#color: 0xd94515
 structures:
   - MINESHAFT_MESA
   - STRONGHOLD

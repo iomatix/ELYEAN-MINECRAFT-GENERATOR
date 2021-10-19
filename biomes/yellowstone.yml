@@ -1,6 +1,6 @@
 id: YELLOWSTONE
 extends: PLAINS_ABSTRACT
-color: 0xff0000
+#color: 0xff0000
 colors:
   water: 0x00a1bc
   water-fog: 0x00a1bc

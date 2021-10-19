@@ -1,7 +1,7 @@
 extends: "DEEP_OCEAN_ABSTRACT"
 id: "LUKEWARM_OCEAN_DEEP"
 vanilla: LUKEWARM_OCEAN
-color: 0x000040
+#color: 0x000040
 palette:
   - "BLOCK:minecraft:bedrock": 0
   - BEDROCK_MOST: 1

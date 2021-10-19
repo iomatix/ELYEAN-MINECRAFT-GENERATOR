@@ -1,7 +1,7 @@
 extends: "OCEAN_ABSTRACT"
 id: "WARM_OCEAN"
 vanilla: WARM_OCEAN
-color: 0x0000ac
+#color: 0x0000ac
 palette:
   - "BLOCK:minecraft:bedrock": 0
   - BEDROCK_MOST: 1

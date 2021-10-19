@@ -1,6 +1,6 @@
 extends: "NEW_AVALONIA_BASE"
 id: "NEW_AVALONIA_PLAINS"
-color: 0x8db360 #TODO
+#color: 0x8db360 TODO
 palette:
   - "BLOCK:minecraft:bedrock": 0
   - BEDROCK_MOST: 1

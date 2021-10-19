@@ -1,6 +1,6 @@
 extends: "PLAINS_ABSTRACT"
 id: "MUSHROOM"
-color: 0xff00ff
+#color: 0xff00ff
 palette:
   - "BLOCK:minecraft:bedrock": 0
   - BEDROCK_MOST: 1
