@@ -1,5 +1,30 @@
 id: NEW_AVALONIA_CAVE_ELEGANT
 extends: NEW_AVALONIA_CAVE_ABSTRACT
+recalculate-direction:
+  min: 1
+  max: 8
+length:
+  min: 60
+  max: 240
+start:
+  x: 1
+  y: 0.35
+  z: 1
+  radius:
+    x: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*5, (z+position)*3.3)"
+    y: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*5, (z+position)*4.5)"
+    z: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*5, (z+position)*3.3)"
+  height:
+    min: 6
+    max: 112
+cut:
+  top: 3
+  bottom: 4
+mutate:
+  x: 2
+  y: 3
+  z: 2
+  radius: 0.147
 palette:
   inner:
     replace-blacklist: true
@@ -18,41 +43,59 @@ palette:
     layers:
       - materials: { "minecraft:air": 1 }
         y: 255
-      - materials: { "minecraft:lava": 3, "minecraft:water": 1 }
-        y: 9
+      - materials: { "minecraft:lava": 1 }
+        y: 6
   outer:
     replace-blacklist: false
     replace: []
     layers:
-      - materials: { "minecraft:polished_diorite": 1}
+      - materials: { "minecraft:polished_diorite": 1 }
         y: 255
-      - materials: { "minecraft:stone_bricks": 14, "minecraft:polished_granite": 5, "minecraft:polished_andesite": 3, "minecraft:shroomlight": 1 }
+      - materials:
+          {
+            "minecraft:stone_bricks": 14,
+            "minecraft:polished_granite": 5,
+            "minecraft:polished_andesite": 3,
+            "minecraft:shroomlight": 1,
+          }
         y: 63
       - materials: { "minecraft:polished_basalt": 1 }
         y: 38
-      - materials: { "minecraft:polished_deepslate": 1}
+      - materials: { "minecraft:polished_deepslate": 1 }
         y: 20
   top:
     replace-blacklist: false
     replace: []
     layers:
-      - materials: { "minecraft:polished_diorite": 1}
+      - materials: { "minecraft:polished_diorite": 1 }
         y: 255
-      - materials: { "minecraft:stone_bricks": 14, "minecraft:polished_granite": 5, "minecraft:polished_andesite": 3, "minecraft:shroomlight": 1 }
+      - materials:
+          {
+            "minecraft:stone_bricks": 14,
+            "minecraft:polished_granite": 5,
+            "minecraft:polished_andesite": 3,
+            "minecraft:shroomlight": 1,
+          }
         y: 63
       - materials: { "minecraft:polished_basalt": 1 }
         y: 38
-      - materials: { "minecraft:polished_deepslate": 1}
+      - materials: { "minecraft:polished_deepslate": 1 }
         y: 20
   bottom:
     replace-blacklist: false
     replace: []
     layers:
-      - materials: { "minecraft:polished_diorite": 1}
+      - materials: { "minecraft:polished_diorite": 1 }
         y: 255
-      - materials: { "minecraft:stone_bricks": 14, "minecraft:polished_granite": 5, "minecraft:polished_andesite": 3, "minecraft:shroomlight": 1 }
+      - materials:
+          {
+            "minecraft:stone_bricks": 14,
+            "minecraft:polished_granite": 5,
+            "minecraft:polished_andesite": 3,
+            "minecraft:shroomlight": 1,
+          }
         y: 63
       - materials: { "minecraft:polished_basalt": 1 }
         y: 38
-      - materials: { "minecraft:polished_deepslate": 1}
+      - materials: { "minecraft:polished_deepslate": 1 }
         y: 20

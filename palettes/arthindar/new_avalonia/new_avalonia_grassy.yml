@@ -3,20 +3,22 @@ layers:
     layers: 1
   - materials: "minecraft:dirt"
     layers: 1
-  - materials: "minecraft:diorite"
+  - materials: "minecraft:calcite"
     layers: 1
   - materials:
-      - "minecraft:stone": 30
-      - "minecraft:diorite": 65
+      - "minecraft:stone": 25
+      - "minecraft:calcite": 65
+      - "minecraft:diorite": 35
       - "minecraft:granite": 4
-      - "minecraft:cobblestone": 5
+      - "minecraft:cobblestone": 6
       - "minecraft:andesite": 3
     layers: 1
   - materials:
       - "minecraft:stone": 65
-      - "minecraft:diorite": 35
+      - "minecraft:calcite": 35
+      - "minecraft:diorite": 15
       - "minecraft:granite": 7
-      - "minecraft:cobblestone": 4
+      - "minecraft:cobblestone": 8
       - "minecraft:andesite": 7
     layers: 2
 id: "NEW_AVALONIA_GRASSY"

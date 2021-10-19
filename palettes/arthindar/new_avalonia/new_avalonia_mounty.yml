@@ -1,7 +1,8 @@
 layers:
   - materials:
       - "minecraft:raw_copper_block": 2
-      - "minecraft:diorite": 3
+      - "minecraft:calcite": 3
+      - "minecraft:diorite": 2
       - "minecraft:clay": 1
       - "minecraft:granite": 2
       - "minecraft:dirt": 7
@@ -10,7 +11,8 @@ layers:
     layers: 1
   - materials:
       - "minecraft:raw_copper_block": 1
-      - "minecraft:diorite": 3
+      - "minecraft:calcite": 3
+      - "minecraft:diorite": 2
       - "minecraft:clay": 2
       - "minecraft:granite": 3
       - "minecraft:dirt": 8
@@ -20,7 +22,8 @@ layers:
   - materials:
       - "minecraft:stone": 65
       - "minecraft:cobblestone": 35
-      - "minecraft:diorite": 15
+      - "minecraft:calcite": 15
+      - "minecraft:diorite": 8
       - "minecraft:granite": 6
       - "minecraft:andesite": 4
     layers: 1

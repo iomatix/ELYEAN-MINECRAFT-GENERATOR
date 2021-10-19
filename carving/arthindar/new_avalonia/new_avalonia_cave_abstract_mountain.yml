@@ -1,32 +1,32 @@
 abstract: true
-id: NEW_AVALONIA_CAVE_ABSTRACT
+id: NEW_AVALONIA_CAVE_ABSTRACT_MNT
 physics: true
-step: 4
+step: 3
 recalculate-direction:
-  min: 1
-  max: 8
+  min: 5
+  max: 12
 length:
-  min: 60
-  max: 240
+  min: 24
+  max: 176
 start:
   x: 1
-  y: 0.35
+  y: 0.25
   z: 1
   radius:
-    x: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*5, (z+position)*3.3)"
-    y: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*5, (z+position)*4.5)"
-    z: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*5, (z+position)*3.3)"
+    x: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*3, (z+position)*3)"
+    y: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*3, (z+position)*3)"
+    z: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*3, (z+position)*3)"
   height:
-    min: 6
-    max: 84
+    min: 74
+    max: 227
 cut:
-  top: 2
+  top: 3
   bottom: 3
 mutate:
   x: 2
   y: 3
   z: 2
-  radius: 0.336
+  radius: 0.285
 shift:
   "minecraft:grass_block": ["minecraft:dirt"]
   "minecraft:mycelium": ["minecraft:dirt"]

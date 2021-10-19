@@ -1,0 +1,80 @@
+id: NEW_AVALONIA_CAVE_MOUNTAIN
+extends: NEW_AVALONIA_CAVE_ABSTRACT_MNT
+palette:
+  inner:
+    replace-blacklist: true
+    replace:
+      - "minecraft:air"
+      - "minecraft:water"
+      - "minecraft:lava"
+      - "minecraft:bedrock"
+      - "minecraft:ice"
+      - "minecraft:azalea_leaves"
+      - "minecraft:flowering_azalea_leaves"
+      - "minecraft:oak_leaves"
+      - "minecraft:birch_leaves"
+      - "minecraft:acacia_leaves"
+      - "minecraft:jungle_leaves"
+    layers:
+      - materials: { "minecraft:air": 1 }
+        y: 255
+      - materials:
+          {
+            "minecraft:air": 15,
+            "minecraft:cobblestone": 2,
+            "minecraft:flowering_azalea_leaves": 1,
+            "minecraft:azalea_leaves": 1,
+            "minecraft:shroomlight": 1,
+          }
+        y: 84
+      - materials:
+          {
+            "minecraft:air": 7,
+            "minecraft:cobblestone": 2,
+            "minecraft:flowering_azalea_leaves": 1,
+            "minecraft:azalea_leaves": 1,
+            "minecraft:shroomlight": 1,
+          }
+        y: 76
+      - materials:
+          {
+            "minecraft:air": 25,
+            "minecraft:cobblestone": 2,
+            "minecraft:flowering_azalea_leaves": 1,
+            "minecraft:azalea_leaves": 1,
+            "minecraft:shroomlight": 1,
+          }
+        y: 74
+  outer:
+    replace-blacklist: false
+    replace: []
+    layers:
+      - materials:
+          {
+            "minecraft:stone": 65,
+            "minecraft:cobblestone": 35,
+            "minecraft:diorite": 3,
+          }
+        y: 255
+  top:
+    replace-blacklist: false
+    replace: []
+    layers:
+      - materials:
+          {
+            "minecraft:stone": 65,
+            "minecraft:cobblestone": 35,
+            "minecraft:diorite": 5,
+          }
+        y: 255
+  bottom:
+    replace-blacklist: false
+    replace: []
+    layers:
+      - materials:
+          {
+            "minecraft:stone": 65,
+            "minecraft:cobblestone": 35,
+            "minecraft:diorite": 3,
+          }
+        y: 255

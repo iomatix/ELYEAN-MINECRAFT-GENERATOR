@@ -12,7 +12,7 @@ start:
     z: "(rand(x, y, z) + 2)/3.2 * (-8*(|position-length/2|/length) + 8)"
   height:
     min: 15
-    max: 84
+    max: 78
 cut:
   top: 8
   bottom: 5
@@ -43,39 +43,100 @@ palette:
         y: 8
   outer:
     replace-blacklist: false
-    replace: [ ]
+    replace: []
     layers:
-      - materials: { "minecraft:stone": 8, "minecraft:diorite": 4, "minecraft:cobblestone": 6, "minecraft:granite": 2, "minecraft:shroomlight": 1 }
+      - materials:
+          {
+            "minecraft:stone": 8,
+            "minecraft:diorite": 4,
+            "minecraft:cobblestone": 6,
+            "minecraft:granite": 2,
+            "minecraft:shroomlight": 1,
+          }
         y: 255
-      - materials: { "minecraft:stone": 11, "minecraft:diorite": 2, "minecraft:cobblestone": 5, "minecraft:granite": 3, "minecraft:shroomlight": 1 }
+      - materials:
+          {
+            "minecraft:stone": 11,
+            "minecraft:diorite": 2,
+            "minecraft:cobblestone": 5,
+            "minecraft:granite": 3,
+            "minecraft:shroomlight": 1,
+          }
         y: 59
-      - materials: { "minecraft:cobbled_deepslate": 8, "minecraft:deepslate": 5,"minecraft:polished_deepslate": 3, "obsidian": 1}
+      - materials:
+          {
+            "minecraft:cobbled_deepslate": 8,
+            "minecraft:deepslate": 5,
+            "minecraft:polished_deepslate": 3,
+            "obsidian": 1,
+          }
         y: 20
   top:
     replace-blacklist: false
-    replace: [ ]
+    replace: []
     layers:
-      - materials: { "minecraft:stone": 8, "minecraft:diorite": 4, "minecraft:cobblestone": 6, "minecraft:granite": 2, "minecraft:shroomlight": 1 }
+      - materials:
+          {
+            "minecraft:stone": 8,
+            "minecraft:diorite": 4,
+            "minecraft:cobblestone": 6,
+            "minecraft:granite": 2,
+            "minecraft:shroomlight": 1,
+          }
         y: 255
-      - materials: { "minecraft:stone": 10, "minecraft:diorite": 2, "minecraft:cobblestone": 6, "minecraft:granite": 3, "minecraft:shroomlight": 1 }
+      - materials:
+          {
+            "minecraft:stone": 10,
+            "minecraft:diorite": 2,
+            "minecraft:cobblestone": 6,
+            "minecraft:granite": 3,
+            "minecraft:shroomlight": 1,
+          }
         y: 59
-      - materials: { "minecraft:cobbled_deepslate": 8, "minecraft:deepslate": 5,"minecraft:polished_deepslate": 3, "obsidian": 2, "crying_obsidian": 1}
+      - materials:
+          {
+            "minecraft:cobbled_deepslate": 8,
+            "minecraft:deepslate": 5,
+            "minecraft:polished_deepslate": 3,
+            "obsidian": 2,
+            "crying_obsidian": 1,
+          }
         y: 20
   bottom:
     replace-blacklist: false
-    replace: [ ]
+    replace: []
     layers:
-      - materials: { "minecraft:stone": 8, "minecraft:diorite": 4, "minecraft:cobblestone": 6, "minecraft:granite": 2, "minecraft:shroomlight": 1 }
+      - materials:
+          {
+            "minecraft:stone": 8,
+            "minecraft:diorite": 4,
+            "minecraft:cobblestone": 6,
+            "minecraft:granite": 2,
+            "minecraft:shroomlight": 1,
+          }
         y: 255
-      - materials: { "minecraft:stone": 11, "minecraft:diorite": 2, "minecraft:cobblestone": 6, "minecraft:granite": 3, "minecraft:shroomlight": 1 }
+      - materials:
+          {
+            "minecraft:stone": 11,
+            "minecraft:diorite": 2,
+            "minecraft:cobblestone": 6,
+            "minecraft:granite": 3,
+            "minecraft:shroomlight": 1,
+          }
         y: 59
-      - materials: { "minecraft:cobbled_deepslate": 8, "minecraft:deepslate": 5,"minecraft:polished_deepslate": 3, "obsidian": 1}
+      - materials:
+          {
+            "minecraft:cobbled_deepslate": 8,
+            "minecraft:deepslate": 5,
+            "minecraft:polished_deepslate": 3,
+            "obsidian": 1,
+          }
         y: 20
 shift:
-  "minecraft:grass_block": [ "minecraft:dirt" ]
-  "minecraft:podzol": [ "minecraft:dirt" ]
-  "minecraft:gravel": [ "minecraft:dirt" ]
-  "minecraft:sand": [ "minecraft:dirt" ]
-  "minecraft:coarse_dirt": [ "minecraft:dirt" ]
+  "minecraft:grass_block": ["minecraft:dirt"]
+  "minecraft:podzol": ["minecraft:dirt"]
+  "minecraft:gravel": ["minecraft:dirt"]
+  "minecraft:sand": ["minecraft:dirt"]
+  "minecraft:coarse_dirt": ["minecraft:dirt"]
 
-update: [ "minecraft:water", "minecraft:lava" ]
+update: ["minecraft:water", "minecraft:lava"]

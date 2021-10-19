@@ -3,5 +3,6 @@ variables:
   base: 48
 id: "OCEAN_ABSTRACT"
 abstract: true
+physics: true
 extends: OCEAN_FLORA
 trees: []

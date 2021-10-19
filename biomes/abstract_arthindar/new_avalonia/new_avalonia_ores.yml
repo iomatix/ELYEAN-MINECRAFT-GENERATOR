@@ -3,12 +3,12 @@
 id: "NEW_AVALONIA_ORES"
 abstract: true
 
-
 carving:
   # todo for all
-  NEW_AVALONIA_CAVE_MESSY: 25
-  NEW_AVALONIA_CAVE_ELEGANT: 10
-  NEW_AVALONIA_RAVINE: 5
+  NEW_AVALONIA_CAVE_MESSY: 23
+  NEW_AVALONIA_CAVE_MOUNTAIN: 13
+  NEW_AVALONIA_CAVE_ELEGANT: 9
+  NEW_AVALONIA_RAVINE: 2
 
 structures:
   # todo for all new avalonia
@@ -122,3 +122,8 @@ ores:
     max: 4
     min-height: 1
     max-height: 20
+  EMERALD_ORE:
+    min: 2
+    max: 5
+    min-height: 1
+    max-height: 40

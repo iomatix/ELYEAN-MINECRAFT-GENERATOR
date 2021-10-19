@@ -1,21 +1,30 @@
 layers:
   - materials:
-      - "minecraft:gravel": 4
-      - "minecraft:grass_block": 20
-      - "minecraft:sand": 12
+      - "minecraft:gravel": 3
+      - "minecraft:grass_block": 22
+      - "minecraft:dirt": 7
+      - "minecraft:sand": 16
       - "minecraft:gold_ore": 3
       - "minecraft:raw_gold_block": 1
       - "minecraft:copper_ore": 2
       - "minecraft:raw_copper_block": 1
       - "minecraft:glowstone": 1
     layers: 1
-  - materials: "minecraft:dirt"
+  - materials:
+      - "minecraft:dirt": 19
+      - "minecraft:sand": 18
+      - "minecraft:gold_ore": 3
+      - "minecraft:raw_gold_block": 1
+      - "minecraft:copper_ore": 2
+      - "minecraft:raw_copper_block": 1
+      - "minecraft:glowstone": 1
     layers: 1
   - materials:
-      - "minecraft:stone": 30
-      - "minecraft:diorite": 65
+      - "minecraft:stone": 25
+      - "minecraft:calcite": 65
+      - "minecraft:diorite": 35
       - "minecraft:granite": 4
-      - "minecraft:cobblestone": 5
+      - "minecraft:cobblestone": 9
       - "minecraft:gold_ore": 2
       - "minecraft:raw_gold_block": 1
       - "minecraft:copper_ore": 2
@@ -23,10 +32,11 @@ layers:
       - "minecraft:andesite": 3
     layers: 1
   - materials:
-      - "minecraft:stone": 65
-      - "minecraft:diorite": 35
+      - "minecraft:stone": 55
+      - "minecraft:calcite": 35
+      - "minecraft:diorite": 25
       - "minecraft:granite": 7
-      - "minecraft:cobblestone": 4
+      - "minecraft:cobblestone": 18
       - "minecraft:gold_ore": 1
       - "minecraft:raw_gold_block": 1
       - "minecraft:copper_ore": 2

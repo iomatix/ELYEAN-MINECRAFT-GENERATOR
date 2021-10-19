@@ -22,6 +22,12 @@ flora:
       max: 56
     items:
       - GLOW_LICHEN: 1
+  - density: 3
+    y:
+      min: 68
+      max: 92
+    items:
+      - SWEET_BERRIES: 1
   - density: 45
     y:
       min: 62
