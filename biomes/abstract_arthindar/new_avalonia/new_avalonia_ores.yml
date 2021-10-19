@@ -5,8 +5,10 @@ abstract: true
 
 
 carving:
-  CAVE: 25
-  RAVINE: 2
+  # todo for all
+  NEW_AVALONIA_CAVE_MESSY: 25
+  NEW_AVALONIA_CAVE_ELEGANT: 10
+  NEW_AVALONIA_RAVINE: 5
 
 structures:
   # todo for all new avalonia
@@ -94,7 +96,7 @@ ores:
     min: 18
     max: 28
     min-height: 0
-    max-height: 84
+    max-height: 86
   COPPER_ORE:
     min: 20
     max: 30

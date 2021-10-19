@@ -1,0 +1,58 @@
+id: NEW_AVALONIA_CAVE_ELEGANT
+extends: NEW_AVALONIA_CAVE_ABSTRACT
+palette:
+  inner:
+    replace-blacklist: true
+    replace:
+      - "minecraft:air"
+      - "minecraft:water"
+      - "minecraft:lava"
+      - "minecraft:bedrock"
+      - "minecraft:ice"
+      - "minecraft:azalea_leaves"
+      - "minecraft:flowering_azalea_leaves"
+      - "minecraft:oak_leaves"
+      - "minecraft:birch_leaves"
+      - "minecraft:acacia_leaves"
+      - "minecraft:jungle_leaves"
+    layers:
+      - materials: { "minecraft:air": 1 }
+        y: 255
+      - materials: { "minecraft:lava": 3, "minecraft:water": 1 }
+        y: 9
+  outer:
+    replace-blacklist: false
+    replace: []
+    layers:
+      - materials: { "minecraft:polished_diorite": 1}
+        y: 255
+      - materials: { "minecraft:stone_bricks": 14, "minecraft:polished_granite": 5, "minecraft:polished_andesite": 3, "minecraft:shroomlight": 1 }
+        y: 63
+      - materials: { "minecraft:polished_basalt": 1 }
+        y: 38
+      - materials: { "minecraft:polished_deepslate": 1}
+        y: 20
+  top:
+    replace-blacklist: false
+    replace: []
+    layers:
+      - materials: { "minecraft:polished_diorite": 1}
+        y: 255
+      - materials: { "minecraft:stone_bricks": 14, "minecraft:polished_granite": 5, "minecraft:polished_andesite": 3, "minecraft:shroomlight": 1 }
+        y: 63
+      - materials: { "minecraft:polished_basalt": 1 }
+        y: 38
+      - materials: { "minecraft:polished_deepslate": 1}
+        y: 20
+  bottom:
+    replace-blacklist: false
+    replace: []
+    layers:
+      - materials: { "minecraft:polished_diorite": 1}
+        y: 255
+      - materials: { "minecraft:stone_bricks": 14, "minecraft:polished_granite": 5, "minecraft:polished_andesite": 3, "minecraft:shroomlight": 1 }
+        y: 63
+      - materials: { "minecraft:polished_basalt": 1 }
+        y: 38
+      - materials: { "minecraft:polished_deepslate": 1}
+        y: 20

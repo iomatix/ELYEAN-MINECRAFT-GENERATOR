@@ -1,0 +1,37 @@
+abstract: true
+id: NEW_AVALONIA_CAVE_ABSTRACT
+step: 3
+recalculate-direction:
+  min: 5
+  max: 12
+length:
+  min: 14
+  max: 120
+start:
+  x: 1
+  y: 0.25
+  z: 1
+  radius:
+    x: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*3, (z+position)*3)"
+    y: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*3, (z+position)*3)"
+    z: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*3, (z+position)*3)"
+  height:
+    min: 6
+    max: 94
+cut:
+  top: 0
+  bottom: 2
+mutate:
+  x: 1.15
+  y: 1.3
+  z: 1.15
+  radius: 0.325
+shift:
+  "minecraft:grass_block": [ "minecraft:dirt" ]
+  "minecraft:mycelium": [ "minecraft:dirt" ]
+  "minecraft:podzol": [ "minecraft:dirt" ]
+  "minecraft:gravel": [ "minecraft:dirt" ]
+  "minecraft:sand": [ "minecraft:dirt" ]
+  "minecraft:coarse_dirt": [ "minecraft:dirt" ]
+
+update: [ "minecraft:water", "minecraft:lava" ]
