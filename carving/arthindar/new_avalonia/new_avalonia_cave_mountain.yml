@@ -22,8 +22,8 @@ palette:
           {
             "minecraft:air": 15,
             "minecraft:cobblestone": 2,
-            "minecraft:flowering_azalea_leaves": 1,
-            "minecraft:azalea_leaves": 1,
+            "minecraft:flowering_azalea_leaves[persistent=true]": 1,
+            "minecraft:azalea_leaves[persistent=true]": 1,
             "minecraft:shroomlight": 1,
           }
         y: 84
@@ -31,8 +31,8 @@ palette:
           {
             "minecraft:air": 7,
             "minecraft:cobblestone": 2,
-            "minecraft:flowering_azalea_leaves": 1,
-            "minecraft:azalea_leaves": 1,
+            "minecraft:flowering_azalea_leaves[persistent=true]": 1,
+            "minecraft:azalea_leaves[persistent=true]": 1,
             "minecraft:shroomlight": 1,
           }
         y: 76
@@ -40,8 +40,8 @@ palette:
           {
             "minecraft:air": 25,
             "minecraft:cobblestone": 2,
-            "minecraft:flowering_azalea_leaves": 1,
-            "minecraft:azalea_leaves": 1,
+            "minecraft:flowering_azalea_leaves[persistent=true]": 1,
+            "minecraft:azalea_leaves[persistent=true]": 1,
             "minecraft:shroomlight": 1,
           }
         y: 74
