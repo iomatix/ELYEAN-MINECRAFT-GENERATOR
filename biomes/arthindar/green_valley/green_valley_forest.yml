@@ -1,5 +1,5 @@
-extends: "NEW_AVALONIA_FOREST_ABSTRACT"
-id: "NEW_AVALONIA_FOREST"
+extends: "GREEN_VALLEY_FOREST_ABSTRACT"
+id: "GREEN_VALLEY_FOREST"
 #color: 0x056621
 palette:
   - "BLOCK:minecraft:bedrock": 0

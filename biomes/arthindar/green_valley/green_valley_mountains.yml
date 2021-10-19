@@ -1,6 +1,6 @@
-extends: "NEW_AVALONIA_MNT_SHAPE_A"
-id: "NEW_AVALONIA_MOUNTAINS"
-erode: NEW_AVALONIA_RIVER
+extends: "GREEN_VALLEY_MNT_SHAPE_A"
+id: "GREEN_VALLEY_MOUNTAINS"
+erode: GREEN_VALLEY_RIVER
 #color: 0x507050
 palette:
   - "BLOCK:minecraft:bedrock": 0

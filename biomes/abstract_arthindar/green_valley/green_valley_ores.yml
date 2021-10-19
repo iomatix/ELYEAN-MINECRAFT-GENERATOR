@@ -1,9 +1,9 @@
 # This biome is the parent of New Avalonia biome in the Elyean config.
 
-id: "NEW_AVALONIA_ORES"
+id: "GREEN_VALLEY_ORES"
 abstract: true
 tags:
-  - "NEW_AVALONIA"
+  - "GREEN_VALLEY"
 carving:
   # todo for all
   NEW_AVALONIA_CAVE_MESSY: 23
@@ -29,9 +29,9 @@ flora:
       min: 62
       max: 84
     items:
-      - TALL_GRASS: 12
-      - GRASS: 65
-      - POPPY: 3
+      - TALL_GRASS: 24
+      - GRASS: 60
+      - DANDELION: 1
 trees:
   - density: 0.75
     items:
@@ -66,7 +66,7 @@ slabs:
 ores:
   DIRT:
     min: 0
-    max: 2
+    max: 4
     min-height: 0
     max-height: 84
   GRAVEL:
@@ -75,62 +75,62 @@ ores:
     min-height: 0
     max-height: 84
   DIORITE:
-    min: 2
-    max: 7
+    min: 1
+    max: 4
     min-height: 0
     max-height: 84
   ANDESITE:
     min: 1
-    max: 4
+    max: 6
     min-height: 0
     max-height: 84
   GRANITE:
-    min: 1
-    max: 6
+    min: 2
+    max: 7
     min-height: 0
     max-height: 84
   TUFF:
     min: 0
-    max: 4
+    max: 3
     min-height: 0
     max-height: 24
   COAL_ORE:
-    min: 18
-    max: 30
-    min-height: 0
-    max-height: 128
-  IRON_ORE:
-    min: 18
-    max: 28
+    min: 12
+    max: 24
     min-height: 0
     max-height: 86
-  COPPER_ORE:
-    min: 20
-    max: 30
+  IRON_ORE:
+    min: 4
+    max: 16
     min-height: 0
-    max-height: 96
+    max-height: 46
+  COPPER_ORE:
+    min: 8
+    max: 24
+    min-height: 0
+    max-height: 72
   GOLD_ORE:
     min: 2
-    max: 6
+    max: 7
     min-height: 1
-    max-height: 40
+    max-height: 42
   LAPIS_ORE:
-    min: 1
-    max: 3
-    min-height: 1
-    max-height: 30
-  REDSTONE_ORE:
-    min: 2
-    max: 6
-    min-height: 0
-    max-height: 24
-  DIAMOND_ORE:
     min: 1
     max: 4
     min-height: 1
-    max-height: 20
-  EMERALD_ORE:
-    min: 2
+    max-height: 32
+  REDSTONE_ORE:
+    min: 1
+    max: 4
+    min-height: 0
+    max-height: 22
+  DIAMOND_ORE:
+    min: 1
     max: 5
     min-height: 1
-    max-height: 40
+    max-height: 24
+  EMERALD_ORE:
+    min: 3
+    max: 12
+    min-height: 1
+    max-height: 38

@@ -1,0 +1,8 @@
+noise-equation: "((-((y / base)^2)) + 1) + |(noise2(x, z) / 6) + 0.07|"
+id: "GREEN_VALLEY_BASE"
+abstract: true
+extends: GREEN_VALLEY_ORES
+erode: GREEN_VALLEY_RIVER
+noise-2d:
+  enable: true
+  base: 64

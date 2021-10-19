@@ -1,6 +1,6 @@
 id: Elyean
 author: iomatix
-version: 0.2.0
+version: 0.2.1
 
 structures:
   locatable:
@@ -143,45 +143,120 @@ biomes:
           type: OpenSimplex2
           frequency: 0.04
     stages:
-      - mutate: # New Avalonia Distribution
+    # ARTHINDAR DISTRIBUTION
+      - mutate:
           type: REPLACE
           from: "BIOME:ARTHINDAR_OCEAN_DEEP"
           to:
-            - NEW_AVALONIA_PLAINS: 20
+          #  - NEW_AVALONIA_PLAINS: 20
+            - GREEN_VALLEY_PLAINS: 20
           noise: &biome-distribute
             type: FBm
             function:
               type: OpenSimplex2
               frequency: 0.04
+    # New Avalonia Distribution
       - mutate: # New Avalonia Distribution | Mountains
           type: REPLACE
           from: "BIOME:NEW_AVALONIA_PLAINS"
           to:
             - NEW_AVALONIA_PLAINS: 21
-            - NEW_AVALONIA_MOUNTAINS: 7
+            - NEW_AVALONIA_MOUNTAINS: 6
           noise: &mountain-distribute
-            type: FBm
+            type: DomainWarp
+            amplitude: 375
             function:
-              type: OpenSimplex2
-              frequency: 0.03
-      - mutate: # NEW AVALONIA FORESTS
+              type: fBm
+              function:
+                type: OpenSimplex2
+                frequency: 0.0025
+            warp:
+              type: DomainWarp
+              amplitude: 37
+              function:
+                type: fBm
+                function:
+                  type: OpenSimplex2
+                  frequency: 0.0016
+              warp:
+                type: fBm
+                function:
+                  type: OpenSimplex2
+                  frequency: 0.028
+      - mutate: # New Avalonia Distribution | Forests
           type: REPLACE
           from: "BIOME:NEW_AVALONIA_PLAINS"
           to:
-            - NEW_AVALONIA_PLAINS: 21
-            - NEW_AVALONIA_FOREST: 12
+            - NEW_AVALONIA_PLAINS: 20
+            - NEW_AVALONIA_FOREST: 9
+          noise: &trees-distribute
+            type: "DOMAINWARP"
+            amplitude: 14
+            warp:
+              type: "FBM"
+              octaves: 3
+              function:
+                type: "CELLULAR"
+                return: "CellValue"
+                frequency: 0.44
+            function:
+              type: "OpenSimplex2"
+              frequency: 0.01
+    # Green Valley Distribution
+      - mutate: # Green ValleyDistribution | Forests
+          type: REPLACE
+          from: "BIOME:GREEN_VALLEY_PLAINS"
+          to:
+            - GREEN_VALLEY_PLAINS: 20
+            - GREEN_VALLEY_FOREST: 14
           noise: &forest-distribute
             type: DomainWarp
+            amplitude: 375
             function:
-              type: OpenSimplex2
-              frequency: 0.37
-            octaves: 3
-            lacunarity: 2
-            gain: 0.75
+              type: fBm
+              function:
+                type: OpenSimplex2
+                frequency: 0.001
             warp:
-              type: OpenSimplex2
-              frequency: 0.26
-            amplitude: 15
+              type: DomainWarp
+              amplitude: 37
+              function:
+                type: fBm
+                function:
+                  type: OpenSimplex2
+                  frequency: 0.0028
+              warp:
+                type: fBm
+                function:
+                  type: OpenSimplex2
+                  frequency: 0.023
+      - mutate: # Green Valley Distribution | Mountains
+          type: REPLACE
+          from: "BIOME:GREEN_VALLEY_FOREST"
+          to:
+            - GREEN_VALLEY_FOREST: 20
+            - GREEN_VALLEY_MOUNTAINS: 4
+          noise: &mountain-distribute-clouds
+            type: DomainWarp
+            amplitude: 375
+            function:
+              type: fBm
+              function:
+                type: OpenSimplex2
+                frequency: 0.0025
+            warp:
+              type: DomainWarp
+              amplitude: 37
+              function:
+                type: fBm
+                function:
+                  type: OpenSimplex2
+                  frequency: 0.0016
+              warp:
+                type: fBm
+                function:
+                  type: OpenSimplex2
+                  frequency: 0.028
       - mutate: # Erode rivers. LAST STEP
           type: REPLACE_LIST
           to:
@@ -191,6 +266,18 @@ biomes:
             NEW_AVALONIA_PLAINS:
               - SELF: 1
               - NEW_AVALONIA_RIVER: 1
+            NEW_AVALONIA_FOREST:
+              - SELF: 1
+              - NEW_AVALONIA_RIVER: 1
+            GREEN_VALLEY_MOUNTAINS:
+              - SELF: 1
+              - GREEN_VALLEY_RIVER_MOUNTAIN: 1
+            GREEN_VALLEY_PLAINS:
+              - SELF: 1
+              - GREEN_VALLEY_RIVER: 1
+            GREEN_VALLEY_FOREST:
+              - SELF: 1
+              - GREEN_VALLEY_RIVER: 1
           default-from: "RIVER_ERODE"
           default-to:
             - SELF: 1

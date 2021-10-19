@@ -1,5 +1,5 @@
-extends: "NEW_AVALONIA_BASE"
-id: "NEW_AVALONIA_PLAINS"
+extends: "GREEN_VALLEY_BASE"
+id: "GREEN_VALLEY_PLAINS"
 #color: 0x8db360 TODO
 palette:
   - "BLOCK:minecraft:bedrock": 0
@@ -79,7 +79,7 @@ trees:
     y:
       min: 58
       max: 84
-  - density: 0.45
+  - density: 0.43
     items:
       - ACACIA: 6
       - AZALEA: 3

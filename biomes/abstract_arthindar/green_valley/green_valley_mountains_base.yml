@@ -1,0 +1,31 @@
+id: GREEN_VALLEY_MNT_BASE
+abstract: true
+extends: GREEN_VALLEY_ORES
+flora:
+  - density: 1
+    y:
+      min: 10
+      max: 56
+    items:
+      - GLOW_LICHEN: 1
+  - density: 115
+    distribution:
+      type: OpenSimplex2
+      frequency: 0.087
+      fractal:
+        type: FBm
+        octaves: 1
+    items:
+      - BLANK: 8
+      - NEW_AVALONIA_LEAVES: 5
+    y:
+      min: 62
+      max: 180
+  - density: 50
+    items:
+      - TALL_GRASS: 3
+      - GRASS: 7
+      - SMALL_ROCK: 1
+    y:
+      min: 62
+      max: 180
