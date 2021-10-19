@@ -1,0 +1,18 @@
+extends: "DEEP_OCEAN_ABSTRACT"
+id: "NEIREN_OCEAN_DEEP"
+vanilla: COLD_OCEAN
+color: 0x985AFF #Neiren 152 90 255 #98 5A FF
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - DEEPSLATE: 20
+  - TUNDRA: 255
+  - OCEANFLOOR: 60
+ocean:
+  level: 62
+tags:
+  - "NEIREN"
+  - "OCEAN"
+  - "OCEAN_DEEP"

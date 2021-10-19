@@ -1,0 +1,8 @@
+extends: "DEEP_OCEAN_ABSTRACT"
+id: "ELYEAN_MAIN_OCEAN_DEEP"
+vanilla: OCEAN
+color: 0x008FE2 #Water 0 144 226 #00 8F E2
+tags:
+  - "ELYEAN"
+  - "OCEAN"
+  - "OCEAN_DEEP"

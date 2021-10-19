@@ -1,0 +1,18 @@
+extends: "DEEP_OCEAN_ABSTRACT"
+id: "FORGOTTEN_WORLD_OCEAN_DEEP"
+vanilla: COLD_OCEAN
+color: 0xFF985A #ForgottenW 255 152 90 #FF 98 5A
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - DEEPSLATE: 20
+  - TUNDRA: 255
+  - OCEANFLOOR: 60
+ocean:
+  level: 62
+tags:
+  - "FORGOTTEN_WORLD"
+  - "OCEAN"
+  - "OCEAN_DEEP"

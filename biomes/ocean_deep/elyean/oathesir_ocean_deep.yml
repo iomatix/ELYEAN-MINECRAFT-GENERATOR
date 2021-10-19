@@ -1,0 +1,18 @@
+extends: "OCEAN_ABSTRACT"
+id: "OATHESIR_OCEAN"
+vanilla: COLD_OCEAN
+color: 0x9D3B00 #Oathesir 157 59 0 #9D 3B 00
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - DEEPSLATE: 20
+  - TUNDRA: 255
+  - OCEANFLOOR: 60
+ocean:
+  level: 62
+tags:
+  - "OATHESIR"
+  - "OCEAN"
+  - "OCEAN_DEEP"

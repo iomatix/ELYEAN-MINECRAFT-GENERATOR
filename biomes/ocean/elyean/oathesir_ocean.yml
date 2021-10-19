@@ -1,0 +1,18 @@
+extends: "OCEAN_ABSTRACT"
+id: "OATHESIR_OCEAN"
+vanilla: COLD_OCEAN
+color: 0x00FFFF #Water 0 255 255 #00 FF FF
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - DEEPSLATE: 20
+  - TUNDRA: 255
+  - OCEANFLOOR: 60
+ocean:
+  level: 62
+tags:
+  - "OATHESIR"
+  - "OCEAN"
+  - "COLD_OCEAN"

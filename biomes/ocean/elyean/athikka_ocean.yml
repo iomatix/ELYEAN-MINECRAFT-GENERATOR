@@ -1,0 +1,19 @@
+extends: "OCEAN_ABSTRACT"
+id: "ATHIKKA_OCEAN"
+vanilla: FROZEN_OCEAN
+color: 0x00FFFF #Water 0 255 255 #00 FF FF
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - DEEPSLATE: 20
+  - TUNDRA: 255
+  - OCEANFLOOR: 60
+ocean:
+  palette: "FROZEN_OCEAN"
+  level: 62
+tags:
+  - "ATHIKKA"
+  - "OCEAN"
+  - "COLD_OCEAN"
