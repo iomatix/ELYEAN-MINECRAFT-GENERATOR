@@ -1,9 +1,10 @@
 layers:
   - materials:
       - "minecraft:gravel": 2
-      - "minecraft:grass_block": 33
-      - "minecraft:dirt": 8
-      - "minecraft:sand": 20
+      - "minecraft:grass_block": 25
+      - "minecraft:moss_block": 30
+      - "minecraft:dirt": 10
+      - "minecraft:sand": 25
       - "minecraft:copper_ore": 2
       - "minecraft:raw_copper_block": 1
       - "minecraft:coal_ore": 2

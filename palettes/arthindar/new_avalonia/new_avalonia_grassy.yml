@@ -1,5 +1,7 @@
 layers:
-  - materials: "minecraft:grass_block"
+  - materials:
+      - "minecraft:grass_block": 95
+      - "minecraft:moss_block": 5
     layers: 1
   - materials: "minecraft:dirt"
     layers: 1
