@@ -35,17 +35,17 @@ flora:
       max: 180
   - density: 8
     items:
-      - NEW_AVALONIA_VINES: 9
-      - NEW_AVALONIA_CEILING_LEAVES: 5
+      - GREEN_VALLEY_VINES: 9
+      - GREEN_VALLEY_CEILING_LEAVES: 5
       - STALACTITE: 3
-      - SHROOMLIGHT: 3
+      - SHROOMLIGHT: 1
     y:
       min: 62
       max: 84
   - density: 4
     items:
-      - NEW_AVALONIA_SIMPLE_CEILING_LIGHTS_MNT: 1
-      - NEW_AVALONIA_SIMPLE_CEILING_BLOSSOM_FLOWER: 3
+      - GREEN_VALLEY_SIMPLE_CEILING_LIGHTS_MNT: 1
+      - GREEN_VALLEY_SIMPLE_CEILING_BLOSSOM_FLOWER: 3
     y:
       min: 62
       max: 84

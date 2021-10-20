@@ -42,7 +42,7 @@ flora:
     y:
       min: 62
       max: 84
-  - density: 4
+  - density: 3.25
     items:
       - NEW_AVALONIA_SIMPLE_CEILING_LIGHTS_MNT: 1
       - NEW_AVALONIA_SIMPLE_CEILING_BLOSSOM_FLOWER: 3

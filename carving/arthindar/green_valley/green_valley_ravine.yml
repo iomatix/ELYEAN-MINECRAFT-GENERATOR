@@ -47,18 +47,20 @@ palette:
     layers:
       - materials:
           {
+            "minecraft:mossy_cobblestone": 16,
+            "minecraft:cobblestone": 9,
             "minecraft:stone": 8,
             "minecraft:diorite": 4,
-            "minecraft:cobblestone": 6,
             "minecraft:granite": 2,
             "minecraft:shroomlight": 1,
           }
         y: 255
       - materials:
           {
-            "minecraft:stone": 11,
+            "minecraft:mossy_cobblestone": 10,
+            "minecraft:cobblestone": 20,
+            "minecraft:stone": 15,
             "minecraft:diorite": 2,
-            "minecraft:cobblestone": 5,
             "minecraft:granite": 3,
             "minecraft:shroomlight": 1,
           }
@@ -78,7 +80,8 @@ palette:
       - materials:
           {
             "minecraft:stone": 8,
-            "minecraft:diorite": 4,
+            "minecraft:andesite": 4,
+            "minecraft:mossy_cobblestone": 6,
             "minecraft:cobblestone": 6,
             "minecraft:granite": 2,
             "minecraft:shroomlight": 1,
@@ -87,7 +90,8 @@ palette:
       - materials:
           {
             "minecraft:stone": 10,
-            "minecraft:diorite": 2,
+            "minecraft:andesite": 4,
+            "minecraft:mossy_cobblestone": 6,
             "minecraft:cobblestone": 6,
             "minecraft:granite": 3,
             "minecraft:shroomlight": 1,
@@ -109,17 +113,19 @@ palette:
       - materials:
           {
             "minecraft:stone": 8,
-            "minecraft:diorite": 4,
-            "minecraft:cobblestone": 6,
+            "minecraft:andesite": 4,
+            "minecraft:mossy_cobblestone": 16,
+            "minecraft:cobblestone": 14,
             "minecraft:granite": 2,
             "minecraft:shroomlight": 1,
           }
         y: 255
       - materials:
           {
-            "minecraft:stone": 11,
-            "minecraft:diorite": 2,
-            "minecraft:cobblestone": 6,
+            "minecraft:stone": 16,
+            "minecraft:andesite": 4,
+            "minecraft:mossy_cobblestone": 6,
+            "minecraft:cobblestone": 11,
             "minecraft:granite": 3,
             "minecraft:shroomlight": 1,
           }

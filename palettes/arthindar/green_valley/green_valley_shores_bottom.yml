@@ -18,7 +18,8 @@ layers:
       - "minecraft:calcite": 22
       - "minecraft:diorite": 15
       - "minecraft:granite": 12
-      - "minecraft:cobblestone": 85
+      - "minecraft:cobblestone": 65
+      - "minecraft:mossy_cobblestone": 35
       - "minecraft:emerald_ore": 2
       - "minecraft:copper_ore": 2
       - "minecraft:raw_copper_block": 1
@@ -30,7 +31,8 @@ layers:
       - "minecraft:calcite": 9
       - "minecraft:diorite": 9
       - "minecraft:granite": 11
-      - "minecraft:cobblestone": 47
+      - "minecraft:cobblestone": 37
+      - "minecraft:mossy_cobblestone": 15
       - "minecraft:emerald_ore": 2
       - "minecraft:copper_ore": 2
       - "minecraft:raw_copper_block": 1

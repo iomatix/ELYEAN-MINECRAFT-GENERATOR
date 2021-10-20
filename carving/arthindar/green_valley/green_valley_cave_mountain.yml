@@ -20,17 +20,19 @@ palette:
         y: 255
       - materials:
           {
-            "minecraft:air": 15,
-            "minecraft:cobblestone": 2,
+            "minecraft:air": 25,
+            "minecraft:cobblestone": 3,
+            "minecraft:mossy_cobblestone": 5,
             "minecraft:flowering_azalea_leaves[persistent=true]": 1,
-            "minecraft:jungle_leaves[persistent=true]": 1,
+            "minecraft:jungle_leaves[persistent=true]": 2,
             "minecraft:shroomlight": 1,
           }
         y: 84
       - materials:
           {
-            "minecraft:air": 7,
-            "minecraft:cobblestone": 2,
+            "minecraft:air": 12,
+            "minecraft:cobblestone": 3,
+            "minecraft:mossy_cobblestone": 5,
             "minecraft:flowering_azalea_leaves[persistent=true]": 1,
             "minecraft:jungle_leaves[persistent=true]": 1,
             "minecraft:shroomlight": 1,
@@ -39,9 +41,10 @@ palette:
       - materials:
           {
             "minecraft:air": 25,
-            "minecraft:cobblestone": 2,
+            "minecraft:cobblestone": 3,
+            "minecraft:mossy_cobblestone": 5,
             "minecraft:flowering_azalea_leaves[persistent=true]": 1,
-            "minecraft:jungle_leaves[persistent=true]": 1,
+            "minecraft:jungle_leaves[persistent=true]": 2,
             "minecraft:shroomlight": 1,
           }
         y: 74
@@ -51,9 +54,10 @@ palette:
     layers:
       - materials:
           {
-            "minecraft:stone": 65,
-            "minecraft:cobblestone": 35,
-            "minecraft:diorite": 3,
+            "minecraft:stone": 45,
+            "minecraft:mossy_cobblestone": 35,
+            "minecraft:cobblestone": 45,
+            "minecraft:andesite": 3,
           }
         y: 255
   top:
@@ -63,8 +67,9 @@ palette:
       - materials:
           {
             "minecraft:stone": 65,
-            "minecraft:cobblestone": 35,
-            "minecraft:diorite": 5,
+            "minecraft:mossy_cobblestone": 15,
+            "minecraft:cobblestone": 55,
+            "minecraft:andesite": 3,
           }
         y: 255
   bottom:
@@ -73,8 +78,9 @@ palette:
     layers:
       - materials:
           {
-            "minecraft:stone": 65,
-            "minecraft:cobblestone": 35,
-            "minecraft:diorite": 3,
+            "minecraft:stone": 45,
+            "minecraft:mossy_cobblestone": 35,
+            "minecraft:cobblestone": 45,
+            "minecraft:andesite": 3,
           }
         y: 255

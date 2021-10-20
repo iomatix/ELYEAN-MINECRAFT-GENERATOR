@@ -1,0 +1,13 @@
+layers:
+  - materials:
+      - "minecraft:spore_blossom": 1
+    layers: 1
+id: "GREEN_VALLEY_SIMPLE_CEILING_BLOSSOM_FLOWER"
+ceiling: true
+irrigable:
+  - "minecraft:flowering_azalea_leaves"
+spawnable:
+  - "minecraft:flowering_azalea_leaves"
+  - "minecraft:acacia_wood"
+replaceable:
+  - "minecraft:air"

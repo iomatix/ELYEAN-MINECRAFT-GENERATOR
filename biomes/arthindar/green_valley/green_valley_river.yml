@@ -35,16 +35,16 @@ flora:
     items:
       - SUGARCANE: 28
       - GRASS: 575
-      - LILY_PAD: 12
+      - LILY_PAD: 8
       - TALL_GRASS: 160
-  - density: 30
+  - density: 15
     items:
       - SEAGRASS: 50
       - TALL_SEAGRASS: 20
-      - CORAL: 5
-      - CORAL_FAN: 8
-      - DRIPLEAF: 4
-      - SEA_PICKLE: 7
+      - CORAL: 1
+      - CORAL_FAN: 3
+      - DRIPLEAF: 5
+      - SEA_PICKLE: 4
       - SHROOMLIGHT: 1
     y:
       min: 50

@@ -33,33 +33,34 @@ flora:
       max: 56
     items:
       - GLOW_LICHEN: 3
-  - density: 9
+  - density: 8
     y:
       min: 70
       max: 73
     items:
-      - SUNFLOWER: 12
       - TALL_GRASS: 4
       - GRASS: 8
-  - density: 11
-    y:
-      min: 61
-      max: 67
-    items:
-      - PEONY: 12
-      - BLUE_ORCHID: 9
-      - CORNFLOWER: 7
-      - LILY_OF_THE_VALLEY: 5
+      - DANDELION: 6
   - density: 5
     y:
-      min: 65
-      max: 76
+      min: 61
+      max: 69
     items:
-      - RED_TULIP: 14
-      - ORANGE_TULIP: 9
-      - WHITE_TULIP: 7
-      - PINK_TULIP: 5
-  - density: 65
+      - DANDELION: 12
+      - BLUE_ORCHID: 1
+      - CORNFLOWER: 6
+      - LILY_OF_THE_VALLEY: 6
+      - PEONY: 1
+  - density: 4
+    y:
+      min: 67
+      max: 80
+    items:
+      - PINK_TULIP: 14
+      - AZURE_BLUET: 9
+      - ALLIUM: 7
+      - LILAC: 2
+  - density: 60
     y:
       min: 62
       max: 84
@@ -69,22 +70,23 @@ flora:
       - OXEYE_DAISY: 3
       - DANDELION: 3
       - ALLIUM: 2
-      - AZURE_BLUET: 1
-      
+      - AZURE_BLUET: 2
+      - FERN: 1
 
 trees:
-  - density: 0.02
+  - density: 0.03
     items:
       - PUMPKIN_PATCH: 1
     y:
-      min: 58
-      max: 84
-  - density: 0.43
+      min: 54
+      max: 83
+  - density: 0.63
     items:
-      - ACACIA: 6
-      - AZALEA: 3
-      - BIRCH: 2
+      - ACACIA: 2
+      - AZALEA: 4
+      - BIRCH: 3
       - DARK_OAK: 1
+      - OAK: 5
     y:
       min: 66
       max: 74

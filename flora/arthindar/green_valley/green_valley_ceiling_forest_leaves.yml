@@ -1,0 +1,23 @@
+layers:
+  - materials:
+      - "minecraft:jungle_leaves[persistent=true]": 4
+    layers: 1
+  - materials:
+      - "minecraft:jungle_leaves[persistent=true]": 5
+    layers: 1
+  - materials:
+      - "minecraft:jungle_leaves[persistent=true]": 5 
+      - "minecraft:shroomlight": 2
+      - "minecraft:air": 10
+    layers: 1
+id: "GREEN_VALLEY_CEILING_FOREST_LEAVES"
+ceiling: true
+irrigable:
+  - "minecraft:jungle_leaves"
+  - "minecraft:jungle_leaves"
+spawnable:
+  - "minecraft:jungle_leaves"
+  - "minecraft:jungle_leaves"
+replaceable:
+  - "minecraft:air"
+  - "minecraft:stone_slab"

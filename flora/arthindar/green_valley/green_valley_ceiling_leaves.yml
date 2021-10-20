@@ -1,0 +1,34 @@
+layers:
+  - materials:
+      - "minecraft:azalea_leaves[persistent=true]": 4
+      - "minecraft:oak_leaves[persistent=true]": 3
+      - "minecraft:jungle_leaves[persistent=true]": 3
+    layers: 2
+  - materials:
+      - "minecraft:azalea_leaves[persistent=true]": 5
+      - "minecraft:oak_leaves[persistent=true]": 3
+      - "minecraft:jungle_leaves[persistent=true]": 3
+    layers: 1
+  - materials:
+      - "minecraft:azalea_leaves[persistent=true]": 5 
+      - "minecraft:oak_leaves[persistent=true]": 6
+      - "minecraft:jungle_leaves[persistent=true]": 3
+      - "minecraft:air": 10
+      - "minecraft:shroomlight": 2
+    layers: 1
+id: "GREEN_VALLEY_CEILING_LEAVES"
+ceiling: true
+spawnable:
+  - "minecraft:azalea_leaves"
+  - "minecraft:flowering_azalea_leaves"
+  - "minecraft:stone"
+  - "minecraft:gravel"
+  - "minecraft:dirt"
+  - "minecraft:coarse_dirt"
+  - "minecraft:grass_block"
+  - "minecraft:cobblestone"
+  - "minecraft:mossy_cobblestone"
+  - "minecraft:diorite"
+replaceable:
+  - "minecraft:air"
+  - "minecraft:stone_slab"

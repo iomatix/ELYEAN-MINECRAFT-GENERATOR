@@ -26,7 +26,10 @@ flora:
       min: 68
       max: 92
     items:
-      - SWEET_BERRIES: 1
+      - SWEET_BERRIES: 3
+      - BROWN_MUSHROOM: 4
+      - RED_MUSHROOM: 2
+      - ROSE_BUSH: 1
   - density: 45
     y:
       min: 62
@@ -47,7 +50,7 @@ flora:
       - NEW_AVALONIA_VINES: 9
       - NEW_AVALONIA_CEILING_FOREST_LEAVES: 4
       - NEW_AVALONIA_SIMPLE_CEILING_BLOSSOM_FLOWER: 3
-  - density: 3
+  - density: 0.85
     y:
       min: 64
       max: 150

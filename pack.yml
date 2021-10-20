@@ -1,6 +1,6 @@
 id: Elyean
 author: iomatix
-version: 0.2.3
+version: 0.2.5
 
 structures:
   locatable:
@@ -203,12 +203,12 @@ biomes:
               type: "OpenSimplex2"
               frequency: 0.01
     # Green Valley Distribution
-      - mutate: # Green ValleyDistribution | Forests
+      - mutate: # Green Valley Distribution | Forests
           type: REPLACE
           from: "BIOME:GREEN_VALLEY_PLAINS"
           to:
             - GREEN_VALLEY_PLAINS: 20
-            - GREEN_VALLEY_FOREST: 14
+            - GREEN_VALLEY_FOREST: 15
           noise: &forest-distribute
             type: DomainWarp
             amplitude: 375
@@ -234,8 +234,8 @@ biomes:
           type: REPLACE
           from: "BIOME:GREEN_VALLEY_FOREST"
           to:
-            - GREEN_VALLEY_FOREST: 20
-            - GREEN_VALLEY_MOUNTAINS: 4
+            - GREEN_VALLEY_FOREST: 23
+            - GREEN_VALLEY_MOUNTAINS: 5
           noise: &mountain-distribute-clouds
             type: DomainWarp
             amplitude: 375

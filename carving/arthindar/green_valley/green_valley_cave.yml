@@ -26,18 +26,20 @@ palette:
     layers:
       - materials:
           {
-            "minecraft:stone": 8,
+            "minecraft:stone": 11,
             "minecraft:diorite": 4,
-            "minecraft:cobblestone": 6,
+            "minecraft:cobblestone": 12,
+            "minecraft:mossy_cobblestone": 16,
             "minecraft:granite": 2,
             "minecraft:shroomlight": 1,
           }
         y: 255
       - materials:
           {
-            "minecraft:stone": 11,
+            "minecraft:stone": 15,
             "minecraft:diorite": 2,
-            "minecraft:cobblestone": 5,
+            "minecraft:cobblestone": 11,
+            "minecraft:mossy_cobblestone": 7,
             "minecraft:granite": 3,
             "minecraft:shroomlight": 1,
           }

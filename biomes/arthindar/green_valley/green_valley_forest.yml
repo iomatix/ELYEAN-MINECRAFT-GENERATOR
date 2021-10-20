@@ -21,39 +21,49 @@ flora:
       max: 56
     items:
       - GLOW_LICHEN: 1
-  - density: 3
+  - density: 10
     y:
       min: 68
       max: 92
     items:
-      - SWEET_BERRIES: 1
+      - TALL_GRASS: 2
+      - GRASS: 4
+      - SWEET_BERRIES: 3
+      - BROWN_MUSHROOM: 4
+      - RED_MUSHROOM: 2
+      - OXEYE_DAISY: 1
+      - ROSE_BUSH: 3
+      - CORNFLOWER: 2
+      - DANDELION: 3
   - density: 45
     y:
       min: 62
-      max: 84
+      max: 85
     items:
       - TALL_GRASS: 150
       - GRASS: 750
-      - POPPY: 50
-      - ROSE_BUSH: 5
-      - LILAC: 4
-      - NEW_AVALONIA_LEAVES: 100
-      - SHROOMLIGHT: 3
+      - POPPY: 15
+      - DANDELION: 45
+      - ROSE_BUSH: 8
+      - LILY_OF_THE_VALLEY: 4
+      - GREEN_VALLEY_LEAVES: 75
+      - SHROOMLIGHT: 1
+      - FERN: 2
   - density: 5
     y:
       min: 64
       max: 150
     items:
-      - NEW_AVALONIA_VINES: 9
-      - NEW_AVALONIA_CEILING_FOREST_LEAVES: 4
-      - NEW_AVALONIA_SIMPLE_CEILING_BLOSSOM_FLOWER: 3
+      - GREEN_VALLEY_VINES: 9
+      - GREEN_VALLEY_CEILING_FOREST_LEAVES: 4
+      - GREEN_VALLEY_SIMPLE_CEILING_BLOSSOM_FLOWER: 3
   - density: 3
     y:
       min: 64
       max: 150
     items:
-      - NEW_AVALONIA_SIMPLE_CEILING_LIGHTS_FOREST_SMALL: 2
-      - NEW_AVALONIA_SIMPLE_CEILING_LIGHTS_FOREST: 1
+      - GREEN_VALLEY_SIMPLE_CEILING_LIGHTS_FOREST_SMALL: 2
+      - GREEN_VALLEY_SIMPLE_CEILING_LIGHTS_FOREST: 1
 
 trees:
   - density: 0.75

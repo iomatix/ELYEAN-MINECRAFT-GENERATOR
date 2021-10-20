@@ -1,8 +1,8 @@
 layers:
   - materials:
-      - "minecraft:small_dripleaf[waterlogged=true,half=lower]": 3
-      - "minecraft:small_dripleaf[waterlogged=true,half=upper]": 3
-      - "minecraft:big_dripleaf[waterlogged=true]": 1
+      - "minecraft:small_dripleaf[waterlogged=true,half=upper]": 1
+      - "minecraft:small_dripleaf[waterlogged=true,half=lower]": 1
+      - "minecraft:big_dripleaf[waterlogged=true]": 2
     layers: 1
 id: "DRIPLEAF"
 search: DOWN

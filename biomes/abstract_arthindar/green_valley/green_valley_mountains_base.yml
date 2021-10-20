@@ -17,7 +17,7 @@ flora:
         octaves: 1
     items:
       - BLANK: 8
-      - NEW_AVALONIA_LEAVES: 5
+      - GREEN_VALLEY_LEAVES: 5
     y:
       min: 62
       max: 180

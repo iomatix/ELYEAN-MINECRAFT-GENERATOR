@@ -5,7 +5,7 @@ layers:
     layers: 1
   - materials:
     - "minecraft:dirt": 75
-    - "minecraft:moss_block": 15
+    - "minecraft:moss_block": 17
     layers: 1
   - materials:
       - "minecraft:stone": 65

@@ -33,7 +33,7 @@ flora:
       max: 56
     items:
       - GLOW_LICHEN: 3
-  - density: 9
+  - density: 8
     y:
       min: 70
       max: 73
@@ -41,6 +41,7 @@ flora:
       - SUNFLOWER: 12
       - TALL_GRASS: 4
       - GRASS: 8
+      - CORNFLOWER: 2
   - density: 11
     y:
       min: 61
@@ -59,7 +60,7 @@ flora:
       - ORANGE_TULIP: 9
       - WHITE_TULIP: 7
       - PINK_TULIP: 5
-  - density: 65
+  - density: 55
     y:
       min: 62
       max: 84
@@ -70,6 +71,7 @@ flora:
       - DANDELION: 3
       - ALLIUM: 2
       - AZURE_BLUET: 1
+      - CORNFLOWER: 2
       
 
 trees:
