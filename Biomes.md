@@ -23,6 +23,7 @@
 ### Arthindar Green Valley
 ![01](_images/Green_Valley/01.gif)
 ![02](_images/Green_Valley/02.gif)
+![03](_images/Green_Valley/03.gif)
 
 ### Arthindar Rocky Mountains
 
