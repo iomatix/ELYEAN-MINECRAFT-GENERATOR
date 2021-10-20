@@ -42,7 +42,8 @@ flora:
       - TALL_GRASS: 4
       - GRASS: 8
       - CORNFLOWER: 2
-  - density: 11
+  - density: 13
+    simplex-frequency: 0.169
     y:
       min: 61
       max: 67
@@ -72,7 +73,18 @@ flora:
       - ALLIUM: 2
       - AZURE_BLUET: 1
       - CORNFLOWER: 2
-      
+  - density: 0.073
+    y:
+      min: 10
+      max: 56
+    items:
+      - GLOW_LICHEN: 1
+  - density: 0.367
+    items:
+      - WATER_SPRING: 1
+    y:
+      min: 58
+      max: 125
 
 trees:
   - density: 0.02

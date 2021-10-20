@@ -73,6 +73,12 @@ flora:
       - GREEN_VALLEY_LIGHT_COLUMN: 13
       - GREEN_VALLEY_LIGHT_COLUMN_MISC: 8
       - GREEN_VALLEY_LIGHT_COLUMN_L: 5    
+  - density: 0.667
+    items:
+      - WATER_SPRING: 1
+    y:
+      min: 58
+      max: 180
 trees:
   - density: 0.75
     items:

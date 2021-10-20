@@ -93,7 +93,12 @@ flora:
     y:
       min: 45
       max: 120
-
+  - density: 0.519
+    items:
+      - WATER_SPRING: 1
+    y:
+      min: 58
+      max: 62
 trees:
   - density: 0.03
     items:

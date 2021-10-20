@@ -25,6 +25,7 @@ palette:
             "minecraft:flowering_azalea_leaves[persistent=true]": 1,
             "minecraft:azalea_leaves[persistent=true]": 1,
             "minecraft:shroomlight": 1,
+            "minecraft:diorite": 2
           }
         y: 84
       - materials:
@@ -34,6 +35,7 @@ palette:
             "minecraft:flowering_azalea_leaves[persistent=true]": 1,
             "minecraft:azalea_leaves[persistent=true]": 1,
             "minecraft:shroomlight": 1,
+            "minecraft:diorite": 3
           }
         y: 76
       - materials:
@@ -43,6 +45,7 @@ palette:
             "minecraft:flowering_azalea_leaves[persistent=true]": 1,
             "minecraft:azalea_leaves[persistent=true]": 1,
             "minecraft:shroomlight": 1,
+            "minecraft:diorite": 5
           }
         y: 74
   outer:

@@ -1,0 +1,23 @@
+id: "WATER_SPRING"
+layers:
+  - materials:
+      - "minecraft:water": 1
+    layers: 1
+spawnable:
+  - "minecraft:stone"
+  - "minecraft:granite"
+  - "minecraft:andesite"
+  - "minecraft:diorite"
+  - "minecraft:cobblestone"
+  - "minecraft:mossy_cobblestone"
+replaceable:
+  - "minecraft:stone"
+  - "minecraft:granite"
+  - "minecraft:andesite"
+  - "minecraft:diorite"
+  - "minecraft:cobblestone"
+  - "minecraft:mossy_cobblestone"
+physics: true
+irrigable:
+  - "minecraft:air"
+  - "minecraft:cave_air"

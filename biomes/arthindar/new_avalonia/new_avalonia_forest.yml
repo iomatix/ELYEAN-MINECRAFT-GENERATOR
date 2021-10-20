@@ -57,6 +57,12 @@ flora:
     items:
       - NEW_AVALONIA_SIMPLE_CEILING_LIGHTS_FOREST_SMALL: 2
       - NEW_AVALONIA_SIMPLE_CEILING_LIGHTS_FOREST: 1
+  - density: 0.561
+    items:
+      - WATER_SPRING: 1
+    y:
+      min: 66
+      max: 144
 
 trees:
   - density: 0.75

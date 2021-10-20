@@ -14,3 +14,10 @@ palette:
 vanilla: MOUNTAINS
 tags:
   - "LAND"
+flora:
+  - density: 0.761
+    items:
+      - WATER_SPRING: 1
+    y:
+      min: 73
+      max: 180
