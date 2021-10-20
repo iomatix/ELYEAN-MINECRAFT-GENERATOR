@@ -2,7 +2,6 @@ noise-equation: "((-((y / base)^2)) + 1) + ((noise2(x, z)/4.2))"
 variables:
   base: 58
 extends: "GREEN_VALLEY_ORES"
-carving: {}
 id: "GREEN_VALLEY_RIVER"
 #color: 0x0000ff
 blend:
@@ -17,8 +16,8 @@ palette:
   - BEDROCK_HALF: 2
   - BEDROCK_LITTLE: 3
   - DEEPSLATE: 20
-  - GREEN_VALLEY_SHORE_BOTTOM: 61
-  - GREEN_VALLEY_SHORE: 62
+  - GREEN_VALLEY_SHORE_BOTTOM: 59
+  - GREEN_VALLEY_SHORE: 64
   - GREEN_VALLEY_GRASSY: 255
 vanilla: RIVER
 flora:

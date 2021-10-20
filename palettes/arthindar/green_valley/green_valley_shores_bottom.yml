@@ -1,7 +1,8 @@
 layers:
   - materials:
-      - "minecraft:cobblestone": 65
-      - "minecraft:stone": 25
+      - "minecraft:cobblestone": 15
+      - "minecraft:mossy_cobblestone": 35
+      - "minecraft:stone": 15
       - "minecraft:dirt": 30
       - "minecraft:grass_block": 15
       - "minecraft:moss_block": 25
@@ -10,7 +11,7 @@ layers:
       - "minecraft:raw_copper_block": 1
       - "minecraft:andesite": 7
       - "minecraft:coal_ore": 2
-      - "minecraft:sand": 30
+      - "minecraft:sand": 45
     layers: 1
   - materials:
       - "minecraft:stone": 65

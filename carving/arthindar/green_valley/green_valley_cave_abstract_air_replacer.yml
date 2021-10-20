@@ -1,0 +1,38 @@
+abstract: true
+id: GREEN_VALLEY_CAVE_ABSTRACT_AIR
+physics: true
+step: 24
+recalculate-direction:
+  min: 8
+  max: 128
+length:
+  min: 128
+  max: 1024
+start:
+  x: 6
+  y: 3
+  z: 6
+  radius:
+    x: "(((rand(x, y, z)+1)/2) * 3.33)+2 + noise2(x*3.3, (z+position)*9.5)"
+    y: "(((rand(x, y, z)+1)/2) * 5)+2 + noise2(x*4.13, (z+position)*4.69)"
+    z: "(((rand(x, y, z)+1)/2) * 3.33)+2 + noise2(x*3.3, (z+position)*9.5)"
+  height:
+    min: 59
+    max: 130
+cut:
+  top: 6
+  bottom: 0
+mutate:
+  x: 1.25
+  y: 0.25
+  z: 1.33
+  radius: 0.679
+shift:
+  "minecraft:grass_block": ["minecraft:mossy_cobblestone"]
+  "minecraft:mycelium": ["minecraft:mossy_cobblestone"]
+  "minecraft:podzol": ["minecraft:mossy_cobblestone"]
+  "minecraft:gravel": ["minecraft:mossy_cobblestone"]
+  "minecraft:sand": ["minecraft:mossy_cobblestone"]
+  "minecraft:coarse_dirt": ["minecraft:mossy_cobblestone"]
+
+update: ["minecraft:water", "minecraft:lava"]

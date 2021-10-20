@@ -47,8 +47,22 @@ flora:
       - GREEN_VALLEY_SIMPLE_CEILING_LIGHTS_MNT: 1
       - GREEN_VALLEY_SIMPLE_CEILING_BLOSSOM_FLOWER: 3
     y:
-      min: 62
-      max: 84
+      min: 45
+      max: 120
+  - density: 1.15
+    distribution:
+      type: OpenSimplex2
+      frequency: 0.087
+      fractal:
+        type: FBm
+        octaves: 3
+    items:
+      - GREEN_VALLEY_LIGHT_COLUMN: 13
+      - GREEN_VALLEY_LIGHT_COLUMN_MISC: 8
+      - GREEN_VALLEY_LIGHT_COLUMN_L: 5
+    y:
+      min: 45
+      max: 104
   - density: 5
     y:
       min: 62

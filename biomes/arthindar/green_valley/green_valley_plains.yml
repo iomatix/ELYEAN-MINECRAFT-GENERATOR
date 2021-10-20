@@ -63,7 +63,7 @@ flora:
   - density: 60
     y:
       min: 62
-      max: 84
+      max: 112
     items:
       - TALL_GRASS: 100
       - GRASS: 500
@@ -72,6 +72,27 @@ flora:
       - ALLIUM: 2
       - AZURE_BLUET: 2
       - FERN: 1
+  - density: 0.95
+    distribution:
+      type: OpenSimplex2
+      frequency: 0.087
+      fractal:
+        type: FBm
+        octaves: 3
+    y:
+      min: 45
+      max: 120
+    items:
+      - GREEN_VALLEY_LIGHT_COLUMN: 7
+      - GREEN_VALLEY_LIGHT_COLUMN_MISC: 5
+      - GREEN_VALLEY_LIGHT_COLUMN_L: 3
+  - density: 0.35
+    items:
+      - GREEN_VALLEY_SIMPLE_CEILING_LIGHTS_MNT: 1
+      - GREEN_VALLEY_SIMPLE_CEILING_BLOSSOM_FLOWER: 3
+    y:
+      min: 45
+      max: 120
 
 trees:
   - density: 0.03
@@ -90,5 +111,12 @@ trees:
     y:
       min: 66
       max: 74
-
+  - density: 10
+    items:
+      - AZALEA: 12
+      - ACACIA: 20
+      - BIRCH: 2
+    y:
+      min: 80
+      max: 140
 # Carving and ores covered by super biome

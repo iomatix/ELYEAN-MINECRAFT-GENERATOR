@@ -1,6 +1,6 @@
 id: Elyean
 author: iomatix
-version: 0.2.5
+version: 0.2.9
 
 structures:
   locatable:
@@ -143,7 +143,9 @@ biomes:
           type: OpenSimplex2
           frequency: 0.04
     stages:
-    # ARTHINDAR DISTRIBUTION
+
+
+    # ARTHINDAR DISTRIBUTION #################################################
       - mutate:
           type: REPLACE
           from: "BIOME:ARTHINDAR_OCEAN_DEEP"
@@ -155,7 +157,8 @@ biomes:
             function:
               type: OpenSimplex2
               frequency: 0.04
-    # New Avalonia Distribution
+
+    # New Avalonia Distribution ####
       - mutate: # New Avalonia Distribution | Mountains
           type: REPLACE
           from: "BIOME:NEW_AVALONIA_PLAINS"
@@ -202,7 +205,8 @@ biomes:
             function:
               type: "OpenSimplex2"
               frequency: 0.01
-    # Green Valley Distribution
+
+    # Green Valley Distribution ####
       - mutate: # Green Valley Distribution | Forests
           type: REPLACE
           from: "BIOME:GREEN_VALLEY_PLAINS"
@@ -257,9 +261,13 @@ biomes:
                 function:
                   type: OpenSimplex2
                   frequency: 0.028
-      - mutate: # Erode rivers. LAST STEP
+
+
+
+      - mutate: # Erode rivers. LAST STEP ##################
           type: REPLACE_LIST
           to:
+          # NEW AVALONIA ############
             NEW_AVALONIA_MOUNTAINS:
               - SELF: 1
               - NEW_AVALONIA_RIVER_MOUNTAIN: 1
@@ -269,6 +277,7 @@ biomes:
             NEW_AVALONIA_FOREST:
               - SELF: 1
               - NEW_AVALONIA_RIVER: 1
+          # GREEN VALLEY ############
             GREEN_VALLEY_MOUNTAINS:
               - SELF: 1
               - GREEN_VALLEY_RIVER_MOUNTAIN: 1

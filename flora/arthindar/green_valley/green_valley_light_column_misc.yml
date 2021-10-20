@@ -1,0 +1,44 @@
+layers:
+  - materials:
+      - "minecraft:cobblestone": 1
+      - "minecraft:mossy_cobblestone": 1
+      - "minecraft:mossy_stone_bricks": 1
+      - "minecraft:mossy_cobblestone_wall": 1
+      - "minecraft:mossy_cobblestone_slab": 1
+      - "minecraft:cobblestone_wall": 1
+      - "minecraft:air": 1
+      - "minecraft:jungle_leaves": 1
+    layers: 1
+  - materials:
+      - "minecraft:mossy_cobblestone_wall": 1
+      - "minecraft:cobblestone_wall": 1
+    layers: 1
+  - materials:
+      - "minecraft:mossy_cobblestone_wall": 1
+      - "minecraft:cobblestone_wall": 1
+    layers: 1
+  - materials:
+      - "minecraft:mossy_cobblestone_wall": 1
+      - "minecraft:cobblestone_wall": 1
+      - "minecraft:cobblestone": 1
+      - "minecraft:mossy_cobblestone": 1
+      - "minecraft:moss_block": 1
+    layers: 1
+    
+id: "GREEN_VALLEY_LIGHT_COLUMN_MISC"
+ceiling: false
+rotatable:
+  - "minecraft:cobblestone"
+  - "minecraft:mossy_cobblestone"
+irrigable:
+  - "minecraft:cobblestone"
+  - "minecraft:mossy_cobblestone"
+spawnable:
+  - "minecraft:cobblestone"
+  - "minecraft:mossy_cobblestone"
+  - "minecraft:moss_block"
+  - "minecraft:grass_block"
+  - "minecraft:mossy_cobblestone_wall"
+  - "minecraft:air"
+replaceable:
+  - "minecraft:air"

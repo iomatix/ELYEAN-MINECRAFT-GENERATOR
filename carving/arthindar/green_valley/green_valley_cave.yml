@@ -31,7 +31,7 @@ palette:
             "minecraft:cobblestone": 12,
             "minecraft:mossy_cobblestone": 16,
             "minecraft:granite": 2,
-            "minecraft:shroomlight": 1,
+            "minecraft:shroomlight": 1
           }
         y: 255
       - materials:
@@ -41,7 +41,7 @@ palette:
             "minecraft:cobblestone": 11,
             "minecraft:mossy_cobblestone": 7,
             "minecraft:granite": 3,
-            "minecraft:shroomlight": 1,
+            "minecraft:shroomlight": 1
           }
         y: 59
       - materials:
@@ -49,7 +49,7 @@ palette:
             "minecraft:cobbled_deepslate": 8,
             "minecraft:deepslate": 5,
             "minecraft:polished_deepslate": 3,
-            "obsidian": 1,
+            "obsidian": 1
           }
         y: 20
   top:
@@ -62,7 +62,7 @@ palette:
             "minecraft:diorite": 4,
             "minecraft:cobblestone": 6,
             "minecraft:granite": 2,
-            "minecraft:shroomlight": 1,
+            "minecraft:shroomlight": 1
           }
         y: 255
       - materials:
@@ -71,7 +71,7 @@ palette:
             "minecraft:diorite": 2,
             "minecraft:cobblestone": 6,
             "minecraft:granite": 3,
-            "minecraft:shroomlight": 1,
+            "minecraft:shroomlight": 1
           }
         y: 59
       - materials:
@@ -80,7 +80,7 @@ palette:
             "minecraft:deepslate": 5,
             "minecraft:polished_deepslate": 3,
             "obsidian": 2,
-            "crying_obsidian": 1,
+            "crying_obsidian": 1
           }
         y: 20
   bottom:
@@ -93,7 +93,7 @@ palette:
             "minecraft:diorite": 4,
             "minecraft:cobblestone": 6,
             "minecraft:granite": 2,
-            "minecraft:shroomlight": 1,
+            "minecraft:shroomlight": 1
           }
         y: 255
       - materials:
@@ -102,7 +102,7 @@ palette:
             "minecraft:diorite": 2,
             "minecraft:cobblestone": 6,
             "minecraft:granite": 3,
-            "minecraft:shroomlight": 1,
+            "minecraft:shroomlight": 1
           }
         y: 59
       - materials:
@@ -110,6 +110,6 @@ palette:
             "minecraft:cobbled_deepslate": 8,
             "minecraft:deepslate": 5,
             "minecraft:polished_deepslate": 3,
-            "obsidian": 1,
+            "obsidian": 1
           }
         y: 20

@@ -24,7 +24,7 @@ flora:
   - density: 10
     y:
       min: 68
-      max: 92
+      max: 98
     items:
       - TALL_GRASS: 2
       - GRASS: 4
@@ -38,7 +38,7 @@ flora:
   - density: 45
     y:
       min: 62
-      max: 85
+      max: 112
     items:
       - TALL_GRASS: 150
       - GRASS: 750
@@ -49,22 +49,30 @@ flora:
       - GREEN_VALLEY_LEAVES: 75
       - SHROOMLIGHT: 1
       - FERN: 2
-  - density: 5
+  - density: 6
     y:
       min: 64
       max: 150
     items:
       - GREEN_VALLEY_VINES: 9
-      - GREEN_VALLEY_CEILING_FOREST_LEAVES: 4
+      - GREEN_VALLEY_CEILING_FOREST_LEAVES: 5
       - GREEN_VALLEY_SIMPLE_CEILING_BLOSSOM_FLOWER: 3
-  - density: 3
+  - density: 2.15
     y:
-      min: 64
+      min: 45
       max: 150
+    distribution:
+      type: OpenSimplex2
+      frequency: 0.087
+      fractal:
+        type: FBm
+        octaves: 3
     items:
       - GREEN_VALLEY_SIMPLE_CEILING_LIGHTS_FOREST_SMALL: 2
       - GREEN_VALLEY_SIMPLE_CEILING_LIGHTS_FOREST: 1
-
+      - GREEN_VALLEY_LIGHT_COLUMN: 13
+      - GREEN_VALLEY_LIGHT_COLUMN_MISC: 8
+      - GREEN_VALLEY_LIGHT_COLUMN_L: 5    
 trees:
   - density: 0.75
     items:
@@ -83,3 +91,11 @@ trees:
     y:
       min: 64
       max: 83
+  - density: 10
+    items:
+      - AZALEA: 12
+      - ACACIA: 20
+      - BIRCH: 2
+    y:
+      min: 80
+      max: 140

@@ -1,0 +1,118 @@
+id: GREEN_VALLEY_AIR_MAGIC_STONES
+extends: GREEN_VALLEY_CAVE_ABSTRACT_AIR
+palette:
+  inner:
+    replace-blacklist: true
+    replace:
+      - "minecraft:bedrock"
+      - "minecraft:ice"
+      - "minecraft:azalea_leaves"
+      - "minecraft:flowering_azalea_leaves"
+      - "minecraft:oak_leaves"
+      - "minecraft:birch_leaves"
+      - "minecraft:acacia_leaves"
+      - "minecraft:jungle_leaves"
+    layers:
+      - materials: { "minecraft:air": 1 }
+        y: 255
+      - materials:
+          {
+            "minecraft:air": 36,
+            "minecraft:jungle_leaves[persistent=true]": 7,
+            "minecraft:flowering_azalea_leaves[persistent=true]": 7,
+            "minecraft:azalea_leaves[persistent=true]": 9,
+            "minecraft:mossy_cobblestone": 65,
+            "minecraft:cobblestone": 45,
+            "minecraft:shroomlight": 1
+          }
+        y: 121
+      - materials:
+          {
+            "minecraft:air": 26,
+            "minecraft:jungle_leaves[persistent=true]": 7,
+            "minecraft:flowering_azalea_leaves[persistent=true]": 5,
+            "minecraft:azalea_leaves[persistent=true]": 8,
+            "minecraft:mossy_cobblestone": 65,
+            "minecraft:cobblestone": 45,
+            "minecraft:moss_block": 9,
+            "minecraft:grass_block": 12,
+            "minecraft:dirt": 4,
+            "minecraft:shroomlight": 1
+          }
+        y: 60
+      - materials:
+          {
+            "minecraft:air": 13,
+            "minecraft:jungle_leaves[persistent=true]": 7,
+            "minecraft:flowering_azalea_leaves[persistent=true]": 5,
+            "minecraft:azalea_leaves[persistent=true]": 8,
+            "minecraft:mossy_cobblestone": 65,
+            "minecraft:cobblestone": 45,
+            "minecraft:moss_block": 15,
+            "minecraft:grass_block": 15,
+            "minecraft:dirt": 7,
+            "minecraft:shroomlight": 1
+          }
+        y: 59
+      - materials:
+          {
+            "minecraft:air": 45,
+            "minecraft:jungle_leaves[persistent=true]": 7,
+            "minecraft:flowering_azalea_leaves[persistent=true]": 5,
+            "minecraft:azalea_leaves[persistent=true]": 8,
+            "minecraft:mossy_cobblestone": 65,
+            "minecraft:cobblestone": 45,
+            "minecraft:moss_block": 15,
+            "minecraft:grass_block": 15,
+            "minecraft:dirt": 7,
+            "minecraft:shroomlight": 1
+          }
+        y: 55
+  outer:
+    replace-blacklist: false
+    replace: []
+    layers:
+      - materials:
+          {
+            "minecraft:air": 2,
+            "minecraft:jungle_leaves[persistent=true]": 7,
+            "minecraft:flowering_azalea_leaves[persistent=true]": 5,
+            "minecraft:azalea_leaves[persistent=true]": 8,
+            "minecraft:mossy_cobblestone": 35,
+            "minecraft:cobblestone": 45,
+            "minecraft:moss_block": 15,
+            "minecraft:grass_block": 15,
+            "minecraft:shroomlight": 1
+          }
+        y: 255
+  top:
+    replace-blacklist: false
+    replace: []
+    layers:
+      - materials:
+          {
+            "minecraft:air": 2,
+            "minecraft:jungle_leaves[persistent=true]": 7,
+            "minecraft:flowering_azalea_leaves[persistent=true]": 5,
+            "minecraft:azalea_leaves[persistent=true]": 8,
+            "minecraft:mossy_cobblestone": 35,
+            "minecraft:cobblestone": 45,
+            "minecraft:moss_block": 15,
+            "minecraft:grass_block": 15,
+            "minecraft:cobblestone": 45
+          }
+        y: 255
+  bottom:
+    replace-blacklist: false
+    replace: []
+    layers:
+      - materials:
+          {
+            "minecraft:jungle_leaves[persistent=true]": 7,
+            "minecraft:flowering_azalea_leaves[persistent=true]": 5,
+            "minecraft:azalea_leaves[persistent=true]": 8,
+            "minecraft:mossy_cobblestone": 35,
+            "minecraft:cobblestone": 45,
+            "minecraft:shroomlight": 1
+          }
+        y: 255

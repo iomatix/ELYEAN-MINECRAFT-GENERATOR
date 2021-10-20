@@ -4,15 +4,17 @@ layers:
       - "minecraft:grass_block": 25
       - "minecraft:moss_block": 30
       - "minecraft:dirt": 10
-      - "minecraft:sand": 25
+      - "minecraft:sand": 35
       - "minecraft:copper_ore": 2
       - "minecraft:raw_copper_block": 1
       - "minecraft:coal_ore": 2
     layers: 1
   - materials:
+      - "minecraft:mossy_cobblestone": 15
+      - "minecraft:moss_block": 25
       - "minecraft:gravel": 2
       - "minecraft:dirt": 50
-      - "minecraft:sand": 20
+      - "minecraft:sand": 45
       - "minecraft:emerald_ore": 1
       - "minecraft:copper_ore": 2
       - "minecraft:raw_copper_block": 1

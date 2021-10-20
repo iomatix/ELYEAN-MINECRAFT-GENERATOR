@@ -25,7 +25,7 @@ palette:
             "minecraft:mossy_cobblestone": 5,
             "minecraft:flowering_azalea_leaves[persistent=true]": 1,
             "minecraft:jungle_leaves[persistent=true]": 2,
-            "minecraft:shroomlight": 1,
+            "minecraft:shroomlight": 1
           }
         y: 84
       - materials:
@@ -35,7 +35,7 @@ palette:
             "minecraft:mossy_cobblestone": 5,
             "minecraft:flowering_azalea_leaves[persistent=true]": 1,
             "minecraft:jungle_leaves[persistent=true]": 1,
-            "minecraft:shroomlight": 1,
+            "minecraft:shroomlight": 1
           }
         y: 76
       - materials:
@@ -45,7 +45,7 @@ palette:
             "minecraft:mossy_cobblestone": 5,
             "minecraft:flowering_azalea_leaves[persistent=true]": 1,
             "minecraft:jungle_leaves[persistent=true]": 2,
-            "minecraft:shroomlight": 1,
+            "minecraft:shroomlight": 1
           }
         y: 74
   outer:
@@ -57,7 +57,7 @@ palette:
             "minecraft:stone": 45,
             "minecraft:mossy_cobblestone": 35,
             "minecraft:cobblestone": 45,
-            "minecraft:andesite": 3,
+            "minecraft:andesite": 3
           }
         y: 255
   top:
