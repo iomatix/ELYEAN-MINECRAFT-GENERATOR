@@ -1,0 +1,3 @@
+material: "minecraft:mossy_cobblestone"
+extends: DEPOSIT
+id: "MOSSY_COBBLESTONE"

@@ -70,3 +70,5 @@ flora:
     y:
       min: 50
       max: 63
+carving:
+  NEW_AVALONIA_CAVE_MOUNTAIN: 13

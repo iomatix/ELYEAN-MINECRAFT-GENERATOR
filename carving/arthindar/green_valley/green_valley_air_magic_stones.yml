@@ -17,55 +17,66 @@ palette:
         y: 255
       - materials:
           {
-            "minecraft:air": 36,
-            "minecraft:jungle_leaves[persistent=true]": 7,
-            "minecraft:flowering_azalea_leaves[persistent=true]": 7,
-            "minecraft:azalea_leaves[persistent=true]": 9,
-            "minecraft:mossy_cobblestone": 65,
-            "minecraft:cobblestone": 45,
-            "minecraft:shroomlight": 1
+            "minecraft:air": 60,
+            "minecraft:jungle_leaves[persistent=true]": 17,
+            "minecraft:flowering_azalea_leaves[persistent=true]": 13,
+            "minecraft:azalea_leaves[persistent=true]": 15,
+            "minecraft:mossy_cobblestone": 135,
+            "minecraft:cobblestone": 100,
+            "minecraft:stone": 16,
+            "minecraft:shroomlight": 4,
+            "minecraft:emerald_ore": 4,
+            "minecraft:diamond_ore": 3
           }
         y: 121
       - materials:
           {
-            "minecraft:air": 26,
-            "minecraft:jungle_leaves[persistent=true]": 7,
-            "minecraft:flowering_azalea_leaves[persistent=true]": 5,
-            "minecraft:azalea_leaves[persistent=true]": 8,
-            "minecraft:mossy_cobblestone": 65,
-            "minecraft:cobblestone": 45,
-            "minecraft:moss_block": 9,
-            "minecraft:grass_block": 12,
-            "minecraft:dirt": 4,
-            "minecraft:shroomlight": 1
+            "minecraft:air": 52,
+            "minecraft:jungle_leaves[persistent=true]": 14,
+            "minecraft:flowering_azalea_leaves[persistent=true]": 10,
+            "minecraft:azalea_leaves[persistent=true]": 16,
+            "minecraft:mossy_cobblestone": 130,
+            "minecraft:cobblestone": 90,
+            "minecraft:moss_block": 18,
+            "minecraft:grass_block": 24,
+            "minecraft:stone": 11,
+            "minecraft:dirt": 8,
+            "minecraft:shroomlight": 2,
+            "minecraft:emerald_ore": 3,
+            "minecraft:diamond_ore": 2
           }
         y: 60
       - materials:
           {
-            "minecraft:air": 13,
-            "minecraft:jungle_leaves[persistent=true]": 7,
-            "minecraft:flowering_azalea_leaves[persistent=true]": 5,
-            "minecraft:azalea_leaves[persistent=true]": 8,
-            "minecraft:mossy_cobblestone": 65,
-            "minecraft:cobblestone": 45,
-            "minecraft:moss_block": 15,
-            "minecraft:grass_block": 15,
-            "minecraft:dirt": 7,
-            "minecraft:shroomlight": 1
+            "minecraft:air": 26,
+            "minecraft:jungle_leaves[persistent=true]": 14,
+            "minecraft:flowering_azalea_leaves[persistent=true]": 10,
+            "minecraft:azalea_leaves[persistent=true]": 16,
+            "minecraft:mossy_cobblestone": 130,
+            "minecraft:cobblestone": 90,
+            "minecraft:moss_block": 30,
+            "minecraft:grass_block": 28,
+            "minecraft:stone": 10,
+            "minecraft:dirt": 14,
+            "minecraft:shroomlight": 2,
+            "minecraft:emerald_ore": 2,
+            "minecraft:diamond_ore": 1
           }
         y: 59
       - materials:
           {
-            "minecraft:air": 45,
-            "minecraft:jungle_leaves[persistent=true]": 7,
-            "minecraft:flowering_azalea_leaves[persistent=true]": 5,
-            "minecraft:azalea_leaves[persistent=true]": 8,
-            "minecraft:mossy_cobblestone": 65,
-            "minecraft:cobblestone": 45,
-            "minecraft:moss_block": 15,
-            "minecraft:grass_block": 15,
-            "minecraft:dirt": 7,
-            "minecraft:shroomlight": 1
+            "minecraft:air": 75,
+            "minecraft:jungle_leaves[persistent=true]": 14,
+            "minecraft:flowering_azalea_leaves[persistent=true]": 12,
+            "minecraft:azalea_leaves[persistent=true]": 16,
+            "minecraft:mossy_cobblestone": 145,
+            "minecraft:cobblestone": 90,
+            "minecraft:stone": 16,
+            "minecraft:moss_block": 30,
+            "minecraft:grass_block": 30,
+            "minecraft:dirt": 15,
+            "minecraft:shroomlight": 2,
+            "minecraft:emerald_ore": 1
           }
         y: 55
   outer:

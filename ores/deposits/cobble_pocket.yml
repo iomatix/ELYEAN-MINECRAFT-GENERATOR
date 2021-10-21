@@ -1,0 +1,3 @@
+material: "minecraft:cobblestone"
+extends: DEPOSIT
+id: "COBBLESTONE"

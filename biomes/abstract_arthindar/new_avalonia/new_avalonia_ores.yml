@@ -10,6 +10,7 @@ carving:
   NEW_AVALONIA_CAVE_MOUNTAIN: 13
   NEW_AVALONIA_CAVE_ELEGANT: 9
   NEW_AVALONIA_RAVINE: 2
+  NEW_AVALONIA_AIR_MAGIC_STONES_GROUND: 4
 
 structures:
   # todo for all new avalonia

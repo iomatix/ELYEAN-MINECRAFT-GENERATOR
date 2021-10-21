@@ -1,32 +1,32 @@
 abstract: true
-id: GREEN_VALLEY_CAVE_ABSTRACT_AIR_GROUND
+id: NEW_AVALONIA_CAVE_ABSTRACT_AIR_GROUND
 physics: true
-step: 28
+step: 25
 recalculate-direction:
-  min: 12
-  max: 128
+  min: 4
+  max: 32
 length:
-  min: 16
-  max: 512
+  min: 8
+  max: 256
 start:
-  x: 4
-  y: 3
-  z: 4
+  x: 3
+  y: 0.25
+  z: 3
   radius:
-    x: "(((rand(x, y, z)+1)/2) * 3.33)+2 + noise2(x*3.3, (z+position)*3.5)"
-    y: "(((rand(x, y, z)+1)/2) * 4.35)+2 + noise2(x*4.13, (z+position)*3.79)"
-    z: "(((rand(x, y, z)+1)/2) * 3.33)+2 + noise2(x*3.3, (z+position)*3.5)"
+    x: "(((rand(x, y, z)+1)/2) * 3.43)+2 + noise2(x*2.77, (z+position)*3.35)"
+    y: "(((rand(x, y, z)+1)/2) * 1.75)+2 + noise2(x*1.13, (z+position)*1.69)"
+    z: "(((rand(x, y, z)+1)/2) * 3.43)+2 + noise2(x*2.77, (z+position)*3.35)"
   height:
     min: 59
-    max: 71
+    max: 75
 cut:
-  top: 4
+  top: 1
   bottom: 0
 mutate:
-  x: 1.34
-  y: 0.35
-  z: 1.37
-  radius: 0.369
+  x: 0.14
+  y: 2.15
+  z: 0.27
+  radius: 0.169
 shift:
   "minecraft:grass_block": ["minecraft:mossy_cobblestone"]
   "minecraft:mycelium": ["minecraft:mossy_cobblestone"]

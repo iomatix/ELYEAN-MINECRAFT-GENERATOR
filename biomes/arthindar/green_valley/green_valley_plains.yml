@@ -99,6 +99,7 @@ flora:
     y:
       min: 58
       max: 62
+
 trees:
   - density: 0.03
     items:

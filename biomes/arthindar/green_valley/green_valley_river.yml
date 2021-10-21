@@ -48,7 +48,31 @@ flora:
     y:
       min: 50
       max: 63
+  - density: 8
+    items:
+      - GREEN_VALLEY_VINES: 9
+      - GREEN_VALLEY_CEILING_LEAVES: 5
+      - STALACTITE: 3
+      - SHROOMLIGHT: 1
+    y:
+      min: 62
+      max: 84
+  - density: 4
+    items:
+      - GREEN_VALLEY_SIMPLE_CEILING_LIGHTS_MNT: 1
+      - GREEN_VALLEY_SIMPLE_CEILING_BLOSSOM_FLOWER: 3
+    y:
+      min: 45
+      max: 120
+  - density: 0.89
+    items:
+      - WATER_SPRING: 1
+    y:
+      min: 58
+      max: 180
 ocean:
   palette: "BLOCK:minecraft:water"
   level: 62
 weight: 200
+carving:
+  GREEN_VALLEY_AIR_MAGIC_STONES_GROUND: 5

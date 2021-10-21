@@ -1,5 +1,5 @@
-id: GREEN_VALLEY_AIR_MAGIC_STONES_GROUND
-extends: GREEN_VALLEY_CAVE_ABSTRACT_AIR_GROUND
+id: NEW_AVALONIA_AIR_MAGIC_STONES_GROUND
+extends: NEW_AVALONIA_CAVE_ABSTRACT_AIR_GROUND
 palette:
   inner:
     replace-blacklist: true
@@ -11,69 +11,77 @@ palette:
       - "minecraft:oak_leaves"
       - "minecraft:birch_leaves"
       - "minecraft:acacia_leaves"
-      - "minecraft:jungle_leaves"
+      - "minecraft:granite"
     layers:
       - materials: { "minecraft:air": 1 }
         y: 255
       - materials:
           {
             "minecraft:air": 58,
-            "minecraft:jungle_leaves[persistent=true]": 20,
+            "minecraft:granite": 8,
             "minecraft:flowering_azalea_leaves[persistent=true]": 17,
             "minecraft:azalea_leaves[persistent=true]": 18,
-            "minecraft:mossy_cobblestone": 140,
-            "minecraft:cobblestone": 95,
+            "minecraft:diorite": 140,
+            "minecraft:calcite": 95,
             "minecraft:shroomlight": 3,
-            "minecraft:emerald_ore": 2,
-            "minecraft:diamond_ore": 1
+            "minecraft:iron_ore": 2,
+            "minecraft:lapis_ore": 1,
+            "minecraft:gold_ore": 1,
+            "minecraft:copper_ore": 1,
           }
         y: 121
       - materials:
           {
             "minecraft:air": 78,
-            "minecraft:jungle_leaves[persistent=true]": 21,
+            "minecraft:granite": 8,
             "minecraft:flowering_azalea_leaves[persistent=true]": 15,
             "minecraft:azalea_leaves[persistent=true]": 24,
-            "minecraft:mossy_cobblestone": 195,
-            "minecraft:cobblestone": 135,
-            "minecraft:moss_block": 27,
+            "minecraft:diorite": 195,
+            "minecraft:calcite": 135,
+            "minecraft:clay": 27,
             "minecraft:grass_block": 36,
             "minecraft:dirt": 12,
             "minecraft:shroomlight": 2,
-            "minecraft:emerald_ore": 2,
-            "minecraft:diamond_ore": 1
+            "minecraft:iron_ore": 2,
+            "minecraft:lapis_ore": 1,
+            "minecraft:gold_ore": 1,
+            "minecraft:copper_ore": 1,
           }
         y: 60
       - materials:
           {
             "minecraft:air": 39,
-            "minecraft:jungle_leaves[persistent=true]": 21,
+            "minecraft:granite": 8,
             "minecraft:flowering_azalea_leaves[persistent=true]": 15,
             "minecraft:azalea_leaves[persistent=true]": 24,
-            "minecraft:mossy_cobblestone": 185,
-            "minecraft:cobblestone": 125,
-            "minecraft:moss_block": 35,
+            "minecraft:diorite": 185,
+            "minecraft:calcite": 125,
+            "minecraft:clay": 35,
             "minecraft:grass_block": 35,
             "minecraft:stone": 10,
             "minecraft:dirt": 21,
             "minecraft:shroomlight": 1,
-            "minecraft:emerald_ore": 1,
+            "minecraft:iron_ore": 1,
+            "minecraft:gold_ore": 1,
+            "minecraft:copper_ore": 1,
           }
         y: 59
       - materials:
           {
             "minecraft:air": 120,
-            "minecraft:jungle_leaves[persistent=true]": 21,
-            "minecraft:flowering_azalea_leaves[persistent=true]": 15,
-            "minecraft:azalea_leaves[persistent=true]": 24,
-            "minecraft:mossy_cobblestone": 150,
-            "minecraft:cobblestone": 125,
-            "minecraft:moss_block": 55,
+            "minecraft:granite": 8,
+            "minecraft:flowering_azalea_leaves[persistent=true]": 22,
+            "minecraft:azalea_leaves[persistent=true]": 13,
+            "minecraft:diorite": 150,
+            "minecraft:calcite": 125,
+            "minecraft:clay": 55,
             "minecraft:grass_block": 45,
             "minecraft:stone": 20,
             "minecraft:dirt": 10,
             "minecraft:shroomlight": 1,
-            "minecraft:emerald_ore": 1,
+            "minecraft:iron_ore": 1,
+            "minecraft:gold_ore": 1,
+            "minecraft:copper_ore": 1,
           }
         y: 55
   outer:
@@ -83,12 +91,12 @@ palette:
       - materials:
           {
             "minecraft:air": 2,
-            "minecraft:jungle_leaves[persistent=true]": 7,
+            "minecraft:granite": 4,
             "minecraft:flowering_azalea_leaves[persistent=true]": 5,
             "minecraft:azalea_leaves[persistent=true]": 8,
-            "minecraft:mossy_cobblestone": 35,
-            "minecraft:cobblestone": 45,
-            "minecraft:moss_block": 15,
+            "minecraft:diorite": 35,
+            "minecraft:calcite": 45,
+            "minecraft:clay": 15,
             "minecraft:grass_block": 15,
             "minecraft:shroomlight": 1
           }
@@ -100,14 +108,14 @@ palette:
       - materials:
           {
             "minecraft:air": 2,
-            "minecraft:jungle_leaves[persistent=true]": 7,
+            "minecraft:granite": 7,
             "minecraft:flowering_azalea_leaves[persistent=true]": 5,
             "minecraft:azalea_leaves[persistent=true]": 8,
-            "minecraft:mossy_cobblestone": 35,
-            "minecraft:cobblestone": 45,
-            "minecraft:moss_block": 15,
+            "minecraft:diorite": 35,
+            "minecraft:calcite": 45,
+            "minecraft:clay": 15,
             "minecraft:grass_block": 15,
-            "minecraft:cobblestone": 45
+            "minecraft:calcite": 45
           }
         y: 255
   bottom:
@@ -116,11 +124,11 @@ palette:
     layers:
       - materials:
           {
-            "minecraft:jungle_leaves[persistent=true]": 7,
+            "minecraft:granite": 7,
             "minecraft:flowering_azalea_leaves[persistent=true]": 5,
             "minecraft:azalea_leaves[persistent=true]": 8,
-            "minecraft:mossy_cobblestone": 35,
-            "minecraft:cobblestone": 45,
+            "minecraft:diorite": 35,
+            "minecraft:calcite": 45,
             "minecraft:shroomlight": 1
           }
         y: 255

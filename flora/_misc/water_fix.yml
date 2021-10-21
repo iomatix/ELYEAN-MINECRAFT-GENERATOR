@@ -1,0 +1,13 @@
+id: "WATER_FIX"
+layers:
+  - materials:
+      - "minecraft:water": 1
+    layers: 1
+spawnable:
+  - "minecraft:water"
+replaceable:
+  - "minecraft:water"
+physics: true
+irrigable:
+  - "minecraft:air"
+  - "minecraft:cave_air"

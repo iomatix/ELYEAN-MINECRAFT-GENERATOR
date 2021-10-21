@@ -6,7 +6,7 @@ tags:
   - "GREEN_VALLEY"
 carving:
   # todo for all
-  GREEN_VALLEY_AIR_MAGIC_STONES_GROUND: 13
+  GREEN_VALLEY_AIR_MAGIC_STONES_GROUND: 5
   GREEN_VALLEY_CAVE: 20
   GREEN_VALLEY_CAVE_MOUNTAIN: 15
   GREEN_VALLEY_RAVINE: 3
@@ -134,3 +134,4 @@ ores:
     max: 12
     min-height: 1
     max-height: 38
+## FLYING ORES
