@@ -1,9 +1,9 @@
 # This biome is the parent of New Avalonia biome in the Elyean config.
 
-id: "GREEN_VALLEY_ORES"
+id: "ROCKY_MOUNTAINS_ORES"
 abstract: true
 tags:
-  - "GREEN_VALLEY"
+  - "ROCKY_MOUNTAINS"
 carving:
   # todo for all
   GREEN_VALLEY_AIR_MAGIC_STONES_GROUND: 6
@@ -68,70 +68,70 @@ ores:
     min: 0
     max: 4
     min-height: 0
-    max-height: 84
+    max-height: 114
   GRAVEL:
     min: 0
-    max: 2
+    max: 3
     min-height: 0
-    max-height: 84
+    max-height: 144
   DIORITE:
     min: 1
-    max: 4
+    max: 9
     min-height: 0
-    max-height: 84
+    max-height: 114
   ANDESITE:
-    min: 1
-    max: 6
-    min-height: 0
-    max-height: 84
-  GRANITE:
     min: 2
-    max: 7
+    max: 8
     min-height: 0
-    max-height: 84
+    max-height: 114
+  GRANITE:
+    min: 3
+    max: 8
+    min-height: 0
+    max-height: 114
   TUFF:
     min: 0
     max: 3
     min-height: 0
     max-height: 24
   COAL_ORE:
-    min: 12
-    max: 24
+    min: 16
+    max: 38
     min-height: 0
-    max-height: 86
+    max-height: 192
   IRON_ORE:
-    min: 4
+    min: 12
+    max: 36
+    min-height: 0
+    max-height: 189
+  COPPER_ORE:
+    min: 6
     max: 16
     min-height: 0
-    max-height: 46
-  COPPER_ORE:
-    min: 8
-    max: 24
-    min-height: 0
-    max-height: 72
+    max-height: 92
   GOLD_ORE:
+    min: 5
+    max: 22
+    min-height: 1
+    max-height: 122
+  LAPIS_ORE:
     min: 2
     max: 7
     min-height: 1
-    max-height: 42
-  LAPIS_ORE:
-    min: 1
-    max: 4
-    min-height: 1
-    max-height: 32
+    max-height: 62
   REDSTONE_ORE:
-    min: 1
-    max: 4
+    min: 2
+    max: 6
     min-height: 0
-    max-height: 22
+    max-height: 42
   DIAMOND_ORE:
+    min: 2
+    max: 8
+    min-height: 1
+    max-height: 54
+  EMERALD_ORE:
     min: 1
     max: 5
     min-height: 1
-    max-height: 24
-  EMERALD_ORE:
-    min: 3
-    max: 12
-    min-height: 1
-    max-height: 38
+    max-height: 58
 ## FLYING ORES

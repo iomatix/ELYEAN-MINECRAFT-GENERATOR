@@ -1,0 +1,25 @@
+layers:
+  - materials:
+      - "minecraft:bamboo[age=1,leaves=small]": 2
+      - "minecraft:bamboo[age=1,leaves=large]": 1
+      - "minecraft:bamboo[age=1,leaves=none]": 2
+    layers: 2
+  - materials:
+      - "minecraft:bamboo[age=1,leaves=large]": 2
+      - "minecraft:bamboo[age=1,leaves=small]": 1
+    layers: 1
+  - materials:
+      - "minecraft:bamboo[age=1,leaves=large]": 1
+      - "minecraft:air": 1
+    layers: 1
+id: "BAMBOO"
+search: DOWN
+physics: true
+max-placements: 1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"
+  - "minecraft:mossy_cobblestone"
+  - "minecraft:moss_block"
+replaceable:
+  - "minecraft:air"

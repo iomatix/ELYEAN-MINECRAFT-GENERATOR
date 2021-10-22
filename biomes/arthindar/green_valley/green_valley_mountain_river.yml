@@ -11,7 +11,7 @@ palette:
   - GREEN_VALLEY_SHORE_BOTTOM: 61
   - GREEN_VALLEY_SHORE: 62
   - GREEN_VALLEY_MOUNTY: 255
-vanilla: MOUNTAINS
+vanilla: PLAINS
 blend:
   distance: 1
 ocean:
@@ -84,7 +84,7 @@ flora:
     y:
       min: 50
       max: 63
-  - density: 0.69
+  - density: 0.269
     items:
       - WATER_SPRING: 1
     y:

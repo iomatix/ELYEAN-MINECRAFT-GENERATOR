@@ -41,6 +41,28 @@ flora:
       - TALL_GRASS: 4
       - GRASS: 8
       - DANDELION: 6
+  - density: 0.57
+    type: "DOMAINWARP"
+    amplitude: 8
+    warp:
+      type: "OPENSIMPLEX2S"
+      frequency: 0.032
+    function:
+      type: "FBM"
+      octaves: 5
+      function:
+        type: "CELLULAR"
+        return: "CellValue"
+        frequency: 0.0042
+    y:
+      min: 61
+      max: 121
+    items:
+      - BAMBOO: 18
+      - WHEAT: 2
+      - MELON_STEM: 2
+      - PUMPKIN_STEM: 1
+      - CARROTS: 2
   - density: 5
     y:
       min: 61
@@ -93,7 +115,7 @@ flora:
     y:
       min: 45
       max: 120
-  - density: 0.519
+  - density: 0.049
     items:
       - WATER_SPRING: 1
     y:

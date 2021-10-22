@@ -11,7 +11,7 @@ palette:
   - NEW_AVALONIA_SHORE_BOTTOM: 61
   - NEW_AVALONIA_SHORE: 62
   - NEW_AVALONIA_MOUNTY: 255
-vanilla: MOUNTAINS
+vanilla: PLAINS
 blend:
   distance: 1
 ocean:

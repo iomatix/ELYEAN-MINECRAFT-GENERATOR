@@ -15,9 +15,15 @@ replaceable:
   - "minecraft:granite"
   - "minecraft:andesite"
   - "minecraft:diorite"
-  - "minecraft:cobblestone"
-  - "minecraft:mossy_cobblestone"
+  - "minecraft:air"
+  - "minecraft:cave_air"
 physics: true
 irrigable:
   - "minecraft:air"
   - "minecraft:cave_air"
+  - "minecraft:stone"
+  - "minecraft:granite"
+  - "minecraft:andesite"
+  - "minecraft:diorite"
+  - "minecraft:cobblestone"
+  - "minecraft:mossy_cobblestone"
