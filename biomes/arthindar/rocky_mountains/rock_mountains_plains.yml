@@ -18,6 +18,7 @@ tags:
   # Todo
   - "LAND"
   - "RIVER_ERODE"
+  - "RIVER_ERODE_DRY"
 structures:
   # Todo for plains avalonia
   - VILLAGE_PLAINS
