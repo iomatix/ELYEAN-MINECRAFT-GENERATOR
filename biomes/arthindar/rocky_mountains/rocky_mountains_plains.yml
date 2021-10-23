@@ -103,7 +103,7 @@ flora:
       max: 56
     items:
       - GLOW_LICHEN: 1
-  - density: 0.081
+  - density: 0.071
     items:
       - WATER_SPRING: 1
     y:
@@ -128,3 +128,5 @@ trees:
       max: 74
 
 # Carving and ores covered by super biome
+blend:
+  distance: 3

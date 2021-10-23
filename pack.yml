@@ -165,7 +165,7 @@ biomes:
           from: "BIOME:NEW_AVALONIA_PLAINS"
           to:
             - NEW_AVALONIA_PLAINS: 21
-            - NEW_AVALONIA_MOUNTAINS: 6
+            - NEW_AVALONIA_MOUNTAINS: 7
           noise: &mountain-distribute
             type: DomainWarp
             amplitude: 375
@@ -267,29 +267,18 @@ biomes:
           type: REPLACE
           from: "BIOME:ROCKY_MOUNTAINS_PLAINS"
           to:
-            - ROCKY_MOUNTAINS_PLAINS: 15
-            - ROCKY_MOUNTAINS_MOUNTAINS: 10
-          noise: &mountain-distribute-clouds
-            type: DomainWarp
-            amplitude: 375
-            function:
-              type: fBm
-              function:
-                type: OpenSimplex2
-                frequency: 0.0025
-            warp:
-              type: DomainWarp
-              amplitude: 37
-              function:
-                type: fBm
-                function:
-                  type: OpenSimplex2
-                  frequency: 0.0016
-              warp:
-                type: fBm
-                function:
-                  type: OpenSimplex2
-                  frequency: 0.028
+            - ROCKY_MOUNTAINS_PLAINS: 20
+            - ROCKY_MOUNTAINS_MOUNTAINS: 15
+          noise: *mountain-distribute-clouds
+      - mutate: # Rocky Mountains Distribution | High Mountains
+          type: REPLACE
+          from: "BIOME:ROCKY_MOUNTAINS_MOUNTAINS"
+          to:
+            - ROCKY_MOUNTAINS_MOUNTAINS: 15
+            #- ROCKY_MOUNTAINS_MOUNTAINS_HIGH: 8
+          noise: *mountain-distribute
+
+
       - mutate: # Erode WATER rivers. LAST STEPS ##################
           type: REPLACE_LIST
           to:
@@ -325,7 +314,47 @@ biomes:
             type: EXPRESSION
             equation: "if(noise(x/width, z/width) > 0,1,-1)"
             variables:
-              width: 4.75
+              width: 4
+            functions:
+              noise:
+                type: "KERNEL"
+                function:
+                  type: EXPRESSION
+                  equation: "if(noise(x, z) > 0, 1, 0)"
+                  functions:
+                    noise:
+                      type: DOMAINWARP
+                      function:
+                        type: OPENSIMPLEX2
+                        frequency: 0.038
+                      warp:
+                        type: OPENSIMPLEX2
+                        frequency: 0.085
+                      amplitude: 3
+                kernel:
+                  - [-1, -1, -1]
+                  - [-1, 8, -1]
+                  - [-1, -1, -1]
+
+      - mutate: # Erode WATER SMALL rivers. LAST STEPS ##################
+          type: REPLACE_LIST
+          to:
+          # ROCKY MOUNTAINS ############
+            ROCKY_MOUNTAINS_MOUNTAINS_HIGH:
+              - SELF: 1
+              - ROCKY_MOUNTAINS_RIVER_MOUNTAIN_HIGH: 1
+            ROCKY_MOUNTAINS_MOUNTAINS:
+              - SELF: 1
+              - ROCKY_MOUNTAINS_RIVER_MOUNTAIN: 1
+          default-from: "RIVER_ERODE_SMALL"
+          default-to:
+            - SELF: 1
+            - RIVER: 1
+          noise:
+            type: EXPRESSION
+            equation: "if(noise(x/width, z/width) > 0,1,-1)"
+            variables:
+              width: 2.43
             functions:
               noise:
                 type: "KERNEL"
@@ -357,12 +386,13 @@ biomes:
             type: WhiteNoise
             salt: 19
 
+
       - mutate: # Erode DRY rivers. LAST STEPS ##################
           type: REPLACE_LIST
           to:
           # ROCKY MOUNTAINS ############
             ROCKY_MOUNTAINS_PLAINS:
-              - SELF: 2
+              - SELF: 3
               - ROCKY_MOUNTAINS_RIVER_DRY: 1              
           default-from: "RIVER_ERODE_DRY"
           default-to:
@@ -372,7 +402,7 @@ biomes:
             type: EXPRESSION
             equation: "if(noise(x/width, z/width) > 0, 1,-1)"
             variables:
-              width: 3.75
+              width: 5
             functions:
               noise:
                 type: "KERNEL"

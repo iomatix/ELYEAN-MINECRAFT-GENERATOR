@@ -68,32 +68,32 @@ ores:
     min: 0
     max: 4
     min-height: 0
-    max-height: 114
+    max-height: 134
   GRAVEL:
     min: 0
     max: 3
     min-height: 0
-    max-height: 144
+    max-height: 164
   DIORITE:
     min: 1
     max: 9
     min-height: 0
-    max-height: 114
+    max-height: 134
   ANDESITE:
     min: 2
     max: 8
     min-height: 0
-    max-height: 114
+    max-height: 134
   GRANITE:
     min: 3
     max: 8
     min-height: 0
-    max-height: 114
+    max-height: 134
   TUFF:
     min: 0
     max: 3
     min-height: 0
-    max-height: 24
+    max-height: 44
   COAL_ORE:
     min: 16
     max: 38
@@ -108,30 +108,30 @@ ores:
     min: 6
     max: 16
     min-height: 0
-    max-height: 92
+    max-height: 112
   GOLD_ORE:
     min: 5
     max: 22
     min-height: 1
-    max-height: 122
+    max-height: 142
   LAPIS_ORE:
     min: 2
     max: 7
     min-height: 1
-    max-height: 62
+    max-height: 82
   REDSTONE_ORE:
     min: 2
     max: 6
     min-height: 0
-    max-height: 42
+    max-height: 62
   DIAMOND_ORE:
     min: 2
     max: 8
     min-height: 1
-    max-height: 54
+    max-height: 74
   EMERALD_ORE:
     min: 1
     max: 5
     min-height: 1
-    max-height: 58
+    max-height: 78
 ## FLYING ORES

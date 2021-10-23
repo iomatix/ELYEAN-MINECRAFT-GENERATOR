@@ -1,8 +1,9 @@
-noise-equation: "((-((y / base)^2)) + 1) + |((noise2(x, z)/5))|"
+noise-equation: "((-((y / base)^2)) + 1) + ((noise2(x, z)/4.2))"
 variables:
-  base: 82
+  base: 62
 extends: "ROCKY_MOUNTAINS_ORES"
-id: "ROCKY_MOUNTAINS_RIVER_DRY"
+carving: {}
+id: "ROCKY_MOUNTAINS_RIVER"
 #color: 0x0000ff
 blend:
   distance: 1
@@ -48,8 +49,7 @@ flora:
     y:
       min: 50
       max: 63
-# Same water level as river but higher base level
 ocean:
   palette: "BLOCK:minecraft:water"
-  level: 75
-weight: 85
+  level: 66
+weight: 200

@@ -72,3 +72,81 @@ flora:
       max: 63
 carving:
   NEW_AVALONIA_CAVE_MOUNTAIN: 13
+
+extends: "NEW_AVALONIA_ORES"
+#color: 0x0000ff
+id: "NEW_AVALONIA_RIVER_MOUNTAIN"
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - DEEPSLATE: 20
+  - NEW_AVALONIA_SHORE_BOTTOM: 61
+  - NEW_AVALONIA_SHORE: 62
+  - NEW_AVALONIA_MOUNTY: 255
+vanilla: PLAINS
+blend:
+  distance: 1
+  weight: 1.25
+elevation:
+  equation: "-0.025"
+  weight: 8
+ocean:
+  palette: BLOCK:minecraft:water
+flora:
+  - density: 1
+    y:
+      min: 10
+      max: 56
+    items:
+      - GLOW_LICHEN: 1
+  - density: 62
+    simplex-frequency: 0.1
+    items:
+      - SMALL_ROCK: 1
+      - TALL_GRASS: 1
+      - GRASS: 5
+      - NEW_AVALONIA_LEAVES: 3
+    y:
+      min: 62
+      max: 180
+  - density: 8
+    items:
+      - NEW_AVALONIA_VINES: 9
+      - NEW_AVALONIA_CEILING_LEAVES: 5
+      - STALACTITE: 3
+      - SHROOMLIGHT: 3
+    y:
+      min: 62
+      max: 84
+  - density: 3.25
+    items:
+      - NEW_AVALONIA_SIMPLE_CEILING_LIGHTS_MNT: 1
+      - NEW_AVALONIA_SIMPLE_CEILING_BLOSSOM_FLOWER: 3
+    y:
+      min: 62
+      max: 84
+  - density: 5
+    y:
+      min: 62
+      max: 80
+    items:
+      - SUGARCANE: 2
+      - LILY_PAD: 1
+  - density: 50
+    items:
+      - SEAGRASS: 55
+      - TALL_SEAGRASS: 25
+      - KELP_SHORT: 3
+      - KELP_MEDIUM: 3
+      - KELP_TALL: 3
+      - CORAL: 1
+      - CORAL_FAN: 2
+      - DRIPLEAF: 1
+      - SEA_PICKLE: 3
+    y:
+      min: 50
+      max: 63
+carving:
+  NEW_AVALONIA_CAVE_MOUNTAIN: 13

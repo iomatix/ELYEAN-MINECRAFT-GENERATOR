@@ -1,0 +1,28 @@
+extends: "ROCKY_MOUNTAINS_MNT_SHAPE_A"
+id: "ROCKY_MOUNTAINS_MOUNTAINS"
+erode: ROCKY_MOUNTAINS_RIVER
+#color: 0x507050
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - DEEPSLATE: 20
+  - GREEN_VALLEY_SHORE_BOTTOM: 61
+  - GREEN_VALLEY_SHORE: 62
+  - GREEN_VALLEY_MOUNTY: 255
+vanilla: PLAINS
+blend:
+  distance: 1
+ocean:
+  palette: BLOCK:minecraft:water
+  level: 72
+tags:
+  - "LAND"
+flora:
+  - density: 0.059
+    items:
+      - WATER_SPRING: 1
+    y:
+      min: 58
+      max: 180
