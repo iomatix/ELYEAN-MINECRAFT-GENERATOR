@@ -28,6 +28,7 @@
 ### Arthindar Rocky Mountains
 ![01](_images/Rocky_Mountains/01.png)
 ![02](_images/Rocky_Mountains/02.png)
+![03](_images/Rocky_Mountains/03.png)
 
 ### Arthindar Duchy of the Liyndel
 

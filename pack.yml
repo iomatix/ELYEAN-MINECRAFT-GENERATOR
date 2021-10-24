@@ -151,8 +151,8 @@ biomes:
           from: "BIOME:ARTHINDAR_OCEAN_DEEP"
           to:
           #  - NEW_AVALONIA_PLAINS: 20
-            - GREEN_VALLEY_PLAINS: 20
-          #  - ROCKY_MOUNTAINS_PLAINS: 20
+          #  - GREEN_VALLEY_PLAINS: 20
+            - ROCKY_MOUNTAINS_PLAINS: 20
           noise: &biome-distribute
             type: FBm
             function:
@@ -282,8 +282,8 @@ biomes:
           type: REPLACE
           from: "BIOME:ROCKY_MOUNTAINS_PLAINS"
           to:
-            - ROCKY_MOUNTAINS_PLAINS: 20
-            - ROCKY_MOUNTAINS_FOREST: 10
+            - ROCKY_MOUNTAINS_PLAINS: 10
+            - ROCKY_MOUNTAINS_FOREST: 15
           noise: *forest-distribute
 
 
