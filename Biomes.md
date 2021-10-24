@@ -21,9 +21,9 @@
 ![03](_images/New_Avalonia/03.png)
 
 ### Arthindar Green Valley
-![01](_images/Green_Valley/01.gif)
-![02](_images/Green_Valley/02.gif)
-![03](_images/Green_Valley/03.gif)
+![01](_images/Green_Valley/01.png)
+![02](_images/Green_Valley/02.png)
+![03](_images/Green_Valley/03.png)
 
 ### Arthindar Rocky Mountains
 ![01](_images/Rocky_Mountains/01.png)
