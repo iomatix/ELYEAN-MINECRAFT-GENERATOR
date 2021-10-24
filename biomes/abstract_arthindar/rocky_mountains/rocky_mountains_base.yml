@@ -1,7 +1,5 @@
-noise-equation: "((-((y / base)^2)) + 1) + |(noise2(x, z) / 4.33) + 0.37|"
+noise-equation: "((-((y / base)^2)) + 1) + |(noise2(x, z) / 5.15) + 0.59|"
 id: "ROCKY_MOUNTAINS_BASE"
-variables:
-  base: 73
 abstract: true
 extends: ROCKY_MOUNTAINS_ORES
 erode: ROCKY_MOUNTAINS_RIVER

@@ -8,15 +8,12 @@ palette:
   - BEDROCK_HALF: 2
   - BEDROCK_LITTLE: 3
   - DEEPSLATE: 20
-  - GREEN_VALLEY_SHORE_BOTTOM: 61
-  - GREEN_VALLEY_SHORE: 62
-  - GREEN_VALLEY_MOUNTY: 255
+  - ROCKY_MOUNTAINS_SHORE_BOTTOM: 61
+  - ROCKY_MOUNTAINS_SHORE: 64
+  - ROCKY_MOUNTAINS_MOUNTY: 255
 vanilla: PLAINS
 blend:
   distance: 1
-ocean:
-  palette: BLOCK:minecraft:water
-  level: 72
 tags:
   - "LAND"
 flora:
@@ -26,3 +23,34 @@ flora:
     y:
       min: 58
       max: 180
+  - density: 1
+    y:
+      min: 10
+      max: 79
+    items:
+      - GLOW_LICHEN: 1
+  - density: 0.13
+    y:
+      min: 63
+      max: 120
+    items:
+      - ALLIUM: 12
+      - DANDELION: 2
+      - AZURE_BLUET: 10
+      - OXEYE_DAISY: 6
+      - POPPY: 4
+      - GRASS: 2
+  - density: 12
+    y:
+      min: 62
+      max: 133
+    items:
+      - TALL_GRASS: 100
+      - GRASS: 500
+      - AZURE_BLUET: 3
+  - density: 0.79
+    y:
+      min: 71
+      max: 93
+    items:
+      - LILY_OF_THE_VALLEY: 3

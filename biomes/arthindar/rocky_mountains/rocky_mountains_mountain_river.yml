@@ -8,22 +8,22 @@ palette:
   - BEDROCK_HALF: 2
   - BEDROCK_LITTLE: 3
   - DEEPSLATE: 20
-  - NEW_AVALONIA_SHORE_BOTTOM: 61
-  - NEW_AVALONIA_SHORE: 62
-  - NEW_AVALONIA_MOUNTY: 255
+  - ROCKY_MOUNTAINS_SHORE_BOTTOM: 61
+  - ROCKY_MOUNTAINS_SHORE: 64
+  - ROCKY_MOUNTAINS_MOUNTY: 255
 vanilla: RIVER
 blend:
   distance: 1
-ocean:
-  palette: BLOCK:minecraft:water
-  level: 72 # Mountain River water Level
+#ocean:
+#  palette: BLOCK:minecraft:air
+#  level: 72 # Mountain River water Level
 variables:
   base: 70
 flora:
-  - density: 0.001
+  - density: 12
     y:
-      min: 85
-      max: 92
+      min: 70
+      max: 72
     items:
       - WATER_SPRING: 1
   - density: 0.001
@@ -32,57 +32,24 @@ flora:
       max: 92
     items:
       - WATER_SPRING: 1
-  - density: 1
+  - density: 3
     y:
       min: 10
-      max: 56
+      max: 79
     items:
       - GLOW_LICHEN: 1
-  - density: 62
-    simplex-frequency: 0.1
-    items:
-      - SMALL_ROCK: 1
-      - TALL_GRASS: 1
-      - GRASS: 5
-      - NEW_AVALONIA_LEAVES: 3
+  - density: 12
     y:
       min: 62
-      max: 180
-  - density: 8
+      max: 133
     items:
-      - NEW_AVALONIA_VINES: 9
-      - NEW_AVALONIA_CEILING_LEAVES: 5
-      - STALACTITE: 3
-      - SHROOMLIGHT: 3
+      - TALL_GRASS: 100
+      - GRASS: 500
+      - AZURE_BLUET: 3
+  - density: 0.79
     y:
-      min: 62
-      max: 84
-  - density: 3.25
+      min: 71
+      max: 93
     items:
-      - NEW_AVALONIA_SIMPLE_CEILING_LIGHTS_MNT: 1
-      - NEW_AVALONIA_SIMPLE_CEILING_BLOSSOM_FLOWER: 3
-    y:
-      min: 62
-      max: 84
-  - density: 5
-    y:
-      min: 62
-      max: 80
-    items:
-      - SUGARCANE: 2
-      - LILY_PAD: 1
-  - density: 50
-    items:
-      - SEAGRASS: 55
-      - TALL_SEAGRASS: 25
-      - KELP_SHORT: 3
-      - KELP_MEDIUM: 3
-      - KELP_TALL: 3
-      - CORAL: 1
-      - CORAL_FAN: 2
-      - DRIPLEAF: 1
-      - SEA_PICKLE: 3
-    y:
-      min: 50
-      max: 63
+      - LILY_OF_THE_VALLEY: 3
 carving: {}

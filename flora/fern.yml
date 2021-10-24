@@ -1,0 +1,14 @@
+layers:
+  - materials:
+      - "minecraft:fern": 1
+    layers: 1
+id: "FERN"
+spawnable:
+  - "minecraft:moss_block"
+  - "minecraft:mossy_cobblestone"
+  - "minecraft:dirt"
+  - "minecraft:grass_block"
+replaceable:
+  - "minecraft:air"
+irrigable:
+  - "minecraft:water"

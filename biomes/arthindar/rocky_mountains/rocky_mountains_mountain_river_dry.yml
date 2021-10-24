@@ -1,7 +1,7 @@
-noise-equation: "((-((y / base)^2)) + 1) + ((noise2(x, z)+0.5) / 5) + max(abs(noise2(x/3, z/3)*4), 0) - (if(max(y-base + ((noise2(x/2, z/2)+0.5) / 3)*3,0), if(max(y-(base+18),0), 0, (max(abs(noise2(x/3, z/3)*3), 0)) + 1) * (1.25-((y-base)/18)), 0))"
+noise-equation: "((-((y / base)^2)) + 1) + ((noise2(x, z)+0.57) / 3) + max(abs(noise2(x/2, z/2)*4), 0) - (if(max((y-base+2) + ((noise2(x, z)+0.3) / 3)*10,0), if(max(y-(base+18),0), 0, (max(abs(noise2(x/2, z/2)*4), 0)) + 1) * (1.25-((y-base+2)/18)), 0))"
 extends: "ROCKY_MOUNTAINS_ORES"
 #color: 0x0000ff
-id: "ROCKY_MOUNTAINS_RIVER_MOUNTAIN_HIGH"
+id: "ROCKY_MOUNTAINS_RIVER_MOUNTAIN_DRY"
 palette:
   - "BLOCK:minecraft:bedrock": 0
   - BEDROCK_MOST: 1
@@ -10,27 +10,32 @@ palette:
   - DEEPSLATE: 20
   - ROCKY_MOUNTAINS_SHORE_BOTTOM: 61
   - ROCKY_MOUNTAINS_SHORE: 64
-  - ROCKY_MOUNTAINS_MOUNTY: 126
-  - ROCKY_MOUNTAINS_MOUNTY_HIGH: 255
-vanilla: MOUNTAINS
+  - ROCKY_MOUNTAINS_MOUNTY: 255
+vanilla: RIVER
 blend:
   distance: 1
 #ocean:
 #  palette: BLOCK:minecraft:air
-#  level: 91
+#  level: 72 # Mountain River water Level
 variables:
-  base: 90
+  base: 70
 flora:
-  - density: 7
+  - density: 12
     y:
-      min: 90
-      max: 91
+      min: 70
+      max: 72
+    items:
+      - WATER_SPRING: 1
+  - density: 0.001
+    y:
+      min: 85
+      max: 92
     items:
       - WATER_SPRING: 1
   - density: 3
     y:
       min: 10
-      max: 89
+      max: 79
     items:
       - GLOW_LICHEN: 1
   - density: 12

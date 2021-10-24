@@ -1,0 +1,54 @@
+layers:
+  - materials:
+      - "minecraft:mossy_cobblestone": 50
+      - "minecraft:stone": 30
+      - "minecraft:andesite": 7
+      - "minecraft:diorite": 5
+      - "minecraft:granite": 3
+      - "minecraft:gravel": 6
+      - "minecraft:grass_block": 30
+      - "minecraft:dirt": 20
+      - "minecraft:sand": 10
+      - "minecraft:gold_ore": 2
+      - "minecraft:raw_gold_block": 1
+      - "minecraft:iron_ore": 4
+      - "minecraft:raw_iron_block": 2
+      - "minecraft:glowstone": 1
+      - "minecraft:clay": 3
+    layers: 2
+  - materials:
+      - "minecraft:mossy_cobblestone": 25
+      - "minecraft:cobblestone": 35
+      - "minecraft:stone": 20
+      - "minecraft:andesite": 5
+      - "minecraft:diorite": 4
+      - "minecraft:granite": 2
+      - "minecraft:gravel": 6
+      - "minecraft:dirt": 50
+      - "minecraft:sand": 20
+      - "minecraft:gold_ore": 3
+      - "minecraft:raw_gold_block": 2
+      - "minecraft:iron_ore": 4
+      - "minecraft:raw_iron_block": 2
+    layers: 1
+  - materials:
+      - "minecraft:cobblestone": 68
+      - "minecraft:stone": 48
+      - "minecraft:andesite": 6
+      - "minecraft:diorite": 5
+      - "minecraft:granite": 3
+      - "minecraft:gold_ore": 2
+      - "minecraft:raw_gold_block": 1
+      - "minecraft:iron_ore": 6
+      - "minecraft:raw_iron_block": 3
+    layers: 1
+id: "ROCKY_MOUNTAINS_SHORE_BOTTOM"
+noise:
+  type: DomainWarp
+  amplitude: 1.5
+  warp:
+    type: WhiteNoise
+  function:
+    type: OpenSimplex2
+    frequency: 0.05
+    salt: 3

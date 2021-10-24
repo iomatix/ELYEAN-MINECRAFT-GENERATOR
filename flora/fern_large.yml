@@ -1,0 +1,17 @@
+layers:
+  - materials:
+      - "minecraft:large_fern[half=upper]": 1
+    layers: 1
+  - materials:
+      - "minecraft:large_fern[half=lower]": 1
+    layers: 1
+id: "FERN_LARGE"
+spawnable:
+  - "minecraft:moss_block"
+  - "minecraft:mossy_cobblestone"
+  - "minecraft:dirt"
+  - "minecraft:grass_block"
+replaceable:
+  - "minecraft:air"
+irrigable:
+  - "minecraft:water"

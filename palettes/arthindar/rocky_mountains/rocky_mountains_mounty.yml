@@ -1,0 +1,31 @@
+layers:
+  - materials:
+      - "minecraft:stone": 55
+      - "minecraft:andesite": 25
+      - "minecraft:diorite": 15
+      - "minecraft:granite": 1
+      - "minecraft:iron_ore": 4
+      - "minecraft:dirt": 25
+      - "minecraft:grass_block": 125
+    layers: 1
+  - materials:
+      - "minecraft:stone": 87
+      - "minecraft:andesite": 20
+      - "minecraft:diorite": 17
+      - "minecraft:granite": 3
+      - "minecraft:iron_ore": 6
+      - "minecraft:dirt": 35
+    layers: 2
+  - materials:
+      - "minecraft:stone": 85
+      - "minecraft:andesite": 15
+      - "minecraft:diorite": 5
+      - "minecraft:granite": 5
+      - "minecraft:iron_ore": 1
+      - "minecraft:dirt": 25
+    layers: 1
+id: "ROCKY_MOUNTAINS_MOUNTY"
+noise:
+  type: OpenSimplex2
+  frequency: 0.031
+  salt: 3

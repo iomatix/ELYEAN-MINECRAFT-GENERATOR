@@ -1,0 +1,23 @@
+layers:
+  - materials:
+      - "minecraft:grass_block": 1
+    layers: 1
+  - materials: "minecraft:dirt"
+    layers: 2
+  - materials:
+      - "minecraft:stone": 45
+      - "minecraft:andesite": 35
+      - "minecraft:diorite": 35
+      - "minecraft:granite": 2
+      - "minecraft:deepslate": 3
+      - "minecraft:raw_iron_block": 2
+    layers: 2
+  - materials:
+      - "minecraft:stone": 75
+      - "minecraft:andesite": 25
+      - "minecraft:diorite": 15
+      - "minecraft:granite": 5
+      - "minecraft:deepslate": 8
+      - "minecraft:raw_iron_block": 6
+    layers: 2
+id: "ROCKY_MOUNTAINS_GRASSY"

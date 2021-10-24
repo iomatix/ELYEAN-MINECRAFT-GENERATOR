@@ -148,3 +148,5 @@ trees:
       min: 80
       max: 140
 # Carving and ores covered by super biome
+blend:
+  distance: 3

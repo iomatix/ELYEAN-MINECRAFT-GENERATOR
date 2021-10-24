@@ -1,4 +1,4 @@
-noise-equation: "((-((y / base)^2)) + 1) + |((noise2(x, z)+0.63) / 5.79)| + abs(noise2(x/4.25, z/4.25)*1.31)"
+noise-equation: "((-((y / base)^2)) + 1) + |((noise2(x, z)+0.53) / 4.22)| + abs(noise2(x/2.69, z/2.69)*1.26)"
 variables:
   base: 87
 id: "ROCKY_MOUNTAINS_MNT_SHAPE_A"

@@ -1,6 +1,6 @@
 id: Elyean
 author: iomatix
-version: 0.3.2
+version: 0.3.5
 
 structures:
   locatable:
@@ -275,7 +275,7 @@ biomes:
           from: "BIOME:ROCKY_MOUNTAINS_MOUNTAINS"
           to:
             - ROCKY_MOUNTAINS_MOUNTAINS: 15
-            #- ROCKY_MOUNTAINS_MOUNTAINS_HIGH: 8
+            - ROCKY_MOUNTAINS_MOUNTAINS_HIGH: 7
           noise: *mountain-distribute
 
 
@@ -326,10 +326,10 @@ biomes:
                       type: DOMAINWARP
                       function:
                         type: OPENSIMPLEX2
-                        frequency: 0.038
+                        frequency: 0.03
                       warp:
                         type: OPENSIMPLEX2
-                        frequency: 0.085
+                        frequency: 0.075
                       amplitude: 3
                 kernel:
                   - [-1, -1, -1]
@@ -366,34 +366,30 @@ biomes:
                       type: DOMAINWARP
                       function:
                         type: OPENSIMPLEX2
-                        frequency: 0.038
+                        frequency: 0.05
                       warp:
                         type: OPENSIMPLEX2
                         frequency: 0.085
-                      amplitude: 3
+                      amplitude: 2.5
                 kernel:
                   - [-1, -1, -1]
                   - [-1, 8, -1]
                   - [-1, -1, -1]
-      - mutate:
-          type: SMOOTH
-          noise:
-            type: WhiteNoise
-            salt: 18
-      - mutate:
-          type: SMOOTH
-          noise:
-            type: WhiteNoise
-            salt: 19
 
 
       - mutate: # Erode DRY rivers. LAST STEPS ##################
           type: REPLACE_LIST
           to:
           # ROCKY MOUNTAINS ############
+            ROCKY_MOUNTAINS_RIVER_MOUNTAIN_HIGH:
+              - SELF: 7
+              - ROCKY_MOUNTAINS_RIVER_MOUNTAIN_HIGH_DRY: 4
+            ROCKY_MOUNTAINS_RIVER_MOUNTAIN:
+              - SELF: 7
+              - ROCKY_MOUNTAINS_RIVER_MOUNTAIN_DRY: 4 
             ROCKY_MOUNTAINS_PLAINS:
-              - SELF: 3
-              - ROCKY_MOUNTAINS_RIVER_DRY: 1              
+              - SELF: 7
+              - ROCKY_MOUNTAINS_RIVER_DRY: 4 
           default-from: "RIVER_ERODE_DRY"
           default-to:
             - SELF: 1
@@ -414,12 +410,22 @@ biomes:
                       type: DOMAINWARP
                       function:
                         type: OPENSIMPLEX2
-                        frequency: 0.038
+                        frequency: 0.025
                       warp:
                         type: OPENSIMPLEX2
-                        frequency: 0.085
-                      amplitude: 2.5
+                        frequency: 0.028
+                      amplitude: 1.75
                 kernel:
                   - [-1, -1, -1]
                   - [-1, 8, -1]
                   - [-1, -1, -1]
+      - mutate:
+          type: SMOOTH
+          noise:
+            type: WhiteNoise
+            salt: 18
+      - mutate:
+          type: SMOOTH
+          noise:
+            type: WhiteNoise
+            salt: 19
