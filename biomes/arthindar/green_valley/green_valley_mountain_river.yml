@@ -90,6 +90,14 @@ flora:
     y:
       min: 58
       max: 180
+
+  - density: 0.37
+    y:
+      min: 10
+      max: 82
+    items:
+      - CAVE_VINES: 1
+
 carving:
   GREEN_VALLEY_AIR_MAGIC_STONES: 1
   GREEN_VALLEY_AIR_MAGIC_STONES_GROUND: 5

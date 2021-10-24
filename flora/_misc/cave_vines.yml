@@ -1,0 +1,39 @@
+layers:
+  - materials:
+      - "minecraft:cave_vines_plant[berries=true]": 4
+      - "minecraft:cave_vines_plant[berries=false]": 3
+    layers: 1
+  - materials:
+      - "minecraft:cave_vines_plant[berries=true]": 3
+      - "minecraft:cave_vines_plant[berries=false]": 4
+    layers: 1
+  - materials:
+      - "minecraft:cave_vines_plant[berries=true]": 2
+      - "minecraft:cave_vines_plant[berries=false]": 5
+    layers: 1
+  - materials:
+      - "minecraft:cave_vines_plant[berries=true]": 1
+      - "minecraft:cave_vines_plant[berries=false]": 1
+      - "minecraft:air": 10
+    layers: 1
+id: "CAVE_VINES"
+ceiling: true
+irrigable:
+  - "minecraft:stone"
+  - "minecraft:mossy_cobblestone"
+  - "minecraft:cobblestone"
+  - "minecraft:diorite"
+  - "minecraft:andesite"
+  - "minecraft:granite"
+  - "minecraft:cave_vines_plant"
+spawnable:
+  - "minecraft:stone"
+  - "minecraft:mossy_cobblestone"
+  - "minecraft:cobblestone"
+  - "minecraft:diorite"
+  - "minecraft:andesite"
+  - "minecraft:granite"
+  - "minecraft:cave_vines_plant"
+replaceable:
+  - "minecraft:air"
+  - "minecraft:stone_slab"

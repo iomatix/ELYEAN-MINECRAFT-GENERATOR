@@ -64,5 +64,12 @@ flora:
       max: 88
     items:
       - LILY_OF_THE_VALLEY: 3
+
+  - density: 0.37
+    y:
+      min: 10
+      max: 62
+    items:
+      - CAVE_VINES: 1
 # Same water level as river but higher base level
 weight: 200

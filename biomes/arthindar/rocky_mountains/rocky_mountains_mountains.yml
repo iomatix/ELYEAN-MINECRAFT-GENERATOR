@@ -54,3 +54,21 @@ flora:
       max: 93
     items:
       - LILY_OF_THE_VALLEY: 3
+  - density: 58
+    simplex-frequency: 0.1
+    items:
+      - SMALL_ROCK: 1
+      - TALL_GRASS: 1
+      - GRASS: 3
+      - ROCKY_MOUNTAINS_LEAVES: 3
+    y:
+      min: 62
+      max: 180
+
+  - density: 0.37
+    y:
+      min: 10
+      max: 72
+    items:
+      - CAVE_VINES: 10
+      - CAVE_VINES_LARGE: 3

@@ -148,5 +148,12 @@ flora:
     y:
       min: 50
       max: 63
+
+  - density: 0.37
+    y:
+      min: 10
+      max: 82
+    items:
+      - CAVE_VINES: 1
 carving:
   NEW_AVALONIA_CAVE_MOUNTAIN: 13

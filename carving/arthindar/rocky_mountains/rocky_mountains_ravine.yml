@@ -1,7 +1,7 @@
-id: "NEW_AVALONIA_RAVINE"
+id: "ROCKY_MOUNTAINS_RAVINE"
 length:
-  min: 20
-  max: 120
+  min: 18
+  max: 145
 start:
   x: 1
   y: 0.015
@@ -12,15 +12,15 @@ start:
     z: "(rand(x, y, z) + 2)/3.2 * (-8*(|position-length/2|/length) + 8)"
   height:
     min: 15
-    max: 78
+    max: 80
 cut:
-  top: 8
-  bottom: 5
+  top: 7
+  bottom: 4
 mutate:
-  x: 1.2
-  y: 1.35
-  z: 1.2
-  radius: 0.274
+  x: 1.15
+  y: 1.25
+  z: 1.15
+  radius: 0.289
 palette:
   inner:
     replace-blacklist: true
@@ -30,12 +30,13 @@ palette:
       - "minecraft:lava"
       - "minecraft:bedrock"
       - "minecraft:ice"
-      - "minecraft:azalea_leaves"
-      - "minecraft:flowering_azalea_leaves"
       - "minecraft:oak_leaves"
-      - "minecraft:birch_leaves"
+      - "minecraft:flowering_azalea_leaves"
+      - "minecraft:dark_oak_leaves"
+      - "minecraft:spruce_leaves"
       - "minecraft:acacia_leaves"
       - "minecraft:jungle_leaves"
+      - "minecraft:azalea_leaves"
     layers:
       - materials: { "minecraft:air": 1 }
         y: 255
@@ -47,20 +48,22 @@ palette:
     layers:
       - materials:
           {
-            "minecraft:stone": 8,
-            "minecraft:diorite": 4,
-            "minecraft:cobblestone": 6,
+            "minecraft:stone": 16,
+            "minecraft:andesite": 8,
+            "minecraft:cobblestone": 10,
             "minecraft:granite": 2,
-            "minecraft:shroomlight": 1,
+            "minecraft:deepslate": 2,
+            "minecraft:glowstone": 1,
           }
         y: 255
       - materials:
           {
-            "minecraft:stone": 11,
-            "minecraft:diorite": 2,
-            "minecraft:cobblestone": 5,
-            "minecraft:granite": 3,
-            "minecraft:shroomlight": 1,
+            "minecraft:stone": 19,
+            "minecraft:andesite": 7,
+            "minecraft:cobblestone": 10,
+            "minecraft:granite": 2,
+            "minecraft:deepslate": 3,
+            "minecraft:glowstone": 1,
           }
         y: 59
       - materials:
@@ -77,20 +80,22 @@ palette:
     layers:
       - materials:
           {
-            "minecraft:stone": 8,
-            "minecraft:diorite": 4,
-            "minecraft:cobblestone": 6,
+            "minecraft:stone": 19,
+            "minecraft:andesite": 7,
+            "minecraft:cobblestone": 10,
             "minecraft:granite": 2,
-            "minecraft:shroomlight": 1,
+            "minecraft:deepslate": 3,
+            "minecraft:glowstone": 1,
           }
         y: 255
       - materials:
           {
-            "minecraft:stone": 10,
-            "minecraft:diorite": 2,
-            "minecraft:cobblestone": 6,
-            "minecraft:granite": 3,
-            "minecraft:shroomlight": 1,
+            "minecraft:stone": 19,
+            "minecraft:andesite": 7,
+            "minecraft:cobblestone": 10,
+            "minecraft:granite": 2,
+            "minecraft:deepslate": 3,
+            "minecraft:glowstone": 1,
           }
         y: 59
       - materials:
@@ -108,19 +113,21 @@ palette:
     layers:
       - materials:
           {
-            "minecraft:stone": 8,
-            "minecraft:diorite": 4,
-            "minecraft:cobblestone": 6,
+            "minecraft:stone": 19,
+            "minecraft:andesite": 7,
+            "minecraft:cobblestone": 10,
             "minecraft:granite": 2,
+            "minecraft:deepslate": 3,
             "minecraft:shroomlight": 1,
           }
         y: 255
       - materials:
           {
-            "minecraft:stone": 11,
-            "minecraft:diorite": 2,
-            "minecraft:cobblestone": 6,
-            "minecraft:granite": 3,
+            "minecraft:stone": 19,
+            "minecraft:andesite": 7,
+            "minecraft:cobblestone": 10,
+            "minecraft:granite": 2,
+            "minecraft:deepslate": 3,
             "minecraft:shroomlight": 1,
           }
         y: 59

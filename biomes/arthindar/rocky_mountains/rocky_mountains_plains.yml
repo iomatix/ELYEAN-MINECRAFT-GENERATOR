@@ -91,6 +91,14 @@ flora:
     y:
       min: 58
       max: 70
+      
+  - density: 0.37
+    y:
+      min: 10
+      max: 62
+    items:
+      - CAVE_VINES: 1
+      
 
 trees:
   - density: 0.012
@@ -102,7 +110,7 @@ trees:
   - density: 0.137
     items:
       - SPRUCE: 8
-      - BIRCH: 3
+      - GRAY_OAK: 3
       - OAK: 2
       - DARK_OAK: 1
     y:

@@ -1,0 +1,157 @@
+id: ROCKY_MOUNTAINS_AIR_MAGIC_STONES_GROUND
+extends: ROCKY_MOUNTAINS_CAVE_ABSTRACT_AIR_GROUND
+palette:
+  inner:
+    replace-blacklist: true
+    replace:
+      - "minecraft:bedrock"
+      - "minecraft:ice"
+      - "minecraft:granite"
+      - "minecraft:oak_leaves"
+      - "minecraft:flowering_azalea_leaves"
+      - "minecraft:dark_oak_leaves"
+      - "minecraft:spruce_leaves"
+      - "minecraft:acacia_leaves"
+      - "minecraft:jungle_leaves"
+      - "minecraft:azalea_leaves"
+    layers:
+      - materials: { "minecraft:air": 1 }
+        y: 255
+      - materials:
+          {
+            "minecraft:air": 58,
+            "minecraft:granite": 8,
+            "minecraft:spruce_leaves[persistent=true]": 17,
+            "minecraft:acacia_leaves[persistent=true]": 14,
+            "minecraft:oak_leaves[persistent=true]": 12,
+            "minecraft:andesite": 75,
+            "minecraft:granite": 65,
+            "minecraft:stone": 45,
+            "minecraft:cobblestone": 15,
+            "minecraft:glowstone": 3,
+            "minecraft:iron_ore": 2,
+            "minecraft:coal_ore": 3,
+            "minecraft:gold_ore": 1,
+            "minecraft:copper_ore": 1,
+          }
+        y: 121
+      - materials:
+          {
+            "minecraft:air": 78,
+            "minecraft:granite": 8,
+            "minecraft:spruce_leaves[persistent=true]": 17,
+            "minecraft:acacia_leaves[persistent=true]": 14,
+            "minecraft:oak_leaves[persistent=true]": 12,
+            "minecraft:andesite": 95,
+            "minecraft:granite": 75,
+            "minecraft:stone": 45,
+            "minecraft:cobblestone": 15,
+            "minecraft:clay": 27,
+            "minecraft:grass_block": 36,
+            "minecraft:dirt": 12,
+            "minecraft:glowstone": 2,
+            "minecraft:iron_ore": 2,
+            "minecraft:coal_ore": 3,
+            "minecraft:gold_ore": 1,
+            "minecraft:copper_ore": 1,
+          }
+        y: 60
+      - materials:
+          {
+            "minecraft:air": 39,
+            "minecraft:granite": 8,
+            "minecraft:spruce_leaves[persistent=true]": 17,
+            "minecraft:acacia_leaves[persistent=true]": 14,
+            "minecraft:oak_leaves[persistent=true]": 12,
+            "minecraft:andesite": 105,
+            "minecraft:granite": 85,
+            "minecraft:stone": 45,
+            "minecraft:cobblestone": 15,
+            "minecraft:clay": 35,
+            "minecraft:grass_block": 35,
+            "minecraft:dirt": 21,
+            "minecraft:glowstone": 1,
+            "minecraft:iron_ore": 1,
+            "minecraft:gold_ore": 1,
+            "minecraft:coal_ore": 2,
+            "minecraft:copper_ore": 1,
+          }
+        y: 59
+      - materials:
+          {
+            "minecraft:air": 120,
+            "minecraft:granite": 8,
+            "minecraft:spruce_leaves[persistent=true]": 17,
+            "minecraft:acacia_leaves[persistent=true]": 14,
+            "minecraft:oak_leaves[persistent=true]": 12,
+            "minecraft:andesite": 85,
+            "minecraft:granite": 65,
+            "minecraft:calcite": 125,
+            "minecraft:clay": 55,
+            "minecraft:grass_block": 45,
+            "minecraft:stone": 20,
+            "minecraft:dirt": 10,
+            "minecraft:glowstone": 1,
+            "minecraft:iron_ore": 1,
+            "minecraft:gold_ore": 1,
+            "minecraft:coal_ore": 2,
+            "minecraft:copper_ore": 1,
+          }
+        y: 55
+  outer:
+    replace-blacklist: false
+    replace: []
+    layers:
+      - materials:
+          {
+            "minecraft:air": 2,
+            "minecraft:granite": 4,
+            "minecraft:spruce_leaves[persistent=true]": 17,
+            "minecraft:acacia_leaves[persistent=true]": 14,
+            "minecraft:oak_leaves[persistent=true]": 12,
+            "minecraft:andesite": 25,
+            "minecraft:granite": 15,
+            "minecraft:stone": 45,
+            "minecraft:cobblestone": 15,
+            "minecraft:clay": 15,
+            "minecraft:grass_block": 15,
+            "minecraft:glowstone": 1
+          }
+        y: 255
+  top:
+    replace-blacklist: false
+    replace: []
+    layers:
+      - materials:
+          {
+            "minecraft:air": 2,
+            "minecraft:granite": 7,
+            "minecraft:spruce_leaves[persistent=true]": 17,
+            "minecraft:acacia_leaves[persistent=true]": 14,
+            "minecraft:oak_leaves[persistent=true]": 12,
+            "minecraft:andesite": 25,
+            "minecraft:granite": 15,
+            "minecraft:stone": 45,
+            "minecraft:cobblestone": 15,
+            "minecraft:clay": 15,
+            "minecraft:grass_block": 15,
+            "minecraft:calcite": 45
+          }
+        y: 255
+  bottom:
+    replace-blacklist: false
+    replace: []
+    layers:
+      - materials:
+          {
+            "minecraft:granite": 7,
+            "minecraft:spruce_leaves[persistent=true]": 17,
+            "minecraft:acacia_leaves[persistent=true]": 14,
+            "minecraft:oak_leaves[persistent=true]": 12,
+            "minecraft:andesite": 25,
+            "minecraft:granite": 15,
+            "minecraft:stone": 45,
+            "minecraft:cobblestone": 15,
+            "minecraft:glowstone": 1
+          }
+        y: 255

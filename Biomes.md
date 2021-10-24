@@ -26,6 +26,8 @@
 ![03](_images/Green_Valley/03.gif)
 
 ### Arthindar Rocky Mountains
+![01](_images/Rocky_Mountains/01.png)
+![02](_images/Rocky_Mountains/02.png)
 
 ### Arthindar Duchy of the Liyndel
 

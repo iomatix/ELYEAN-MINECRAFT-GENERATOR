@@ -5,4 +5,3 @@ id: "ROCKY_MOUNTAINS_MNT_SHAPE_A"
 abstract: true
 extends: ROCKY_MOUNTAINS_BASE
 erode: ROCKY_MOUNTAINS_RIVER_MOUNTAIN
-carving: {}

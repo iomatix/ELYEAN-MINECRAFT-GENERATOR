@@ -1,0 +1,38 @@
+abstract: true
+id: ROCKY_MOUNTAINS_CAVE_ABSTRACT
+physics: true
+step: 4
+recalculate-direction:
+  min: 1
+  max: 8
+length:
+  min: 60
+  max: 240
+start:
+  x: 1
+  y: 0.35
+  z: 1
+  radius:
+    x: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*5, (z+position)*3.3)"
+    y: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*5, (z+position)*4.5)"
+    z: "(((rand(x, y, z)+1)/2) * 1.5)+2 + noise2(x*5, (z+position)*3.3)"
+  height:
+    min: 6
+    max: 84
+cut:
+  top: 2
+  bottom: 3
+mutate:
+  x: 2
+  y: 3
+  z: 2
+  radius: 0.336
+shift:
+  "minecraft:grass_block": ["minecraft:dirt"]
+  "minecraft:mycelium": ["minecraft:dirt"]
+  "minecraft:podzol": ["minecraft:dirt"]
+  "minecraft:gravel": ["minecraft:dirt"]
+  "minecraft:sand": ["minecraft:dirt"]
+  "minecraft:coarse_dirt": ["minecraft:dirt"]
+
+update: ["minecraft:water", "minecraft:lava"]

@@ -109,6 +109,13 @@ flora:
       min: 58
       max: 125
 
+  - density: 0.37
+    y:
+      min: 10
+      max: 62
+    items:
+      - CAVE_VINES: 1
+      
 trees:
   - density: 0.02
     items:

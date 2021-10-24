@@ -1,0 +1,74 @@
+extends: "ROCKY_MOUNTAINS_FOREST_ABSTRACT"
+id: "ROCKY_MOUNTAINS_FOREST"
+#color: 0x056621
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - DEEPSLATE: 20
+  - ROCKY_MOUNTAINS_SHORE_BOTTOM: 61
+  - ROCKY_MOUNTAINS_SHORE: 62
+  - ROCKY_MOUNTAINS_GRASSY: 255
+vanilla: FOREST
+tags:
+  - "LAND"
+  - "RIVER_ERODE"
+flora:
+  - density: 1
+    y:
+      min: 10
+      max: 80
+    items:
+      - GLOW_LICHEN: 1
+  - density: 0.57
+    y:
+      min: 68
+      max: 92
+    items:
+      - SWEET_BERRIES: 4
+      - BROWN_MUSHROOM: 6
+      - RED_MUSHROOM: 3
+      - AZURE_BLUET: 1
+  - density: 37.98
+    y:
+      min: 62
+      max: 84
+    items:
+      - TALL_GRASS: 200
+      - GRASS: 850
+      - ROSE_BUSH: 7
+      - AZURE_BLUET: 15
+      - ROCKY_MOUNTAINS_LEAVES: 250
+      - SHROOMLIGHT: 1
+  - density: 0.027
+    items:
+      - WATER_SPRING: 1
+    y:
+      min: 66
+      max: 144
+
+  - density: 0.37
+    y:
+      min: 10
+      max: 62
+    items:
+      - CAVE_VINES: 1
+
+trees:
+  - density: 0.75
+    items:
+      - DRIPSTONE: 9
+      - GEODE: 1
+    y:
+      min: 48
+      max: 52
+  - density: 10.73
+    items:
+      - SPRUCE: 7
+      - GRAY_OAK: 4
+      - OAK: 3
+      - DARK_OAK: 1
+    y:
+      min: 64
+      max: 84

@@ -48,3 +48,11 @@ flora:
       max: 93
     items:
       - LILY_OF_THE_VALLEY: 3
+
+  - density: 0.37
+    y:
+      min: 20
+      max: 92
+    items:
+      - CAVE_VINES: 10
+      - CAVE_VINES_LARGE: 3

@@ -47,4 +47,37 @@ flora:
       max: 93
     items:
       - LILY_OF_THE_VALLEY: 3
-carving: {}
+
+  - density: 58
+    simplex-frequency: 0.1
+    items:
+      - SMALL_ROCK: 1
+      - TALL_GRASS: 1
+      - GRASS: 3
+      - ROCKY_MOUNTAINS_LEAVES: 3
+    y:
+      min: 62
+      max: 180
+  - density: 2.69
+    items:
+      - ROCKY_MOUNTAINS_CEILING_LEAVES: 3
+      - STALACTITE: 5
+      - STALAGMITE: 2
+    y:
+      min: 62
+      max: 180
+  - density: 0.67
+    items:
+      - ROCKY_MOUNTAINS_SIMPLE_CEILING_LIGHTS_MNT: 4
+      - ROCKY_MOUNTAINS_SIMPLE_CEILING_LIGHTS_MNT_LARGE: 1 
+    y:
+      min: 62
+      max: 180
+
+  - density: 0.49
+    y:
+      min: 20
+      max: 124
+    items:
+      - CAVE_VINES: 10
+      - CAVE_VINES_LARGE: 3

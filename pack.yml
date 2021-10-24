@@ -1,6 +1,6 @@
 id: Elyean
 author: iomatix
-version: 0.3.5
+version: 0.4.0
 
 structures:
   locatable:
@@ -263,6 +263,7 @@ biomes:
                   type: OpenSimplex2
                   frequency: 0.028
 
+    # Rocky Mountains Distribution  ####
       - mutate: # Rocky Mountains Distribution | Mountains
           type: REPLACE
           from: "BIOME:ROCKY_MOUNTAINS_PLAINS"
@@ -277,6 +278,13 @@ biomes:
             - ROCKY_MOUNTAINS_MOUNTAINS: 15
             - ROCKY_MOUNTAINS_MOUNTAINS_HIGH: 7
           noise: *mountain-distribute
+      - mutate: # Rocky Mountains Distribution | Forests
+          type: REPLACE
+          from: "BIOME:ROCKY_MOUNTAINS_PLAINS"
+          to:
+            - ROCKY_MOUNTAINS_PLAINS: 20
+            - ROCKY_MOUNTAINS_FOREST: 10
+          noise: *forest-distribute
 
 
       - mutate: # Erode WATER rivers. LAST STEPS ##################
@@ -304,6 +312,9 @@ biomes:
               - GREEN_VALLEY_RIVER: 1
           # ROCKY MOUNTAINS ############
             ROCKY_MOUNTAINS_PLAINS:
+              - SELF: 1
+              - ROCKY_MOUNTAINS_RIVER: 1
+            ROCKY_MOUNTAINS_FOREST:
               - SELF: 1
               - ROCKY_MOUNTAINS_RIVER: 1
           default-from: "RIVER_ERODE"
@@ -376,7 +387,6 @@ biomes:
                   - [-1, 8, -1]
                   - [-1, -1, -1]
 
-
       - mutate: # Erode DRY rivers. LAST STEPS ##################
           type: REPLACE_LIST
           to:
@@ -388,6 +398,9 @@ biomes:
               - SELF: 7
               - ROCKY_MOUNTAINS_RIVER_MOUNTAIN_DRY: 4 
             ROCKY_MOUNTAINS_PLAINS:
+              - SELF: 7
+              - ROCKY_MOUNTAINS_RIVER_DRY: 4 
+            ROCKY_MOUNTAINS_FOREST:
               - SELF: 7
               - ROCKY_MOUNTAINS_RIVER_DRY: 4 
           default-from: "RIVER_ERODE_DRY"

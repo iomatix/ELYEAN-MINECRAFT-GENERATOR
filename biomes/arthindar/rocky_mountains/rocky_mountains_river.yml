@@ -2,7 +2,8 @@ noise-equation: "((-((y / base)^2)) + 1) - |((noise2(x, z)/3.69))|"
 variables:
   base: 59
 extends: "ROCKY_MOUNTAINS_ORES"
-carving: {}
+carving:
+  ROCKY_MOUNTAINS_AIR_MAGIC_STONES_GROUND: 3
 id: "ROCKY_MOUNTAINS_RIVER"
 #color: 0x0000ff
 blend:
@@ -50,3 +51,4 @@ ocean:
   palette: "BLOCK:minecraft:water"
   level: 62
 weight: 200
+carving: {}

@@ -1,0 +1,87 @@
+id: ROCKY_MOUNTAINS_CAVE_MOUNTAIN
+extends: ROCKY_MOUNTAINS_CAVE_ABSTRACT_MNT
+palette:
+  inner:
+    replace-blacklist: true
+    replace:
+      - "minecraft:air"
+      - "minecraft:water"
+      - "minecraft:lava"
+      - "minecraft:bedrock"
+      - "minecraft:ice"
+      - "minecraft:oak_leaves"
+      - "minecraft:flowering_azalea_leaves"
+      - "minecraft:dark_oak_leaves"
+      - "minecraft:spruce_leaves"
+      - "minecraft:acacia_leaves"
+      - "minecraft:jungle_leaves"
+      - "minecraft:azalea_leaves"
+    layers:
+      - materials: { "minecraft:air": 1 }
+        y: 255
+      - materials:
+          {
+            "minecraft:air": 15,
+            "minecraft:cobblestone": 2,
+            "minecraft:acacia_leaves[persistent=true]": 1,
+            "minecraft:spruce_leaves[persistent=true]": 1,
+            "minecraft:glowstone": 1,
+            "minecraft:andesite": 2,
+            "minecraft:granite": 1
+          }
+        y: 84
+      - materials:
+          {
+            "minecraft:air": 7,
+            "minecraft:cobblestone": 2,
+            "minecraft:acacia_leaves[persistent=true]": 1,
+            "minecraft:spruce_leaves[persistent=true]": 1,
+            "minecraft:glowstone": 1,
+            "minecraft:andesite": 3,
+            "minecraft:granite": 1
+          }
+        y: 76
+      - materials:
+          {
+            "minecraft:air": 25,
+            "minecraft:cobblestone": 2,
+            "minecraft:acacia_leaves[persistent=true]": 1,
+            "minecraft:spruce_leaves[persistent=true]": 1,
+            "minecraft:glowstone": 1,
+            "minecraft:andesite": 3,
+            "minecraft:granite": 3
+          }
+        y: 74
+  outer:
+    replace-blacklist: false
+    replace: []
+    layers:
+      - materials:
+          {
+            "minecraft:stone": 65,
+            "minecraft:cobblestone": 35,
+            "minecraft:andesite": 3,
+          }
+        y: 255
+  top:
+    replace-blacklist: false
+    replace: []
+    layers:
+      - materials:
+          {
+            "minecraft:stone": 65,
+            "minecraft:cobblestone": 35,
+            "minecraft:andesite": 5,
+          }
+        y: 255
+  bottom:
+    replace-blacklist: false
+    replace: []
+    layers:
+      - materials:
+          {
+            "minecraft:stone": 65,
+            "minecraft:cobblestone": 35,
+            "minecraft:andesite": 3,
+          }
+        y: 255

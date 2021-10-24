@@ -1,0 +1,29 @@
+layers:
+  - materials:
+      - "minecraft:cobblestone_wall": 1
+      - "minecraft:andesite_wall": 1
+      - "minecraft:granite_wall": 1
+    layers: 3
+  - materials:
+      - "minecraft:iron_bars": 1
+    layers: 2
+  - materials:
+      - "minecraft:lantern[hanging=true]": 1
+    layers: 1
+  - materials:
+      - "minecraft:iron_bars": 1
+      - "minecraft:air": 2
+    layers: 2
+id: "ROCKY_MOUNTAINS_SIMPLE_CEILING_LIGHTS_MNT_LARGE"
+ceiling: true
+spawnable:
+  - "minecraft:spruce_leaves"
+  - "minecraft:oak_leaves"
+  - "minecraft:acacia_leaves"
+  - "minecraft:dark_oak_leaves"
+  - "minecraft:cobblestone"
+  - "minecraft:stone"
+  - "minecraft:andesite"
+  - "minecraft:diorite"
+replaceable:
+  - "minecraft:air"

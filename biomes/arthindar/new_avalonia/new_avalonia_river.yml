@@ -49,6 +49,13 @@ flora:
     y:
       min: 50
       max: 63
+
+  - density: 0.37
+    y:
+      min: 10
+      max: 62
+    items:
+      - CAVE_VINES: 1
 ocean:
   palette: "BLOCK:minecraft:water"
   level: 62
