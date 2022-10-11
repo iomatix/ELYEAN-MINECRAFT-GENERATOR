@@ -2,6 +2,14 @@ id: Elyean
 author: iomatix
 version: 0.4.0
 
+addons:
+  language-yaml: 0.1.+
+  chunk-generator-noise-3d: 0.1.+
+  config-noise-function: 0.1.+
+  palette-block-shortcut: 0.1.+
+  
+generator: NOISE_3D
+
 structures:
   locatable:
     minecraft:desert_pyramid: DESERT
